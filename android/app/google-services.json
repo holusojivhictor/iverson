@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "766311177211",
+    "project_id": "iverson-4d06a",
+    "storage_bucket": "iverson-4d06a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766311177211:android:7a8995560c6b124024895e",
+        "android_client_info": {
+          "package_name": "com.morpheus.iverson"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "766311177211-ljbe19q3gfg810tdup1j4oj2qin76p80.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWhePnRkrHgOh3Q86gSR8OJ9lVKNlgf6E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "766311177211-ljbe19q3gfg810tdup1j4oj2qin76p80.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "766311177211-3u0ksui9u4s5cj6pmn9tod1861feib7q.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.morpheus.iverson"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
