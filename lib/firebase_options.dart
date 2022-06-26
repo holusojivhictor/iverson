@@ -69,6 +69,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '766311177211',
     projectId: 'iverson-4d06a',
     storageBucket: 'iverson-4d06a.appspot.com',
+    androidClientId: '766311177211-09muvfck1n8bq4elttngjv3qhvvpbfqu.apps.googleusercontent.com',
     iosClientId: '766311177211-3u0ksui9u4s5cj6pmn9tod1861feib7q.apps.googleusercontent.com',
     iosBundleId: 'com.morpheus.iverson',
   );

@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "766311177211-09muvfck1n8bq4elttngjv3qhvvpbfqu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.morpheus.iverson",
+            "certificate_hash": "9676cd1abf04b6d51e46250ffdf8cd570dab44fd"
+          }
+        },
+        {
           "client_id": "766311177211-ljbe19q3gfg810tdup1j4oj2qin76p80.apps.googleusercontent.com",
           "client_type": 3
         }
