@@ -27,7 +27,11 @@ class SessionWrapper extends StatelessWidget {
         unAuthenticated: (_) => materialApp(const AuthScreen()),
         signUpState: (_) => materialApp(const SignUpPage()),
         signInState: (_) => materialApp(const SignInPage()),
-        authenticated: (_) => const AppWidget(),
+        authenticated: (_) {
+          return BlocBuilder<MainBloc, MainState>(
+            builder: (ctx, state) => const AppWidget(),
+          );
+        },
       ),
     );
   }

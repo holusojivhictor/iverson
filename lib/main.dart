@@ -2,9 +2,9 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:iverson/application/bloc.dart';
-import 'package:iverson/domain/services/auth_service.dart';
 import 'package:iverson/session_wrapper.dart';
 
+import 'domain/services/services.dart';
 import 'firebase_options.dart';
 import 'injection.dart';
 
@@ -43,6 +43,18 @@ class Iverson extends StatelessWidget {
           create: (ctx) {
             final authService = getIt<AuthService>();
             return GoogleSignInBloc(authService, ctx.read<SessionBloc>());
+          },
+        ),
+        BlocProvider(
+          create: (ctx) {
+            final loggingService = getIt<LoggingService>();
+            final settingsService = getIt<SettingsService>();
+            final deviceInfoService = getIt<DeviceInfoService>();
+            return MainBloc(
+              loggingService,
+              settingsService,
+              deviceInfoService,
+            )..add(const MainEvent.init());
           },
         ),
       ],

@@ -1,5 +1,7 @@
 import 'package:iverson/domain/assets.dart';
+import 'package:iverson/domain/enums/enums.dart';
 
+import 'models/language_model.dart';
 import 'models/splash/splash_data.dart';
 
 const kPadding = 10.0;
@@ -24,6 +26,11 @@ class Data {
     ),
   ];
 }
+
+/// Languages map
+const languagesMap = {
+  AppLanguageType.english: LanguageModel('en', 'US'),
+};
 
 /// Validator strings
 final RegExp emailValidatorRegExp = RegExp(r"^[a-zA-Z0-9.]+@[a-zA-Z0-9]+\.[a-zA-Z]+");
