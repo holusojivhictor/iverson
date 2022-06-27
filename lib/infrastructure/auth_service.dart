@@ -22,7 +22,7 @@ class AuthServiceImpl implements AuthService {
     try {
       await FirebaseAuth.instance.signInWithEmailAndPassword(email: email, password: password);
       return const ApiResult.success(data: "Sign in successful");
-    }  catch (e) {
+    } catch (e) {
       return ApiResult.failure(error: NetworkExceptions.getDioException(e));
     }
   }

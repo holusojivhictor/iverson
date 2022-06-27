@@ -45,6 +45,7 @@ class Iverson extends StatelessWidget {
             return GoogleSignInBloc(authService, ctx.read<SessionBloc>());
           },
         ),
+        BlocProvider(create: (ctx) => MainTabBloc()),
         BlocProvider(
           create: (ctx) {
             final loggingService = getIt<LoggingService>();
@@ -55,6 +56,13 @@ class Iverson extends StatelessWidget {
               settingsService,
               deviceInfoService,
             )..add(const MainEvent.init());
+          },
+        ),
+        BlocProvider(
+          create: (ctx) {
+            final settingsService = getIt<SettingsService>();
+            final deviceInfoService = getIt<DeviceInfoService>();
+            return SettingsBloc(settingsService, deviceInfoService, ctx.read<MainBloc>());
           },
         ),
       ],

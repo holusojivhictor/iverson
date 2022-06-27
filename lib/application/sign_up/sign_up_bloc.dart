@@ -22,7 +22,7 @@ class SignUpBloc extends Bloc<SignUpEvent, ResultState<String>> {
           _sessionBloc.add(const SessionEvent.initStartup());
           emit(ResultState.data(data: response));
         },
-        failure: (NetworkExceptions error) async* {
+        failure: (NetworkExceptions error) async {
           emit(ResultState.error(error: error));
         },
       );

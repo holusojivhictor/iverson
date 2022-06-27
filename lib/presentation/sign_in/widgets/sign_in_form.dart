@@ -121,7 +121,7 @@ class _SignInFormState extends State<SignInForm> {
             data: (_) {
               return const CustomAlertDialog(text: 'Initializing data...');
             },
-            error: (e) => CustomAlertDialog(title: const Text('Log in failed'), text: NetworkExceptions.getErrorMessage(e), isError: true),
+            error: (e) => CustomAlertDialog(title: Text('Log in failed', style: Theme.of(context).textTheme.titleMedium), text: NetworkExceptions.getErrorMessage(e), isError: true),
           ),
         ),
       );

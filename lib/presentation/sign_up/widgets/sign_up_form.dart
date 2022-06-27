@@ -149,7 +149,7 @@ class _SignUpFormState extends State<SignUpForm> {
             data: (_) {
               return const CustomAlertDialog(text: 'Account created successfully');
             },
-            error: (e) => CustomAlertDialog(title: const Text('Sign up failed'), text: NetworkExceptions.getErrorMessage(e), isError: true),
+            error: (e) => CustomAlertDialog(title: Text('Sign up failed', style: Theme.of(context).textTheme.titleMedium), text: NetworkExceptions.getErrorMessage(e), isError: true),
           ),
         ),
       );

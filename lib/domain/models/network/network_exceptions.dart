@@ -111,21 +111,29 @@ class NetworkExceptions with _$NetworkExceptions {
           }
         } else if (error is SocketException) {
           networkExceptions = const NetworkExceptions.noInternetConnection();
+        } else if (error is FirebaseAuthException) {
+          switch (error.code) {
+            case "user-not-found":
+              networkExceptions = const NetworkExceptions.userNotFound();
+              break;
+            case "wrong-password":
+              networkExceptions = const NetworkExceptions.wrongPassword();
+              break;
+            case "weak-password":
+              networkExceptions = const NetworkExceptions.weakPassword();
+              break;
+            case "email-already-in-use":
+              networkExceptions = const NetworkExceptions.existingEmail();
+              break;
+            default:
+              networkExceptions = NetworkExceptions.defaultError(
+                "Received invalid error code: ${error.code}",
+              );
+          }
         } else {
           networkExceptions = const NetworkExceptions.unexpectedError();
         }
         return networkExceptions;
-      } on FirebaseAuthException catch (e) {
-        if (e.code == 'user-not-found') {
-          return const NetworkExceptions.userNotFound();
-        } else if (e.code == 'wrong-password') {
-          return const NetworkExceptions.wrongPassword();
-        } else  if (e.code == 'weak-password') {
-          return const NetworkExceptions.weakPassword();
-        } else if (e.code == 'email-already-in-use') {
-          return const NetworkExceptions.existingEmail();
-        }
-        return const NetworkExceptions.formatException();
       } on FormatException catch (e) {
         return const NetworkExceptions.formatException();
       } catch (_) {
@@ -185,7 +193,7 @@ class NetworkExceptions with _$NetworkExceptions {
     }, weakPassword: () {
       errorMessage = "The password provided is too weak.";
     }, wrongPassword: () {
-      errorMessage = "Wrong password provided for this user.";
+      errorMessage = "Wrong email or password provided.";
     }, existingEmail: () {
       errorMessage = "An account already exists for that email.";
     },
