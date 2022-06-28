@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:iverson/application/bloc.dart';
+import 'package:iverson/presentation/home/home_page.dart';
 import 'package:iverson/presentation/shared/extensions/focus_scope_node_extensions.dart';
 
 class MobileScaffold extends StatefulWidget {
@@ -41,7 +42,7 @@ class _MobileScaffoldState extends State<MobileScaffold> {
             controller: widget.tabController,
             physics: const NeverScrollableScrollPhysics(),
             children: [
-              Container(color: Colors.green),
+              const HomePage(),
               Container(color: Colors.pink),
               Container(color: Colors.blue),
               Container(color: Colors.orange),
@@ -54,10 +55,10 @@ class _MobileScaffoldState extends State<MobileScaffold> {
         currentIndex: _index,
         showUnselectedLabels: true,
         items: const [
-          BottomNavigationBarItem(label: 'Home',icon: Icon(Icons.home)),
-          BottomNavigationBarItem(label: 'Favorites',icon: Icon(Icons.favorite)),
-          BottomNavigationBarItem(label: 'History',icon: Icon(Icons.bubble_chart)),
-          BottomNavigationBarItem(label: 'Settings',icon: Icon(Icons.settings_rounded)),
+          BottomNavigationBarItem(label: 'Home', icon: Icon(Icons.shopping_bag_outlined), activeIcon: Icon(Icons.shopping_bag)),
+          BottomNavigationBarItem(label: 'Favorites', icon: Icon(Icons.favorite_outline), activeIcon: Icon(Icons.favorite)),
+          BottomNavigationBarItem(label: 'History', icon: Icon(Icons.bubble_chart_outlined), activeIcon: Icon(Icons.bubble_chart)),
+          BottomNavigationBarItem(label: 'Settings', icon: Icon(Icons.settings_outlined), activeIcon: Icon(Icons.settings)),
         ],
         type: BottomNavigationBarType.fixed,
         onTap: (index) => _goToTab(index),

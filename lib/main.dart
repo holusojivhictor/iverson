@@ -24,7 +24,8 @@ class Iverson extends StatelessWidget {
       providers: [
         BlocProvider(
           create: (ctx) {
-            return SessionBloc()..add(const SessionEvent.appStarted(init: true));
+            final authService = getIt<AuthService>();
+            return SessionBloc(authService)..add(const SessionEvent.appStarted(init: true));
           },
         ),
         BlocProvider(

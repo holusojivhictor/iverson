@@ -19,5 +19,7 @@ class Injection {
     final settingsService = SettingsServiceImpl(loggingService);
     await settingsService.init();
     getIt.registerSingleton<SettingsService>(settingsService);
+    
+    getIt.registerSingleton<IversonService>(IverServiceImpl(authService));
   }
 }

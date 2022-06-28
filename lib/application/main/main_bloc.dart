@@ -17,7 +17,7 @@ class MainBloc extends Bloc<MainEvent, MainState> {
   _MainLoadedState get currentState => state as _MainLoadedState;
 
   MainBloc(this._logger, this._settingsService, this._deviceInfoService) : super(const _MainLoadingState()) {
-    on<_Init>(_testInit);
+    on<_Init>(_mapInitToState);
     on<_ThemeChanged>(_mapThemeChangedToState);
     on<_ThemeModeChanged>(_mapThemeModeChangedToState);
   }
@@ -33,7 +33,7 @@ class MainBloc extends Bloc<MainEvent, MainState> {
     );
   }
 
-  Future<void> _testInit(_Init event, Emitter<MainState> emit, {bool init = true}) async {
+  Future<void> _mapInitToState(_Init event, Emitter<MainState> emit, {bool init = true}) async {
     _logger.info(runtimeType, '_init: Initializing all...');
 
     final settings = _settingsService.appSettings;

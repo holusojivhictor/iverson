@@ -20,12 +20,12 @@ class _MainTabPageState extends State<MainTabPage> with SingleTickerProviderStat
 
   @override
   void initState() {
+    super.initState();
     _tabController = TabController(
       initialIndex: _defaultIndex,
       length: 4,
       vsync: this,
     );
-    super.initState();
   }
 
   @override

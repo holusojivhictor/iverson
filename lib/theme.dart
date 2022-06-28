@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-Color kTextDark = Colors.black;
-Color kTextLight = Colors.white;
+Color kDark = Colors.black;
+Color kWhite = Colors.white;
 
 class Styles {
   static const edgeInsetAll16 = EdgeInsets.all(16);

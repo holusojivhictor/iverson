@@ -10,7 +10,7 @@ class AuthServiceImpl implements AuthService {
   @override
   Future<ApiResult<String>> signUp(String email, String password) async {
     try {
-      await FirebaseAuth.instance.createUserWithEmailAndPassword(email: email, password: password);
+      await _firebaseAuth.createUserWithEmailAndPassword(email: email, password: password);
       return const ApiResult.success(data: "Sign up successful");
     } catch (e) {
       return ApiResult.failure(error: NetworkExceptions.getDioException(e));
@@ -20,7 +20,7 @@ class AuthServiceImpl implements AuthService {
   @override
   Future<ApiResult<String>> signIn(String email, String password) async {
     try {
-      await FirebaseAuth.instance.signInWithEmailAndPassword(email: email, password: password);
+      await _firebaseAuth.signInWithEmailAndPassword(email: email, password: password);
       return const ApiResult.success(data: "Sign in successful");
     } catch (e) {
       return ApiResult.failure(error: NetworkExceptions.getDioException(e));
@@ -47,5 +47,10 @@ class AuthServiceImpl implements AuthService {
     } catch (e) {
       return ApiResult.failure(error: NetworkExceptions.getDioException(e));
     }
+  }
+
+  @override
+  Stream authStateChanges() async* {
+    yield _firebaseAuth.authStateChanges();
   }
 }
