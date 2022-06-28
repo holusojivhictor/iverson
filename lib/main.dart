@@ -50,16 +50,24 @@ class Iverson extends StatelessWidget {
         BlocProvider(
           create: (ctx) {
             final iversonService = getIt<IversonService>();
+            return HomeBloc(iversonService);
+          },
+        ),
+        BlocProvider(
+          create: (ctx) {
+            final iversonService = getIt<IversonService>();
             return ProductsBloc(iversonService);
           },
         ),
         BlocProvider(
           create: (ctx) {
             final loggingService = getIt<LoggingService>();
+            final iversonService = getIt<IversonService>();
             final settingsService = getIt<SettingsService>();
             final deviceInfoService = getIt<DeviceInfoService>();
             return MainBloc(
               loggingService,
+              iversonService,
               settingsService,
               deviceInfoService,
             )..add(const MainEvent.init());

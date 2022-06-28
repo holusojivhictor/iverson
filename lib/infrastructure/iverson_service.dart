@@ -8,6 +8,7 @@ import 'package:iverson/domain/services/services.dart';
 
 class IverServiceImpl implements IversonService {
   late ProductsFile _productsFile;
+  late ProductsFile _popularProductsFile;
 
   IverServiceImpl();
 
@@ -15,6 +16,7 @@ class IverServiceImpl implements IversonService {
   Future<void> init(AppLanguageType languageType) async {
     await Future.wait([
       initProducts(),
+      initPopularProducts(),
     ]);
   }
 
@@ -23,6 +25,13 @@ class IverServiceImpl implements IversonService {
     final jsonStr = await rootBundle.loadString(Assets.productsDbPath);
     final json = jsonDecode(jsonStr) as Map<String, dynamic>;
     _productsFile = ProductsFile.fromJson(json);
+  }
+
+  @override
+  Future<void> initPopularProducts() async {
+    final jsonStr = await rootBundle.loadString(Assets.popularProductsDbPath);
+    final json = jsonDecode(jsonStr) as Map<String, dynamic>;
+    _popularProductsFile = ProductsFile.fromJson(json);
   }
 
   @override
@@ -41,6 +50,16 @@ class IverServiceImpl implements IversonService {
     return _productsFile.products.map((e) => _toProductForCard(e)).toList();
   }
 
+  @override
+  ProductCardModel getPopularProductForCard(int id) {
+    final product = _popularProductsFile.products.firstWhere((element) => element.id == id);
+    return _toProductForCard(product);
+  }
+
+  @override
+  List<ProductCardModel> getPopularProductsForCard() {
+    return _popularProductsFile.products.map((e) => _toProductForCard(e)).toList();
+  }
 
   ProductCardModel _toProductForCard(ProductFileModel product) {
     return ProductCardModel(

@@ -11,7 +11,7 @@ class SearchField extends StatelessWidget {
     return Container(
       width: screenWidth * 0.6,
       decoration: BoxDecoration(
-        color: Theme.of(context).colorScheme.secondary.withOpacity(0.3),
+        color: Theme.of(context).primaryColor.withOpacity(0.1),
         borderRadius: BorderRadius.circular(15),
       ),
       child: TextField(
@@ -20,7 +20,7 @@ class SearchField extends StatelessWidget {
           enabledBorder: InputBorder.none,
           focusedBorder: InputBorder.none,
           hintText: "Search Product",
-          prefixIcon: Icon(Icons.search),
+          prefixIcon: Icon(Icons.search, color: Colors.black54),
           contentPadding: EdgeInsets.symmetric(
             horizontal: 10,
             vertical: 13,

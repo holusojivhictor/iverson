@@ -11,12 +11,13 @@ part 'main_state.dart';
 
 class MainBloc extends Bloc<MainEvent, MainState> {
   final LoggingService _logger;
+  final IversonService _iversonService;
   final SettingsService _settingsService;
   final DeviceInfoService _deviceInfoService;
 
   _MainLoadedState get currentState => state as _MainLoadedState;
 
-  MainBloc(this._logger, this._settingsService, this._deviceInfoService) : super(const _MainLoadingState()) {
+  MainBloc(this._logger, this._iversonService, this._settingsService, this._deviceInfoService) : super(const _MainLoadingState()) {
     on<_Init>(_mapInitToState);
     on<_ThemeChanged>(_mapThemeChangedToState);
     on<_ThemeModeChanged>(_mapThemeModeChangedToState);
@@ -35,6 +36,7 @@ class MainBloc extends Bloc<MainEvent, MainState> {
 
   Future<void> _mapInitToState(_Init event, Emitter<MainState> emit, {bool init = true}) async {
     _logger.info(runtimeType, '_init: Initializing all...');
+    await _iversonService.init(_settingsService.language);
 
     final settings = _settingsService.appSettings;
 

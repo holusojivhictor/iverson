@@ -1,0 +1,372 @@
+{
+    "clothing": [
+        {
+            "id": 1,
+            "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+            "price": 109.95,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "clothing",
+            "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+            "rating": {
+                "rate": 3.9,
+                "count": 120
+            }
+        },
+        {
+            "id": 2,
+            "title": "Mens Casual Premium Slim Fit T-Shirts ",
+            "price": 22.3,
+            "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
+            "category": "clothing",
+            "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+            "rating": {
+                "rate": 4.1,
+                "count": 259
+            }
+        },
+        {
+            "id": 3,
+            "title": "Mens Cotton Jacket",
+            "price": 55.99,
+            "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
+            "category": "clothing",
+            "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+            "rating": {
+                "rate": 4.7,
+                "count": 500
+            }
+        },
+        {
+            "id": 4,
+            "title": "Mens Casual Slim Fit",
+            "price": 15.99,
+            "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+            "category": "clothing",
+            "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+            "rating": {
+                "rate": 2.1,
+                "count": 430
+            }
+        },
+        {
+            "id": 15,
+            "title": "BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats",
+            "price": 56.99,
+            "description": "Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
+            "category": "clothing",
+            "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+            "rating": {
+                "rate": 2.6,
+                "count": 235
+            }
+        },
+        {
+            "id": 16,
+            "title": "Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket",
+            "price": 29.95,
+            "description": "100% POLYURETHANE(shell) 100% POLYESTER(lining) 75% POLYESTER 25% COTTON (SWEATER), Faux leather material for style and comfort / 2 pockets of front, 2-For-One Hooded denim style faux leather jacket, Button detail on waist / Detail stitching at sides, HAND WASH ONLY / DO NOT BLEACH / LINE DRY / DO NOT IRON",
+            "category": "clothing",
+            "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
+            "rating": {
+                "rate": 2.9,
+                "count": 340
+            }
+        },
+        {
+            "id": 17,
+            "title": "Rain Jacket Women Windbreaker Striped Climbing Raincoats",
+            "price": 39.99,
+            "description": "Lightweight perfet for trip or casual wear---Long sleeve with hooded, adjustable drawstring waist design. Button and zipper front closure raincoat, fully stripes Lined and The Raincoat has 2 side pockets are a good size to hold all kinds of things, it covers the hips, and the hood is generous but doesn't overdo it.Attached Cotton Lined Hood with Adjustable Drawstrings give it a real styled look.",
+            "category": "clothing",
+            "image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
+            "rating": {
+                "rate": 3.8,
+                "count": 679
+            }
+        }
+    ],
+    "footwear": [
+        {
+          "id": 21,
+          "title": "Adidas yeezy 450 cinder",
+          "price": 210,
+          "description": "The Yeezy 450 Cinder features a blacked-out look on its updated construction. Releasing as part of the Mono Pack, the shoe's upper is built with monofilament mesh in place of the usual Primeknit, finished entirely in black. The signature side stripe adds a minor deviation, while an internal cage and webbing heel pull-loop support the fit. Underfoot, the tonal tooling includes a Boost midsole wrapped in a rubber cage for cushioning, while the shoe itself dropped exclusively on Yeezy Supply.",
+          "category": "footwear",
+          "image": "https://images.stockx.com/images/adidas-Yeezy-450-Cinder-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1647545952",
+          "rating": {
+            "rate": 4.6,
+            "count": 197
+          }
+        },
+        {
+          "id": 22,
+          "title": "Adidas yeezy boost 350 v2 mono cinder",
+          "price": 220,
+          "description": "The Yeezy Boost 350 V2 'Mono Cinder' features a blacked-out look on its updated construction. Releasing as part of the Mono Pack, the shoe's upper is built with monofilament mesh in place of the usual Primeknit, finished entirely in black. The signature side stripe adds a minor deviation, while an internal cage and webbing heel pull-loop support the fit. Underfoot, the tonal tooling includes a Boost midsole wrapped in a rubber cage for cushioning, while the shoe itself dropped exclusively on Yeezy Supply.",
+          "category": "footwear",
+          "image": "https://images.stockx.com/images/adidas-Yeezy-Boost-350-V2-Mono-Cinder-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1635434704",
+          "rating": {
+            "rate": 4.6,
+            "count": 116
+          }
+        },
+        {
+          "id": 23,
+          "title": "Adidas yeezy boost 350 v2 cinder",
+          "price": 220,
+          "description": "The Yeezy Boost 350 V2 'Cinder' features a neutral look on its signature construction. Built with Primeknit, the Cinder upper includes a tonal monofilament stripe on the lateral side. A heel pull-loop provides easy on and off, while a similar finish marks the cage around the Boost midsole. A gum rubber outsole provides traction.",
+          "category": "footwear",
+          "image": "https://images.stockx.com/images/adidas-Yeezy-Boost-350-V2-Cinder-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1606320313",
+          "rating": {
+            "rate": 4.6,
+            "count": 225
+          }
+        },
+        {
+          "id": 24,
+          "title": "Adidas yeezy boost 350 v2 cinder reflective",
+          "price": 220,
+          "description": "The Yeezy Boost 350 V2 'Cinder Reflective' emerges with an almost-monochromatic look. Built with Primeknit, the shoe's Cinder upper is bolstered by a bootie-style collar and a heel pull-loop for easy on and off. The signature monofilament stripe sports reflective detailing, while underfoot, an encased Boost midsole gives way to a gum rubber outsole for traction.",
+          "category": "footwear",
+          "image": "https://images.stockx.com/images/adidas-Yeezy-Boost-350-V2-Cinder-Reflective-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1624459848",
+          "rating": {
+            "rate": 4.6,
+            "count": 250
+          }
+        },
+        {
+          "id": 25,
+          "title": "Adidas yeezy 450 cinder (kids)",
+          "price": 145,
+          "description": "",
+          "category": "footwear",
+          "image": "https://images.stockx.com/images/adidas-Yeezy-450-Cinder-Kids.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1647973346",
+          "rating": {
+            "rate": 4.4,
+            "count": 269
+          }
+        },
+        {
+          "id": 26,
+          "title": "Adidas yeezy 450 cinder (infants)",
+          "price": 125,
+          "description": "",
+          "category": "footwear",
+          "image": "https://images.stockx.com/images/adidas-Yeezy-450-Cinder-Infants-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1655918704",
+          "rating": {
+            "rate": 4.8,
+            "count": 258
+          }
+        },
+        {
+            "id": 27,
+            "title": "Adidas yeezy 450 cinder",
+            "price": 210,
+            "description": "",
+            "category": "footwear",
+            "image": "https://images.stockx.com/images/adidas-Yeezy-450-Cinder-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1647545952",
+            "rating": {
+              "rate": 4.9,
+              "count": 137
+            }
+        },
+        {
+          "id": 33,
+          "title": "Jordan 9 retro particle grey",
+          "price": 200,
+          "description": "The Air Jordan 9 Retro 'Particle Grey' offers a muted colorway, delivering darker tones utilizing different materials on the upper. A Particle Grey midsole is crafted with unbuckle, while the black upper features a lightweight textile and tonal stitching. University Red hits on the tongue tag and back heel offer pops of color, while a grey midsole sits atop a white outsole.",
+          "category": "footwear",
+          "image": "https://images.stockx.com/images/Air-Jordan-9-Retro-Particle-Grey.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1653373411",
+          "rating": {
+            "rate": 4.6,
+            "count": 133
+          }
+        },
+        {
+          "id": 34,
+          "title": "Jordan 6 retro red oreo",
+          "price": 200,
+          "description": "The Air Jordan 6 Retro 'Red Oreo' showcases a two-tone color scheme. The silhouette features a white leather upper, with perforations throughout for breathability. Crimson Jumpman embroidery decorates the tongue. Contrasting speckled red accents appear on the lace toggle, heel and midsole. An exposed Air-sole unit in the heel provides cushioning, while a translucent rubber outsole offers traction.\n",
+          "category": "footwear",
+          "image": "https://images.stockx.com/images/Air-Jordan-6-Retro-Red-Oreo-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1655385700",
+          "rating": {
+            "rate": 4.8,
+            "count": 211
+          }
+        },
+        {
+          "id": 35,
+          "title": "Jordan 4 retro infrared",
+          "price": 200,
+          "description": "Bringing back color blocking similar to the 2013 release of the 'Green Glow' AJ4 is the Air Jordan 4 Retro 'Infrared.' The upper is made from smooth nubuck in a charcoal finish. A lighter shade of grey is on the forefoot overlay with black accents on the quarter panel netting, structural wings, and Jumpman-branded heel tab. The titular hue lights up the woven tongue tag and molded eyelets. It's built on a polyurethane midsole with visible Air-sole cushioning in the heel.",
+          "category": "footwear",
+          "image": "https://images.stockx.com/images/Air-Jordan-4-Retro-Infrared-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1645637225",
+          "rating": {
+            "rate": 5.0,
+            "count": 295
+          }
+        }
+      ],
+      "jewelery" : [
+        {
+            "id": 5,
+            "title": "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
+            "price": 695,
+            "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+            "category": "jewelery",
+            "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+            "rating": {
+                "rate": 4.6,
+                "count": 400
+            }
+        },
+        {
+            "id": 6,
+            "title": "Solid Gold Petite Micropave ",
+            "price": 168,
+            "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
+            "category": "jewelery",
+            "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+            "rating": {
+                "rate": 3.9,
+                "count": 70
+            }
+        },
+        {
+            "id": 7,
+            "title": "White Gold Plated Princess",
+            "price": 9.99,
+            "description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
+            "category": "jewelery",
+            "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+            "rating": {
+                "rate": 3,
+                "count": 400
+            }
+        },
+        {
+            "id": 8,
+            "title": "Pierced Owl Rose Gold Plated Stainless Steel Double",
+            "price": 10.99,
+            "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+            "category": "jewelery",
+            "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+            "rating": {
+                "rate": 1.9,
+                "count": 100
+            }
+        }
+      ],
+      "electronics": [
+        {
+          "id": 73,
+          "title": "SAMSUNG Galaxy S22 Ultra Cell Phone, Factory Unlocked Android Smartphone, 256GB, 8K Camera & Video, Brightest Display Screen, S Pen, Long Battery Life, Fast 4nm Processor, US Version, Phantom White",
+          "price": 1299.99,
+          "description": " For Gen Z, video isn\u2019t just video. They think of it as a lifestyle \u2013 a universal language for how they learn, grow, express, talk, shop, connect, create, and fight boredom with their friends in real time. That\u2019s why they\u2019re demanding a mobile device that finally breaks all the rules of video and makes their everyday more epic than ever. Introducing Samsung Galaxy S22 Ultra, the brilliant new smartphones designed specifically to break the rules of video to meet the needs of Gen Z\u2019s native language; video. With this new video machine, we\u2019re setting an epic new standard. Now, you can communicate with your friends online while you simultaneously co-watch the latest new YouTube videos.**** Record your greatest nights with breathtaking low-light video like never before. Capture the true colors and contrasts of late-night parties that couldn\u2019t be properly depicted before. And you can finally devour vids in direct sunlight with a screen that\u2019s so bright, you\u2019ll never have to worry about glare on the beach again. Galaxy S22 Ultra is redefining the epic standard \u2013 both for what a smartphone can do with video and for what you can communicate, create, and experience with it. In other words, if you\u2019ve got something to say, Galaxy S22 Ultra makes it possible to say anything you want with video, at any time-even in the darkness of night. *Supports Full HD video with up to 60 fps. **Based on average battery life under typical usage conditions. Average expected performance based on typical use. Actual battery life depends on factors such as network, features selected, frequency of calls, and voice, data, and other application usage patterns. ***Wall charger sold separately; use only Samsung-approved chargers and cables. To avoid injury or damage to your device, do not use incompatible, worn or damaged batteries, chargers or cables. Supports 45W charging. ****Requires all participants have Galaxy S22 devices with Android 12 OS.",
+          "category": "electronics",
+          "image": "https://m.media-amazon.com/images/I/817aOXLoNpL._AC_UY218_.jpg",
+          "rating": {
+            "rate": 4.6,
+            "count": 72
+          }
+        },
+        {
+          "id": 74,
+          "title": "SAMSUNG Galaxy S22+ Cell Phone, Factory Unlocked Android Smartphone, 256GB, 8K Camera & Video, Brightest Display Screen, Long Battery Life, Fast 4nm Processor, US Version, Pink Gold",
+          "price": 1049.99,
+          "description": " For Gen Z, video isn\u2019t just video. They think of it as a lifestyle \u2013 a universal language for how they learn, grow, express, talk, shop, connect, create, and fight boredom with their friends in real time. That\u2019s why they\u2019re demanding a mobile device that finally breaks all the rules of video and makes their everyday more epic than ever. Introducing Samsung Galaxy S22+, the brilliant new smartphones designed specifically to break the rules of video to meet the needs of Gen Z\u2019s native language; video. With this new video machine, we\u2019re setting an epic new standard. Now, you can communicate with your friends online while you simultaneously co-watch the latest new YouTube videos.**** Record your greatest nights with breathtaking low-light video like never before. Capture the true colors and contrasts of late-night parties that couldn\u2019t be properly depicted before. And you can finally devour vids in direct sunlight with a screen that\u2019s so bright, you\u2019ll never have to worry about glare on the beach again. Galaxy S22+ is redefining the epic standard \u2013 both for what a smartphone can do with video and for what you can communicate, create, and experience with it. In other words, if you\u2019ve got something to say, Galaxy S22 Plus makes it possible to say anything you want with video, at any time-even in the darkness of night. *Supports Full HD video with up to 60 fps. **Based on average battery life under typical usage conditions. Average expected performance based on typical use. Actual battery life depends on factors such as network, features selected, frequency of calls, and voice, data, and other application usage patterns. ***Wall charger sold separately; use only Samsung-approved chargers and cables. To avoid injury or damage to your device, do not use incompatible, worn or damaged batteries, chargers or cables. Supports 25W charging. ****Requires all participants have Galaxy S22 devices with Android 12 OS.",
+          "category": "electronics",
+          "image": "https://m.media-amazon.com/images/I/71VawMP6R1L._AC_UY218_.jpg",
+          "rating": {
+            "rate": 4.4,
+            "count": 53
+          }
+        },
+        {
+          "id": 75,
+          "title": "OnePlus 9 Pro Morning Mist, 5G Unlocked Android Smartphone U.S Version,12GB RAM+256GB Storage,120Hz Fluid Display,Hasselblad Quad Camera,65W Ultra Fast Charge,50W Wireless Charge,with Alexa Built-in",
+          "price": 1069,
+          "description": " 5G Unlocked Android Smartphone U.S Version, 12GB RAM+256GB Storage, 120Hz Fluid Display, Hasselblad Quad Camera, 65W Ultra Fast Charge, Morning Mist, U.",
+          "category": "electronics",
+          "image": "https://m.media-amazon.com/images/I/61smwbhzBML._AC_UY218_.jpg",
+          "rating": {
+            "rate": 4.2,
+            "count": 375
+          }
+        },
+        {
+          "id": 76,
+          "title": "Samsung Galaxy S10, 128GB, Prism White - Unlocked (Renewed)",
+          "price": 209,
+          "description": " Samsung's flagship for 2019, the Galaxy S10, matches its powerful hardware with the fresh OneUI interface. This thin and light phone is powered by the powerful Snapdragon 855/Exynos 9820 chips and has heaps of memory for your multitasking needs - a whopping 8GB, accompanied by 128 or 512GB versions. Design-wise, the Galaxy S10 sets itself apart from the previous generation with its offset punch-hole 10MP selfie camera, which is capable of capturing stabilized 4K footage. The camera is the only thing interrupting the gorgeous 6.1-inch OLED display. The cameras at the back are three - the regular 12MP is joined by a 12MP telephoto and a 16MP wide-angle one, a first for the Galaxy S series.",
+          "category": "electronics",
+          "image": "https://m.media-amazon.com/images/I/61Kdfg4hZPL._AC_UY218_.jpg",
+          "rating": {
+            "rate": 4.3,
+            "count": 10553
+          }
+        },
+        {
+          "id": 79,
+          "title": "Apple iPhone X, US Version, 64GB, Space Gray - Fully Unlocked (Renewed)",
+          "price": 0,
+          "description": " Apple iPhone X, 64GB, Space Gray - Fully Unlocked (Renewed)",
+          "category": "electronics",
+          "image": "https://m.media-amazon.com/images/I/61gVPTl5N3L._AC_UY218_.jpg",
+          "rating": {
+            "rate": 4.2,
+            "count": 19698
+          }
+        },
+        {
+          "id": 80,
+          "title": "Samsung Galaxy S10 5G, 256GB, Cloud Silver - Verizon (Renewed)",
+          "price": 298,
+          "description": " Samsung's flagship for 2019, the Galaxy S10, matches its powerful hardware with the fresh OneUI interface. This thin and light phone is powered by the powerful Snapdragon 855/Exynos 9820 chips and has heaps of memory for your multitasking needs - a whopping 8GB, accompanied by 128 or 512GB versions. Design-wise, the Galaxy S10 sets itself apart from the previous generation with its offset punch-hole 10MP selfie camera, which is capable of capturing stabilized 4K footage. The camera is the only thing interrupting the gorgeous 6.1-inch OLED display. The cameras at the back are three - the regular 12MP is joined by a 12MP telephoto and a 16MP wide-angle one, a first for the Galaxy S series.",
+          "category": "electronics",
+          "image": "https://m.media-amazon.com/images/I/61+qR+TFQzL._AC_UY218_.jpg",
+          "rating": {
+            "rate": 4.2,
+            "count": 507
+          }
+        }
+      ],
+      "gaming": [
+        {
+          "id": 101,
+          "title": "Sony Playstation Platinum Wireless Headset 7.1 Surround Sound PS4 (Renewed)",
+          "price": 249.89,
+          "description": " This pre-owned or refurbished product has been professionally inspected and tested to work and look like new. How a product becomes part of Amazon Renewed, your destination for pre-owned, refurbished products: A customer buys a new product and returns it or trades it in for a newer or different model. That product is inspected and tested to work and look like new by Amazon-qualified suppliers. Then, the product is sold as an Amazon Renewed product on Amazon. If not satisfied with the purchase, renewed products are eligible for replacement or refund under the Amazon Renewed Guarantee.",
+          "category": "gaming",
+          "image": "https://m.media-amazon.com/images/I/613JH81K87L._AC_UY218_.jpg",
+          "rating": {
+            "rate": 4.2,
+            "count": 17
+          }
+        },
+        {
+          "id": 102,
+          "title": "DualShock 4 Wireless Controller for PlayStation 4 - Glacier White",
+          "price": 99.9,
+          "description": " The new multi-touch and clickable touch pad on the face of the dualshock 4 wireless Controller opens up worlds of new gameplay possibilities for both newcomers and veteran gamers.",
+          "category": "gaming",
+          "image": "https://m.media-amazon.com/images/I/719xFB+eo6L._AC_UY218_.jpg",
+          "rating": {
+            "rate": 4.6,
+            "count": 132268
+          }
+        },
+        {
+          "id": 103,
+          "title": "Xbox Wireless Headset \u2013 Xbox Series X|S, Xbox One, and Windows 10 Devices",
+          "price": 99.9,
+          "description": " Game loud and clear with the Xbox Wireless Headset, surround yourself with spatial sound technologies including Windows Sonic, Dolby Atmos, and DTS Headphone:X. Auto-mute and voice isolation reduce background noise for crystal-clear chat. The flexible, lightweight design with an adjustable headband makes for a more comfortable experience during extended play sessions while rotating earcup dials provide a quick, intuitive way to adjust volume and game/chat balance. Fine-tune your headset with the Xbox Accessories app for a customized audio experience. Pair directly to your console with Xbox Wireless radio without the need for dongles, or a base station, and connect to your mobile device with Bluetooth for on-the-go music or chat, even pair to your phone and Xbox simultaneously to chat with a friend on your phone while playing on your console.",
+          "category": "gaming",
+          "image": "https://m.media-amazon.com/images/I/51ODvrKqxTL._AC_UY218_.jpg",
+          "rating": {
+            "rate": 4.5,
+            "count": 5329
+          }
+        }
+      ]
+}
