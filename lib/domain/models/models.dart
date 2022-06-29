@@ -5,3 +5,5 @@ export 'splash/splash_data.dart';
 export 'db/products/product_file_model.dart';
 export 'db/products/products_file.dart';
 export 'products/product_card_model.dart';
+export 'entities/cart/cart_item.dart';
+export 'entities/inventory/inventory_item.dart';

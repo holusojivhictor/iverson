@@ -1,8 +1,8 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:iverson/domain/models/models.dart';
+import 'package:iverson/presentation/product/product_page.dart';
 import 'package:iverson/presentation/shared/custom_card.dart';
-import 'package:iverson/presentation/shared/images/coming_soon_new_avatar.dart';
 import 'package:iverson/presentation/shared/transparent_image.dart';
 import 'package:iverson/theme.dart';
 
@@ -72,7 +72,7 @@ class ProductCard extends StatelessWidget {
     final theme = Theme.of(context);
     return InkWell(
       borderRadius: Styles.mainCardBorderRadius,
-      onTap: () {},
+      onTap: () => _goToProductPage(context),
       child: CustomCard(
         margin: const EdgeInsets.only(right: 5),
         clipBehavior: Clip.hardEdge,
@@ -142,5 +142,16 @@ class ProductCard extends StatelessWidget {
         ),
       ),
     );
+  }
+
+  Future<void> _goToProductPage(BuildContext context) async {
+    if (isInSelectionMode) {
+      Navigator.pop(context, id);
+      return;
+    }
+
+    final route = MaterialPageRoute(builder: (c) => ProductPage(itemKey: id));
+    await Navigator.push(context, route);
+    await route.completed;
   }
 }
