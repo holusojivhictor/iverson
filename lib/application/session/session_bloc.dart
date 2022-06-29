@@ -1,3 +1,4 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:iverson/domain/services/services.dart';
@@ -14,11 +15,12 @@ class SessionBloc extends Bloc<SessionEvent, SessionState> {
       if (event.init) {
         await Future.delayed(const Duration(milliseconds: 3000));
       }
-      await for (final userState in _authService.authStateChanges()) {
+      await for (final userState in FirebaseAuth.instance.authStateChanges()) {
         if (userState != null) {
           emit(const SessionState.authenticated());
           return;
         }
+        break;
       }
       emit(const SessionState.unAuthenticated());
     });

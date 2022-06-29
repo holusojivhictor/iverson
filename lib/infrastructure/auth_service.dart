@@ -30,7 +30,7 @@ class AuthServiceImpl implements AuthService {
   @override
   Future<void> signOut() async {
     try {
-      await _firebaseAuth.signOut();
+      await FirebaseAuth.instance.signOut();
     } catch (e) {
       throw Exception(e);
     }
@@ -47,10 +47,5 @@ class AuthServiceImpl implements AuthService {
     } catch (e) {
       return ApiResult.failure(error: NetworkExceptions.getDioException(e));
     }
-  }
-
-  @override
-  Stream authStateChanges() async* {
-    yield _firebaseAuth.authStateChanges();
   }
 }

@@ -55,8 +55,8 @@ class LogOutCard extends StatelessWidget {
             builder: (ctx) => const CustomAlertDialog(text: 'Signing user out...'),
           );
           Timer(const Duration(seconds: 2), () {
-            Navigator.of(context).pop();
             bloc.add(const SessionEvent.logOutRequested());
+            Navigator.of(context).pop();
           });
         },
       ),

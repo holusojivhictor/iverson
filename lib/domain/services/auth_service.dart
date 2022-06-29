@@ -7,7 +7,5 @@ abstract class AuthService {
 
   Future<ApiResult<String>> signInWithGoogle();
 
-  Stream authStateChanges();
-
   Future<void> signOut();
 }
