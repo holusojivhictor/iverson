@@ -24,6 +24,7 @@ class SessionBloc extends Bloc<SessionEvent, SessionState> {
     });
 
     on<_LogOut>((event, emit) async {
+      await _authService.signOut();
       emit(const SessionState.unAuthenticated());
     });
 

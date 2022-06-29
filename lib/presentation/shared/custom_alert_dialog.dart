@@ -94,7 +94,7 @@ class CommonAlertDialog extends StatelessWidget {
       shape: Styles.alertDialogShape,
       title: Text(
         titleText,
-        style: theme.textTheme.headline2,
+        style: theme.textTheme.bodyLarge,
       ),
       content: SizedBox(
         width: mediaQuery.getWidthForDialogs(),

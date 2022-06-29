@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:iverson/application/bloc.dart';
 import 'package:iverson/presentation/home/home_page.dart';
+import 'package:iverson/presentation/settings/settings_page.dart';
 import 'package:iverson/presentation/shared/extensions/focus_scope_node_extensions.dart';
 
 class MobileScaffold extends StatefulWidget {
@@ -45,7 +46,7 @@ class _MobileScaffoldState extends State<MobileScaffold> {
               const HomePage(),
               Container(color: Colors.pink),
               Container(color: Colors.blue),
-              Container(color: Colors.orange),
+              const SettingsPage(),
             ],
           ),
         ),
