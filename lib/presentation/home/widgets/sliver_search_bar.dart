@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:iverson/application/bloc.dart';
 import 'package:iverson/presentation/shared/icon_button_with_counter.dart';
+import 'package:iverson/presentation/shared/loading.dart';
 import 'package:iverson/presentation/shared/search_field.dart';
 
 class SliverSearchBar extends StatelessWidget {
@@ -13,7 +16,17 @@ class SliverSearchBar extends StatelessWidget {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            const SearchField(),
+            BlocBuilder<HomeBloc, HomeState>(
+              builder: (context, state) => state.map(
+                loading: (_) => const SizedBox.shrink(),
+                loaded: (state) {
+                  return SearchField(
+                    value: state.search,
+                    searchChanged: (v) => context.read<HomeBloc>().add(HomeEvent.searchChanged(search: v)),
+                  );
+                },
+              ),
+            ),
             IconBtnWithCounter(
               icon: Icons.shopping_cart_outlined,
               onTap: () {},

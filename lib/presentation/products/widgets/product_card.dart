@@ -96,15 +96,6 @@ class ProductCard extends StatelessWidget {
                       placeholder: MemoryImage(kTransparentImage),
                       image: CachedNetworkImageProvider(image),
                     ),
-                    // Row(
-                    //   mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    //   children: const [
-                    //     ComingSoonNewAvatar(
-                    //       isNew: true,
-                    //       isComingSoon: false,
-                    //     ),
-                    //   ],
-                    // ),
                   ],
                 ),
                 const SizedBox(height: 10),

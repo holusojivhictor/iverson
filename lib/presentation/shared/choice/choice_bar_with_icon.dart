@@ -54,7 +54,7 @@ class ChoiceBarWithIcon<TEnum> extends StatelessWidget {
     final textStyle = theme.textTheme.bodySmall!.copyWith(color: Colors.white);
     final isSelected = selectedValue == value;
     return Padding(
-      padding: const EdgeInsets.only(right: 10),
+      padding: const EdgeInsets.only(right: 5),
       child: AltCommonChoiceButton<TEnum>(
         value: value,
         isSelected: isSelected,

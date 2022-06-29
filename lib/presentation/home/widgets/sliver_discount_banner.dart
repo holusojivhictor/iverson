@@ -16,7 +16,7 @@ class SliverDiscountBanner extends StatelessWidget {
           width: double.infinity,
           child: Card(
             elevation: 4,
-            shape: const RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10))),
+            shape: const RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(15))),
             color: theme.primaryColor,
             child: ClipRRect(
               borderRadius: const BorderRadius.only(

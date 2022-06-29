@@ -23,6 +23,7 @@ class Styles {
   static const edgeInsetSymmetric5 = EdgeInsets.symmetric(horizontal: 5, vertical: 5);
 
   static const homeContentPadding = EdgeInsets.only(left: 15, top: 5, bottom: 5);
+  static const altHomeContentPadding = EdgeInsets.symmetric(horizontal: 15, vertical: 5);
 
   static const edgeInsetHorizontal16Top10 = EdgeInsets.only(left: 16, right: 16, top: 10);
 
@@ -90,7 +91,7 @@ class Styles {
 
   static const editFormFieldPadding = EdgeInsets.symmetric(horizontal: 0, vertical: 7);
 
-  static const double materialCardHeight = 280;
+  static const double materialCardHeight = 270;
   static const double materialCardWidth = 220;
   static const double homeCardHeight = 170;
   static const double homeCardWidth = 280;

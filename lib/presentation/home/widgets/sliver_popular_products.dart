@@ -5,8 +5,9 @@ import 'package:iverson/domain/assets.dart';
 import 'package:iverson/domain/enums/enums.dart';
 import 'package:iverson/presentation/popular/popular_products.dart';
 import 'package:iverson/presentation/shared/choice/choice_bar_with_icon.dart';
+import 'package:iverson/presentation/shared/nothing_found.dart';
 import 'package:iverson/presentation/shared/sliver_loading.dart';
-import 'package:iverson/presentation/shared/sliver_nothing_found.dart';
+import 'package:iverson/theme.dart';
 
 class SliverPopularProducts extends StatelessWidget {
   const SliverPopularProducts({Key? key}) : super(key: key);
@@ -22,7 +23,7 @@ class SliverPopularProducts extends StatelessWidget {
               child: Column(
                 children: [
                   Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 5),
+                    padding: Styles.homeContentPadding,
                     child: ChoiceBarWithIconWithAllValue(
                       values: ProductCategoryType.values.map((e) => e.index).toList(),
                       selectedValue: state.tempProductType?.index,
@@ -34,7 +35,7 @@ class SliverPopularProducts extends StatelessWidget {
                       iconData: (val, _) => Assets.translateProductCategoryTypeIcon(ProductCategoryType.values[val]),
                     ),
                   ),
-                  if (state.products.isNotEmpty) PopularProducts(popularProducts: state.products) else const SliverNothingFound(),
+                  if (state.products.isNotEmpty) PopularProducts(popularProducts: state.products) else const NothingFound(),
                 ],
               ),
             );
