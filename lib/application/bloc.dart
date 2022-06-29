@@ -8,3 +8,5 @@ export 'settings/settings_bloc.dart';
 export 'products/products_bloc.dart';
 export 'home/home_bloc.dart';
 export 'product/product_bloc.dart';
+export 'inventory/inventory_bloc.dart';
+export 'cart/cart_bloc.dart';

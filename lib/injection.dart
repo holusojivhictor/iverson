@@ -12,6 +12,16 @@ class Injection {
     return ProductBloc(iversonService, dataService);
   }
 
+  static InventoryBloc get inventoryBloc {
+    final dataService = getIt<DataService>();
+    return InventoryBloc(dataService);
+  }
+
+  static CartBloc get cartBloc {
+    final dataService = getIt<DataService>();
+    return CartBloc(dataService);
+  }
+
   static Future<void> init() async {
     final deviceInfoService = DeviceInfoServiceImpl();
     getIt.registerSingleton<DeviceInfoService>(deviceInfoService);
