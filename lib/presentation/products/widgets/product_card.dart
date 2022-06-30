@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:iverson/domain/models/models.dart';
 import 'package:iverson/presentation/product/product_page.dart';
 import 'package:iverson/presentation/shared/custom_card.dart';
+import 'package:iverson/presentation/shared/images/coming_soon_new_avatar.dart';
 import 'package:iverson/presentation/shared/transparent_image.dart';
 import 'package:iverson/theme.dart';
 
@@ -65,7 +66,7 @@ class ProductCard extends StatelessWidget {
         price = product.price,
         image = product.image,
         rating = product.rating,
-        super(key: key);
+      super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -96,11 +97,20 @@ class ProductCard extends StatelessWidget {
                       placeholder: MemoryImage(kTransparentImage),
                       image: CachedNetworkImageProvider(image),
                     ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        ComingSoonNewAvatar(
+                          isNew: isPopular,
+                          isComingSoon: false,
+                        ),
+                      ],
+                    ),
                   ],
                 ),
                 const SizedBox(height: 10),
                 SizedBox(
-                  height: 35,
+                  height: isPopular ? 35 : null,
                   child: Align(
                     alignment: Alignment.centerLeft,
                     child: Tooltip(
@@ -108,7 +118,7 @@ class ProductCard extends StatelessWidget {
                       child: Text(
                         title,
                         overflow: TextOverflow.ellipsis,
-                        maxLines: isPopular ? 2 : 5,
+                        maxLines: isPopular ? 2 : 3,
                         style: theme.textTheme.bodyLarge!.copyWith(fontSize: 14),
                       ),
                     ),
@@ -130,7 +140,7 @@ class ProductCard extends StatelessWidget {
                           color: theme.colorScheme.secondary.withOpacity(0.1),
                           shape: BoxShape.circle,
                         ),
-                        child: const Icon(Icons.favorite, color: Color(0xFFFF4848),
+                        child: Icon(Icons.favorite, color: Colors.grey.withOpacity(0.5),
                         ),
                       ),
                     ),

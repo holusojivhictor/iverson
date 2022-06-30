@@ -14,7 +14,7 @@ class ComingSoonNewAvatar extends StatelessWidget {
       margin: const EdgeInsets.only(top: 5),
       child: CircleAvatar(
         radius: 15,
-        backgroundColor: newOrComingSoon ? theme.colorScheme.secondary : Colors.transparent,
+        backgroundColor: newOrComingSoon ? theme.primaryColor.withOpacity(0.3) : Colors.transparent,
         child: newOrComingSoon ? Icon(icon, color: Colors.white) : null,
       ),
     );

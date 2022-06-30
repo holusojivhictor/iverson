@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:iverson/application/bloc.dart';
 import 'package:iverson/domain/assets.dart';
 import 'package:iverson/presentation/shared/gradient_card.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:iverson/theme.dart';
 
 class SliverSaleBanner extends StatelessWidget {
@@ -47,18 +49,6 @@ class SliverSaleBanner extends StatelessWidget {
                       ),
                     ),
                   ),
-                  Positioned(
-                    bottom: 0,
-                    left: 7,
-                    child: Container(
-                      padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 10),
-                      decoration: const BoxDecoration(
-                        borderRadius: BorderRadius.all(Radius.circular(20)),
-                        color: Colors.white,
-                      ),
-                      child: const Text("Shop Now"),
-                    ),
-                  ),
                   Align(
                     alignment: Alignment.centerRight,
                     child: Image.asset(
@@ -76,6 +66,21 @@ class SliverSaleBanner extends StatelessWidget {
                       ],
                     ),
                   ),
+                  Positioned(
+                    bottom: 0,
+                    left: 7,
+                    child: InkWell(
+                      onTap: () => _goToTab(context, 1),
+                      child: Container(
+                        padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 10),
+                        decoration: const BoxDecoration(
+                          borderRadius: BorderRadius.all(Radius.circular(20)),
+                          color: Colors.white,
+                        ),
+                        child: const Text("Shop Now"),
+                      ),
+                    ),
+                  ),
                 ],
               ),
             ),
@@ -84,6 +89,8 @@ class SliverSaleBanner extends StatelessWidget {
       ),
     );
   }
+
+  void _goToTab(BuildContext context, int newIndex) => context.read<MainTabBloc>().add(MainTabEvent.goToTab(index: newIndex));
 }
 
 class BackgroundText extends StatelessWidget {

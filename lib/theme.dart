@@ -61,6 +61,10 @@ class Styles {
     );
   }
 
+  static BorderRadius homeCardItemBorderRadius = BorderRadius.circular(15);
+
+  static const double mediumButtonSplashRadius = 25;
+
   static const expandedBorderRadius = BorderRadius.only(
     topLeft: Radius.circular(15),
     topRight: Radius.circular(15),

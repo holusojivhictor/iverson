@@ -12,7 +12,7 @@ class NothingFoundColumn extends StatelessWidget {
     Key? key,
     this.msg,
     this.icon = Icons.info,
-    this.iconSize = 60,
+    this.iconSize = 50,
     this.textStyle,
     this.padding = const EdgeInsets.only(bottom: 30, right: 20, left: 20),
   }) : super(key: key);

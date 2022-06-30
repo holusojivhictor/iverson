@@ -2,8 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:iverson/application/bloc.dart';
 import 'package:iverson/injection.dart';
+import 'package:iverson/presentation/product/widgets/product_detail_bottom.dart';
 import 'package:iverson/presentation/shared/loading.dart';
 import 'package:iverson/presentation/shared/scaffold_with_fab.dart';
+
+import 'widgets/product_detail_top.dart';
 
 class ProductPage extends StatelessWidget {
   final int itemKey;
@@ -28,8 +31,14 @@ class _PortraitLayout extends StatelessWidget {
       child: BlocBuilder<ProductBloc, ProductState>(
         builder: (context, state) => state.map(
           loading: (_) => const Loading(useScaffold: false),
-          loaded: (state) => Center(
-            child: Text('Hola ${state.rating}'),
+          loaded: (state) => Stack(
+            fit: StackFit.passthrough,
+            clipBehavior: Clip.none,
+            alignment: Alignment.topCenter,
+            children: const [
+              ProductDetailTop(),
+              ProductDetailBottom(),
+            ],
           ),
         ),
       ),

@@ -1,1248 +1,960 @@
 {
-    "clothing": [
-        {
-            "id": 1,
-            "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
-            "price": 109.95,
-            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
-            "category": "clothing",
-            "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
-            "rating": {
-                "rate": 3.9,
-                "count": 120
-            }
-        },
-        {
-            "id": 2,
-            "title": "Mens Casual Premium Slim Fit T-Shirts ",
-            "price": 22.3,
-            "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
-            "category": "clothing",
-            "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
-            "rating": {
-                "rate": 4.1,
-                "count": 259
-            }
-        },
-        {
-            "id": 3,
-            "title": "Mens Cotton Jacket",
-            "price": 55.99,
-            "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
-            "category": "clothing",
-            "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
-            "rating": {
-                "rate": 4.7,
-                "count": 500
-            }
-        },
-        {
-            "id": 4,
-            "title": "Mens Casual Slim Fit",
-            "price": 15.99,
-            "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
-            "category": "clothing",
-            "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
-            "rating": {
-                "rate": 2.1,
-                "count": 430
-            }
-        },
-        {
-            "id": 15,
-            "title": "BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats",
-            "price": 56.99,
-            "description": "Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
-            "category": "clothing",
-            "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
-            "rating": {
-                "rate": 2.6,
-                "count": 235
-            }
-        },
-        {
-            "id": 16,
-            "title": "Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket",
-            "price": 29.95,
-            "description": "100% POLYURETHANE(shell) 100% POLYESTER(lining) 75% POLYESTER 25% COTTON (SWEATER), Faux leather material for style and comfort / 2 pockets of front, 2-For-One Hooded denim style faux leather jacket, Button detail on waist / Detail stitching at sides, HAND WASH ONLY / DO NOT BLEACH / LINE DRY / DO NOT IRON",
-            "category": "clothing",
-            "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
-            "rating": {
-                "rate": 2.9,
-                "count": 340
-            }
-        },
-        {
-            "id": 17,
-            "title": "Rain Jacket Women Windbreaker Striped Climbing Raincoats",
-            "price": 39.99,
-            "description": "Lightweight perfet for trip or casual wear---Long sleeve with hooded, adjustable drawstring waist design. Button and zipper front closure raincoat, fully stripes Lined and The Raincoat has 2 side pockets are a good size to hold all kinds of things, it covers the hips, and the hood is generous but doesn't overdo it.Attached Cotton Lined Hood with Adjustable Drawstrings give it a real styled look.",
-            "category": "clothing",
-            "image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
-            "rating": {
-                "rate": 3.8,
-                "count": 679
-            }
-        },
-        {
-            "id": 18,
-            "title": "MBJ Women's Solid Short Sleeve Boat Neck V ",
-            "price": 9.85,
-            "description": "95% RAYON 5% SPANDEX, Made in USA or Imported, Do Not Bleach, Lightweight fabric with great stretch for comfort, Ribbed on sleeves and neckline / Double stitching on bottom hem",
-            "category": "clothing",
-            "image": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
-            "rating": {
-                "rate": 4.7,
-                "count": 130
-            }
-        },
-        {
-            "id": 19,
-            "title": "Opna Women's Short Sleeve Moisture",
-            "price": 7.95,
-            "description": "100% Polyester, Machine wash, 100% cationic polyester interlock, Machine Wash & Pre Shrunk for a Great Fit, Lightweight, roomy and highly breathable with moisture wicking fabric which helps to keep moisture away, Soft Lightweight Fabric with comfortable V-neck collar and a slimmer fit, delivers a sleek, more feminine silhouette and Added Comfort",
-            "category": "clothing",
-            "image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
-            "rating": {
-                "rate": 4.5,
-                "count": 146
-            }
-        },
-        {
-            "id": 20,
-            "title": "DANVOUY Womens T Shirt Casual Cotton Short",
-            "price": 12.99,
-            "description": "95%Cotton,5%Spandex, Features: Casual, Short Sleeve, Letter Print,V-Neck,Fashion Tees, The fabric is soft and has some stretch., Occasion: Casual/Office/Beach/School/Home/Street. Season: Spring,Summer,Autumn,Winter.",
-            "category": "clothing",
-            "image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
-            "rating": {
-                "rate": 3.6,
-                "count": 145
-            }
-        }
-    ],
-    "footwear": [
-        {
-          "id": 21,
-          "title": "Adidas yeezy 450 cinder",
-          "price": 210,
-          "description": "The Yeezy 450 Cinder features a blacked-out look on its updated construction. Releasing as part of the Mono Pack, the shoe's upper is built with monofilament mesh in place of the usual Primeknit, finished entirely in black. The signature side stripe adds a minor deviation, while an internal cage and webbing heel pull-loop support the fit. Underfoot, the tonal tooling includes a Boost midsole wrapped in a rubber cage for cushioning, while the shoe itself dropped exclusively on Yeezy Supply.",
-          "category": "footwear",
-          "image": "https://images.stockx.com/images/adidas-Yeezy-450-Cinder-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1647545952",
-          "rating": {
-            "rate": 4.6,
-            "count": 197
-          }
-        },
-        {
-          "id": 22,
-          "title": "Adidas yeezy boost 350 v2 mono cinder",
-          "price": 220,
-          "description": "The Yeezy Boost 350 V2 'Mono Cinder' features a blacked-out look on its updated construction. Releasing as part of the Mono Pack, the shoe's upper is built with monofilament mesh in place of the usual Primeknit, finished entirely in black. The signature side stripe adds a minor deviation, while an internal cage and webbing heel pull-loop support the fit. Underfoot, the tonal tooling includes a Boost midsole wrapped in a rubber cage for cushioning, while the shoe itself dropped exclusively on Yeezy Supply.",
-          "category": "footwear",
-          "image": "https://images.stockx.com/images/adidas-Yeezy-Boost-350-V2-Mono-Cinder-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1635434704",
-          "rating": {
-            "rate": 4.9,
-            "count": 288
-          }
-        },
-        {
-          "id": 23,
-          "title": "Adidas yeezy boost 350 v2 cinder",
-          "price": 220,
-          "description": "The Yeezy Boost 350 V2 'Cinder' features a neutral look on its signature construction. Built with Primeknit, the Cinder upper includes a tonal monofilament stripe on the lateral side. A heel pull-loop provides easy on and off, while a similar finish marks the cage around the Boost midsole. A gum rubber outsole provides traction.",
-          "category": "footwear",
-          "image": "https://images.stockx.com/images/adidas-Yeezy-Boost-350-V2-Cinder-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1606320313",
-          "rating": {
-            "rate": 4.9,
-            "count": 222
-          }
-        },
-        {
-          "id": 24,
-          "title": "Adidas yeezy boost 350 v2 cinder reflective",
-          "price": 220,
-          "description": "The Yeezy Boost 350 V2 'Cinder Reflective' emerges with an almost-monochromatic look. Built with Primeknit, the shoe's Cinder upper is bolstered by a bootie-style collar and a heel pull-loop for easy on and off. The signature monofilament stripe sports reflective detailing, while underfoot, an encased Boost midsole gives way to a gum rubber outsole for traction.",
-          "category": "footwear",
-          "image": "https://images.stockx.com/images/adidas-Yeezy-Boost-350-V2-Cinder-Reflective-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1624459848",
-          "rating": {
-            "rate": 4.4,
-            "count": 239
-          }
-        },
-        {
-          "id": 25,
-          "title": "Adidas yeezy 450 cinder (kids)",
-          "price": 145,
-          "description": "",
-          "category": "footwear",
-          "image": "https://images.stockx.com/images/adidas-Yeezy-450-Cinder-Kids.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1647973346",
-          "rating": {
-            "rate": 4.8,
-            "count": 205
-          }
-        },
-        {
-          "id": 26,
-          "title": "Adidas yeezy 450 cinder (infants)",
-          "price": 125,
-          "description": "",
-          "category": "footwear",
-          "image": "https://images.stockx.com/images/adidas-Yeezy-450-Cinder-Infants-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1655918704",
-          "rating": {
-            "rate": 4.9,
-            "count": 132
-          }
-        },
-        {
-          "id": 27,
-          "title": "Adidas yeezy 450 cinder",
-          "price": 210,
-          "description": "",
-          "category": "footwear",
-          "image": "https://images.stockx.com/images/adidas-Yeezy-450-Cinder-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1647545952",
-          "rating": {
-            "rate": 4.9,
-            "count": 137
-          }
-        },
-        {
-          "id": 22,
-          "title": "Adidas yeezy boost 350 v2 mono cinder",
-          "price": 220,
-          "description": "The Yeezy Boost 350 V2 'Mono Cinder' features a blacked-out look on its updated construction. Releasing as part of the Mono Pack, the shoe's upper is built with monofilament mesh in place of the usual Primeknit, finished entirely in black. The signature side stripe adds a minor deviation, while an internal cage and webbing heel pull-loop support the fit. Underfoot, the tonal tooling includes a Boost midsole wrapped in a rubber cage for cushioning, while the shoe itself dropped exclusively on Yeezy Supply.",
-          "category": "footwear",
-          "image": "https://images.stockx.com/images/adidas-Yeezy-Boost-350-V2-Mono-Cinder-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1635434704",
-          "rating": {
-            "rate": 4.6,
-            "count": 116
-          }
-        },
-        {
-          "id": 23,
-          "title": "Adidas yeezy boost 350 v2 cinder",
-          "price": 220,
-          "description": "The Yeezy Boost 350 V2 'Cinder' features a neutral look on its signature construction. Built with Primeknit, the Cinder upper includes a tonal monofilament stripe on the lateral side. A heel pull-loop provides easy on and off, while a similar finish marks the cage around the Boost midsole. A gum rubber outsole provides traction.",
-          "category": "footwear",
-          "image": "https://images.stockx.com/images/adidas-Yeezy-Boost-350-V2-Cinder-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1606320313",
-          "rating": {
-            "rate": 4.6,
-            "count": 225
-          }
-        },
-        {
-          "id": 24,
-          "title": "Adidas yeezy boost 350 v2 cinder reflective",
-          "price": 220,
-          "description": "The Yeezy Boost 350 V2 'Cinder Reflective' emerges with an almost-monochromatic look. Built with Primeknit, the shoe's Cinder upper is bolstered by a bootie-style collar and a heel pull-loop for easy on and off. The signature monofilament stripe sports reflective detailing, while underfoot, an encased Boost midsole gives way to a gum rubber outsole for traction.",
-          "category": "footwear",
-          "image": "https://images.stockx.com/images/adidas-Yeezy-Boost-350-V2-Cinder-Reflective-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1624459848",
-          "rating": {
-            "rate": 4.6,
-            "count": 250
-          }
-        },
-        {
-          "id": 25,
-          "title": "Adidas yeezy 450 cinder (kids)",
-          "price": 145,
-          "description": "",
-          "category": "footwear",
-          "image": "https://images.stockx.com/images/adidas-Yeezy-450-Cinder-Kids.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1647973346",
-          "rating": {
-            "rate": 4.4,
-            "count": 269
-          }
-        },
-        {
-          "id": 26,
-          "title": "Adidas yeezy 450 cinder (infants)",
-          "price": 125,
-          "description": "",
-          "category": "footwear",
-          "image": "https://images.stockx.com/images/adidas-Yeezy-450-Cinder-Infants-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1655918704",
-          "rating": {
-            "rate": 4.8,
-            "count": 258
-          }
-        },
-        {
-          "id": 33,
-          "title": "Jordan 9 retro particle grey",
-          "price": 200,
-          "description": "The Air Jordan 9 Retro 'Particle Grey' offers a muted colorway, delivering darker tones utilizing different materials on the upper. A Particle Grey midsole is crafted with unbuckle, while the black upper features a lightweight textile and tonal stitching. University Red hits on the tongue tag and back heel offer pops of color, while a grey midsole sits atop a white outsole.",
-          "category": "footwear",
-          "image": "https://images.stockx.com/images/Air-Jordan-9-Retro-Particle-Grey.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1653373411",
-          "rating": {
-            "rate": 4.6,
-            "count": 133
-          }
-        },
-        {
-          "id": 34,
-          "title": "Jordan 6 retro red oreo",
-          "price": 200,
-          "description": "The Air Jordan 6 Retro 'Red Oreo' showcases a two-tone color scheme. The silhouette features a white leather upper, with perforations throughout for breathability. Crimson Jumpman embroidery decorates the tongue. Contrasting speckled red accents appear on the lace toggle, heel and midsole. An exposed Air-sole unit in the heel provides cushioning, while a translucent rubber outsole offers traction.\n",
-          "category": "footwear",
-          "image": "https://images.stockx.com/images/Air-Jordan-6-Retro-Red-Oreo-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1655385700",
-          "rating": {
-            "rate": 4.8,
-            "count": 211
-          }
-        },
-        {
-          "id": 35,
-          "title": "Jordan 4 retro infrared",
-          "price": 200,
-          "description": "Bringing back color blocking similar to the 2013 release of the 'Green Glow' AJ4 is the Air Jordan 4 Retro 'Infrared.' The upper is made from smooth nubuck in a charcoal finish. A lighter shade of grey is on the forefoot overlay with black accents on the quarter panel netting, structural wings, and Jumpman-branded heel tab. The titular hue lights up the woven tongue tag and molded eyelets. It's built on a polyurethane midsole with visible Air-sole cushioning in the heel.",
-          "category": "footwear",
-          "image": "https://images.stockx.com/images/Air-Jordan-4-Retro-Infrared-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1645637225",
-          "rating": {
-            "rate": 5.0,
-            "count": 295
-          }
-        },
-        {
-          "id": 36,
-          "title": "Jordan 4 retro military black",
-          "price": 210,
-          "description": "Featuring the same color blocking and materials used on the OG 'Military Blue' colorway from 1989 is the Air Jordan 4 Retro 'Military Black.' The upper is made with smooth white leather with a forefoot overlay in grey suede. Black accents are on the TPU eyelets, molded heel tab, and the Jumpman logo on the woven tongue tag. It's built on a two-tone polyurethane midsole with a visible Air-sole unit under the heel.",
-          "category": "footwear",
-          "image": "https://images.stockx.com/images/Air-Jordan-4-Retro-Military-Black-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1652711257",
-          "rating": {
-            "rate": 4.5,
-            "count": 210
-          }
-        },
-        {
-          "id": 37,
-          "title": "Jordan 1 low shadow toe",
-          "price": 100,
-          "description": "",
-          "category": "footwear",
-          "image": "https://images.stockx.com/images/Air-Jordan-1-Low-Shadow-Toe-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1649865016",
-          "rating": {
-            "rate": 4.6,
-            "count": 155
-          }
-        },
-        {
-          "id": 38,
-          "title": "Jordan 1 retro high og patent bred",
-          "price": 170,
-          "description": "Featuring a classic mix of hues, the Air Jordan 1 Retro High OG 'Patent Bred' also sports an elevated construction. Built entirely with patent leather, the shoe's upper appears in a familiar mix of black and Varsity Red, with perforations on the toe box offering breathability. Underfoot, a white Air midsole provides cushioning and contrast, giving way to a Varsity Red finish on the concentric rubber outsole, which is included for traction.",
-          "category": "footwear",
-          "image": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-OG-Bred-Patent-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1633542046",
-          "rating": {
-            "rate": 4.9,
-            "count": 124
-          }
-        },
-        {
-          "id": 39,
-          "title": "Jordan 4 retro military black (gs)",
-          "price": 160,
-          "description": "",
-          "category": "footwear",
-          "image": "https://images.stockx.com/images/Air-Jordan-4-Retro-Military-Black-GS-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1653401817",
-          "rating": {
-            "rate": 4.8,
-            "count": 292
-          }
-        },
-        {
-          "id": 40,
-          "title": "Jordan 2 retro maison chateau rouge",
-          "price": 200,
-          "description": "",
-          "category": "footwear",
-          "image": "https://images.stockx.com/images/Air-Jordan-2-Retro-Maison-Chateau-Rouge-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1655474977",
-          "rating": {
-            "rate": 4.8,
-            "count": 142
-          }
-        },
-        {
-          "id": 41,
-          "title": "Jordan 1 retro high og stage haze",
-          "price": 170,
-          "description": "Featuring neutral tones on the foundational sneaker is the Air Jordan 1 Retro High OG 'Stage Haze.' Its' upper combines a white leather base with a grey suede heel overlay and a forefoot overlay in cracked black leather. Matching black accents are featured on the signature Swoosh and a retro Wings logo stamped on the lateral ankle. Nike branding is outlined in Bleached Coral on the woven tongue tag while the high-top rests on a rubber cupsole that pairs white sidewalls with a grey rubber outsole.",
-          "category": "footwear",
-          "image": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-OG-Stage-Haze-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1653035159",
-          "rating": {
-            "rate": 4.5,
-            "count": 283
-          }
-        },
-        {
-          "id": 42,
-          "title": "Jordan 4 retro infrared (gs)",
-          "price": 160,
-          "description": "",
-          "category": "footwear",
-          "image": "https://images.stockx.com/images/Air-Jordan-4-Retro-Infrared-GS-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1646935173",
-          "rating": {
-            "rate": 4.9,
-            "count": 224
-          }
-        },
-        {
-          "id": 43,
-          "title": "Jordan 1 low bred toe",
-          "price": 100,
-          "description": "Showcasing distinctive color blocking from the 2018 release of an AJ1 High is the Air Jordan 1 Low 'Bred Toe.' This low-top features an all-leather upper with white quarter panels, a black forefoot overlay, a crimson toe box, and a matching red finish on the collar and heel overlay with a stitched Wings logo. The tongue is black nylon and has Jumpman branding in white. It's built on a rubber cupsole with crisp white sidewalls with a red rubber outsole.",
-          "category": "footwear",
-          "image": "https://images.stockx.com/images/Air-Jordan-1-Low-Bred-Toe-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1637253420",
-          "rating": {
-            "rate": 4.6,
-            "count": 134
-          }
-        },
-        {
-          "id": 44,
-          "title": "Jordan 1 retro high og heritage",
-          "price": 170,
-          "description": "The Air Jordan 1 Retro High OG 'Heritage' reimagines a familiar Jordan franchise color story. The upper arrives in white leather, with hits of University Red on the toe box, Swoosh, heel and ankle flap. The retro Wings logo, laces and high-cut padded collar appear in black, while the woven tongue tag is decorated with Nike Air branding. Underfoot, a rubber cupsole is fitted with encapsulated Air-sole cushioning in the heel.",
-          "category": "footwear",
-          "image": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-OG-Heritage-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1649081695",
-          "rating": {
-            "rate": 4.8,
-            "count": 105
-          }
-        },
-        {
-          "id": 45,
-          "title": "Jordan 1 retro high og visionaire",
-          "price": 170,
-          "description": "The Air Jordan 1 Retro High OG 'Visionaire' takes an original color block and updates it with a bold and vibrant hue. A white leather base is accented with black laces, Wings logo and Swoosh, while Volt pops across the forefoot overlays, heel and ankle area. A white midsole and black outsole complete the look.",
-          "category": "footwear",
-          "image": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-OG-Visionaire-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1655385644",
-          "rating": {
-            "rate": 4.5,
-            "count": 205
-          }
-        },
-        {
-          "id": 46,
-          "title": "Jordan 4 retro red thunder",
-          "price": 190,
-          "description": "Recalling the 'Thunder' colorway, the Air Jordan 4 Retro 'Red Thunder', also known as 'Crimson', emerges with similar color-blocking, albeit in a different mix of hues. The shoe's upper is built with a black nubuck base, highlighted by red throughout, including on the molded eyelets and quarter panel. More red marks the midsole, which includes visible Air for cushioning, while a two-tone rubber outsole is included for traction.",
-          "category": "footwear",
-          "image": "https://images.stockx.com/images/Air-Jordan-4-Retro-Red-Thunder-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1641394023",
-          "rating": {
-            "rate": 4.4,
-            "count": 239
-          }
-        },
-        {
-          "id": 47,
-          "title": "Jordan 4 retro zen master",
-          "price": 210,
-          "description": "Paying tribute to legendary coach Phil Jackson is the Air Jordan 4 Retro 'Zen Master.' Nodding at Jackson's 'Zen Master' persona, it features a textile upper in a tie-dye mix of pink, purple, and blue. Flight branding and a scarlet Jumpman icon are on the black woven tongue with a translucent TPU heel tab displaying a raised Jumpman logo in black. The polyurethane midsole has a visible Air-sole unit in the heel.",
-          "category": "footwear",
-          "image": "https://images.stockx.com/images/Air-Jordan-4-Retro-Zen-Master-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1655732734",
-          "rating": {
-            "rate": 5.0,
-            "count": 162
-          }
-        },
-        {
-          "id": 48,
-          "title": "Jordan 11 retro cool grey (2021)",
-          "price": 225,
-          "description": "Released in December 2021, the Air Jordan 11 Retro 'Cool Grey' 2021 brings back a colorway from 2001 and 2010. Faithful to the OG, the shoe's upper is built with leather, finished in grey and supported by a darker grey patent leather mudguard. Tonal webbing eyelets are worked into the lacing system to secure the fit, while underfoot, a contrasting white phylon midsole houses full-length Air for cushioning, with a carbon fiber plate included for added support. An icy translucent rubber outsole provides traction.",
-          "category": "footwear",
-          "image": "https://images.stockx.com/images/Air-Jordan-11-Retro-Cool-Grey-2021-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1631898423",
-          "rating": {
-            "rate": 4.5,
-            "count": 269
-          }
-        },
-        {
-          "id": 49,
-          "title": "Jordan 1 retro high og rebellionaire",
-          "price": 170,
-          "description": "Drawing back to when Michael Jordan received a $5,000 fine each time the rookie wore his signature black and red shoes on the court, which violated the NBA's uniform dress code at the time is the Air Jordan 1 High OG 'Rebellionaire.' The shoe which ties into the shoe's mythic 'Banned' narrative, features a leather upper finished in two-tone color blocking similar to the OG 'Shadow' colorway. Details include the 'Banned' AJ1's red 'X' on the heel, along with an all-over print that spells out 'They Can't You From Wearing Them,' which paraphrases a line from an original Air Jordan 1 TV commercial from 1985.",
-          "category": "footwear",
-          "image": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-OG-Rebellionaire-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1646841923",
-          "rating": {
-            "rate": 4.8,
-            "count": 218
-          }
-        },
-        {
-          "id": 50,
-          "title": "Jordan 4 retro blank canvas (w)",
-          "price": 200,
-          "description": "",
-          "category": "footwear",
-          "image": "https://images.stockx.com/images/Air-Jordan-4-Retro-Canvas-Sail-W-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1651856437",
-          "rating": {
-            "rate": 4.5,
-            "count": 153
-          }
-        },
-        {
-          "id": 51,
-          "title": "Jordan 3 retro desert elephant",
-          "price": 200,
-          "description": "Using materials and color blocking that stay true to the iconic silhouette's original 1988 release is the Air Jordan 3 Retro 'Desert Elephant.' The black tumbled leather upper features signature elephant-print overlays in a light tan finish that repeats on the collar, eyestay, and tongue that also has a crimson Jumpman logo. The mid-top is built on a white polyurethane midsole with a visible Air-sole unit under the heel. The Jordan 3 'Desert Elephant' will drop on April 30, 2022.",
-          "category": "footwear",
-          "image": "https://images.stockx.com/images/Air-Jordan-3-Retro-Desert-Elephant.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1654804871",
-          "rating": {
-            "rate": 4.6,
-            "count": 177
-          }
-        },
-        {
-          "id": 52,
-          "title": "Jordan 5 retro green bean (2022)",
-          "price": 200,
-          "description": "Bringing back a two-tone colorway first released in 2006 is the 2022 edition of the Air Jordan 5 'Green Bean.' Similar to the original mid-top, a light grey nubuck upper is entirely coated in a reflective finish. Bright green accents make their way to the interior lining and the embroidered Jumpman logo on the heel and tongue, which is repeated on the shark-tooth detailing that enlivens the dark grey polyurethane midsole. It's built on a translucent herringbone-tread rubber outsole. The Jordan 5 'Green Bean' 2022 will drop on May 28, 2022.",
-          "category": "footwear",
-          "image": "https://images.stockx.com/images/Air-Jordan-5-Retro-Green-Bean-2022-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1655237336",
-          "rating": {
-            "rate": 4.6,
-            "count": 235
-          }
-        },
-        {
-          "id": 53,
-          "title": "Nike air force 1 mid off-white black",
-          "price": 185,
-          "description": "",
-          "category": "footwear",
-          "image": "https://images.stockx.com/images/Nike-Air-Force-1-Mid-Off-White-Black-Product-2.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1655993157",
-          "rating": {
-            "rate": 5.0,
-            "count": 102
-          }
-        },
-        {
-          "id": 54,
-          "title": "Nike air force 1 mid off-white white",
-          "price": 185,
-          "description": "",
-          "category": "footwear",
-          "image": "https://images.stockx.com/images/Nike-Air-Force-1-Mid-Off-White-White-Product-2.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1655993120",
-          "rating": {
-            "rate": 4.8,
-            "count": 113
-          }
-        },
-        {
-          "id": 55,
-          "title": "Nike cortez union sesame",
-          "price": 130,
-          "description": "",
-          "category": "footwear",
-          "image": "https://images.stockx.com/images/Nike-Cortez-Union-Grain-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1655966102",
-          "rating": {
-            "rate": 4.8,
-            "count": 179
-          }
-        },
-        {
-          "id": 56,
-          "title": "Nike dunk low retro white black panda (2021)",
-          "price": 110,
-          "description": "The Dunk Low 'Black White' also known as 'Panda' brings a classic two-tone look to its classic basketball construction. The shoe's low-top build emerges in leather, with a white base contrasted by black overlays, with further black on the Swoosh branding. Perforations on the toe box provide breathability, while underfoot, the two-tone look is matched by the tooling, which incorporates a concentric rubber outsole for traction.",
-          "category": "footwear",
-          "image": "https://images.stockx.com/images/Nike-Dunk-Low-Retro-White-Black-2021-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1633027409",
-          "rating": {
-            "rate": 4.9,
-            "count": 293
-          }
-        },
-        {
-          "id": 57,
-          "title": "Nike air force 1 low '07 white",
-          "price": 90,
-          "description": "The Nike Air Force 1 Low White \u00e2\u20ac\u02dc07 features an all-white leather upper with a perforated toe box and Swoosh overlays. A Nike heel embroidery and white sole completes the design. The Nike Air Force 1 Low White \u00e2\u20ac\u02dc07 originally released in 2007, but since it is an essential colorway to the brand, it consistently restocks.",
-          "category": "footwear",
-          "image": "https://images.stockx.com/images/Nike-Air-Force-1-Low-White-07_V2-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1631122839",
-          "rating": {
-            "rate": 4.5,
-            "count": 129
-          }
-        },
-        {
-          "id": 58,
-          "title": "Nikecraft general purpose shoe tom sachs",
-          "price": 110,
-          "description": "",
-          "category": "footwear",
-          "image": "https://images.stockx.com/images/NikeCraft-General-Purpose-Shoe-Tom-Sachs-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1655990902",
-          "rating": {
-            "rate": 4.8,
-            "count": 169
-          }
-        },
-        {
-          "id": 59,
-          "title": "Nike dunk low retro white black (gs)",
-          "price": 85,
-          "description": "The Dunk Low GS 'Black White' brings a classic two-tone colorway to the basketball classic. A grade-school iteration of the shoe, the upper appears in a mix of black and white on its leather construction, with a lightly padded tongue for support. Underfoot, a white low-profile midsole gives way to a concentric black rubber outsole, which takes its traction pattern from the Air Jordan 1.",
-          "category": "footwear",
-          "image": "https://images.stockx.com/images/Nike-Dunk-Low-Retro-White-Black-GS-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1613360456",
-          "rating": {
-            "rate": 4.7,
-            "count": 100
-          }
-        },
-        {
-          "id": 60,
-          "title": "Nike dunk low coconut milk",
-          "price": 100,
-          "description": "",
-          "category": "footwear",
-          "image": "https://images.stockx.com/images/Nike-Dunk-Low-Coconut-Milk-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1651696484",
-          "rating": {
-            "rate": 4.4,
-            "count": 253
-          }
-        },
-        {
-          "id": 61,
-          "title": "Nike dunk low valerian blue",
-          "price": 100,
-          "description": "",
-          "category": "footwear",
-          "image": "https://images.stockx.com/images/Nike-Dunk-Low-Valerian-Blue-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1652712361",
-          "rating": {
-            "rate": 4.5,
-            "count": 118
-          }
-        },
-        {
-          "id": 62,
-          "title": "Nike dunk low white black (2021) (w)",
-          "price": 100,
-          "description": "A women's shoe, the Wmns Dunk Low 'Black White' emerges with a classic two-tone look. Built entirely with leather, the shoe's upper sports a white base overlaid by black, with black also marking the Swoosh branding. Perforations on the toe box provide breathability, while white branding appears on the tongue and heel patch. Underfoot, the two-tone rubber cupsole includes a concentric outsole to provide traction.",
-          "category": "footwear",
-          "image": "https://images.stockx.com/images/Nike-Dunk-Low-White-Black-2021-W-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1611766850",
-          "rating": {
-            "rate": 4.8,
-            "count": 208
-          }
-        },
-        {
-          "id": 63,
-          "title": "Nike dunk high black white (2021)",
-          "price": 110,
-          "description": "The Nike Dunk High 'Black White' dresses the classic high-top in a monochromatic two-tone color palette. The iconic silhouette features a smooth white leather upper, set against black leather overlays. The toe box is perforated for breathability. The shoe rests on a rubber cupsole, with a concentric rubber outsole included for traction.",
-          "category": "footwear",
-          "image": "https://images.stockx.com/images/Nike-Dunk-Low-Black-White-2021-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1645037142",
-          "rating": {
-            "rate": 4.7,
-            "count": 187
-          }
-        },
-        {
-          "id": 64,
-          "title": "Nike air max koko triple black (w)",
-          "price": 120,
-          "description": "",
-          "category": "footwear",
-          "image": "https://images.stockx.com/images/Nike-Air-Max-Koko-Triple-Black-W.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1617867341",
-          "rating": {
-            "rate": 4.7,
-            "count": 126
-          }
-        },
-        {
-          "id": 65,
-          "title": "Nike dunk low safari mix (w)",
-          "price": 120,
-          "description": "",
-          "category": "footwear",
-          "image": "https://images.stockx.com/images/Nike-Dunk-Low-Safari-Mix-W-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1650480982",
-          "rating": {
-            "rate": 4.7,
-            "count": 151
-          }
-        },
-        {
-          "id": 66,
-          "title": "Nike dunk low rose whisper (w)",
-          "price": 100,
-          "description": "The Wmns Dunk Low 'Rose Whisper' refreshes the classic style of the retro basketball shoe in a light-hearted hue. The sneaker's leather upper is constructed entirely from a white base complemented by Rose Whisper overlays and Nike Swoosh. A breathable nylon tongue provides comfort while the rubber outsole anchors the build.",
-          "category": "footwear",
-          "image": "https://images.stockx.com/images/Nike-Dunk-Low-Rose-Whisper-W-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1650654997",
-          "rating": {
-            "rate": 4.9,
-            "count": 201
-          }
-        },
-        {
-          "id": 67,
-          "title": "Nike dunk low chlorophyll",
-          "price": 100,
-          "description": "",
-          "category": "footwear",
-          "image": "https://images.stockx.com/images/Nike-Dunk-Low-Chlorophyll-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1653041272",
-          "rating": {
-            "rate": 4.7,
-            "count": 226
-          }
-        },
-        {
-          "id": 68,
-          "title": "Nike air force 1 low '07 black black",
-          "price": 90,
-          "description": "The all-black Air Force 1 Low is a timeless classic in Nike's catalog of heritage sneakers. The Nike Air Force 1 Low '07 Black features a triple black smooth leather upper with a matching Air sole and laces. Subtle Nike Air embroidery on the heel tab nods to the history of the AF-1 line. A metallic lace tag and woven tongue label complete the design. The Nike Air Force 1 Low '07 retails for $90.",
-          "category": "footwear",
-          "image": "https://images.stockx.com/images/Nike-Air-Force-1-07-Black-Black-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1607050715",
-          "rating": {
-            "rate": 4.9,
-            "count": 288
-          }
-        },
-        {
-          "id": 69,
-          "title": "Nike air max 1 travis scott cactus jack saturn gold",
-          "price": 150,
-          "description": "Travis Scott and Nike team up for an outdoor-inspired shoe in the Nike Air Max 1 'Saturn Gold.' It has a monochrome yellow palette throughout an upper crafted from breathable mesh with stitched leather overlays. It features two-tone rope laces and brown webbing straps that are integrated into the laces and heel overlay with mismatched Cactus Jack and Nike logos on each shoe. A rubber Cactus Jack patch is on the tongue with the rapper's trademark reverse Swoosh on the lateral side. The one-note finish extends to a wedge-shaped foam midsole with Air-sole cushioning in the heel and a waffle-tread rubber outsole underfoot.",
-          "category": "footwear",
-          "image": "https://images.stockx.com/images/Nike-Air-Max-1-Travis-Scott-Wheat-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1648066078",
-          "rating": {
-            "rate": 4.4,
-            "count": 278
-          }
-        },
-        {
-          "id": 70,
-          "title": "Nike shox ride 2 sp supreme white",
-          "price": 188,
-          "description": "",
-          "category": "footwear",
-          "image": "https://images.stockx.com/images/StockX SL 23 06 221187.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1655996570",
-          "rating": {
-            "rate": 4.7,
-            "count": 264
-          }
-        },
-        {
-          "id": 71,
-          "title": "Nike dunk low essential paisley pack orange (w)",
-          "price": 120,
-          "description": "",
-          "category": "footwear",
-          "image": "https://images.stockx.com/images/Nike-Dunk-Low-Essential-Paisley-Pack-Orange-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1651513357",
-          "rating": {
-            "rate": 4.6,
-            "count": 236
-          }
-        },
-        {
-          "id": 72,
-          "title": "Nike air force 1 low supreme white",
-          "price": 96,
-          "description": "The Supreme x Air Force 1 Low 'Box Logo - White' released as part of the New York brand's Spring/Summer 2020 collection. The shoe's upper is built with leather, finished in white and highlighted by Supreme's signature box logo on the lateral heel. The custom sockliner and a second set of laces sport further Supreme branding, while Air in the heel of the midsole provides cushioning.",
-          "category": "footwear",
-          "image": "https://images.stockx.com/images/Nike-Air-Force-1-Low-Supreme-Box-Logo-White-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1606164536",
-          "rating": {
-            "rate": 4.7,
-            "count": 211
-          }
-        }
-      ],
-      "jewelery" : [
-        {
-            "id": 5,
-            "title": "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
-            "price": 695,
-            "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
-            "category": "jewelery",
-            "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
-            "rating": {
-                "rate": 4.6,
-                "count": 400
-            }
-        },
-        {
-            "id": 6,
-            "title": "Solid Gold Petite Micropave ",
-            "price": 168,
-            "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
-            "category": "jewelery",
-            "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
-            "rating": {
-                "rate": 3.9,
-                "count": 70
-            }
-        },
-        {
-            "id": 7,
-            "title": "White Gold Plated Princess",
-            "price": 9.99,
-            "description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
-            "category": "jewelery",
-            "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
-            "rating": {
-                "rate": 3,
-                "count": 400
-            }
-        },
-        {
-            "id": 8,
-            "title": "Pierced Owl Rose Gold Plated Stainless Steel Double",
-            "price": 10.99,
-            "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
-            "category": "jewelery",
-            "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
-            "rating": {
-                "rate": 1.9,
-                "count": 100
-            }
-        }
-      ],
-      "electronics": [
-        {
-          "id": 73,
-          "title": "SAMSUNG Galaxy S22 Ultra Cell Phone, Factory Unlocked Android Smartphone, 256GB, 8K Camera & Video, Brightest Display Screen, S Pen, Long Battery Life, Fast 4nm Processor, US Version, Phantom White",
-          "price": 1299.99,
-          "description": " For Gen Z, video isn\u2019t just video. They think of it as a lifestyle \u2013 a universal language for how they learn, grow, express, talk, shop, connect, create, and fight boredom with their friends in real time. That\u2019s why they\u2019re demanding a mobile device that finally breaks all the rules of video and makes their everyday more epic than ever. Introducing Samsung Galaxy S22 Ultra, the brilliant new smartphones designed specifically to break the rules of video to meet the needs of Gen Z\u2019s native language; video. With this new video machine, we\u2019re setting an epic new standard. Now, you can communicate with your friends online while you simultaneously co-watch the latest new YouTube videos.**** Record your greatest nights with breathtaking low-light video like never before. Capture the true colors and contrasts of late-night parties that couldn\u2019t be properly depicted before. And you can finally devour vids in direct sunlight with a screen that\u2019s so bright, you\u2019ll never have to worry about glare on the beach again. Galaxy S22 Ultra is redefining the epic standard \u2013 both for what a smartphone can do with video and for what you can communicate, create, and experience with it. In other words, if you\u2019ve got something to say, Galaxy S22 Ultra makes it possible to say anything you want with video, at any time-even in the darkness of night. *Supports Full HD video with up to 60 fps. **Based on average battery life under typical usage conditions. Average expected performance based on typical use. Actual battery life depends on factors such as network, features selected, frequency of calls, and voice, data, and other application usage patterns. ***Wall charger sold separately; use only Samsung-approved chargers and cables. To avoid injury or damage to your device, do not use incompatible, worn or damaged batteries, chargers or cables. Supports 45W charging. ****Requires all participants have Galaxy S22 devices with Android 12 OS.",
-          "category": "electronics",
-          "image": "https://m.media-amazon.com/images/I/817aOXLoNpL._AC_UY218_.jpg",
-          "rating": {
-            "rate": 4.6,
-            "count": 72
-          }
-        },
-        {
-          "id": 74,
-          "title": "SAMSUNG Galaxy S22+ Cell Phone, Factory Unlocked Android Smartphone, 256GB, 8K Camera & Video, Brightest Display Screen, Long Battery Life, Fast 4nm Processor, US Version, Pink Gold",
-          "price": 1049.99,
-          "description": " For Gen Z, video isn\u2019t just video. They think of it as a lifestyle \u2013 a universal language for how they learn, grow, express, talk, shop, connect, create, and fight boredom with their friends in real time. That\u2019s why they\u2019re demanding a mobile device that finally breaks all the rules of video and makes their everyday more epic than ever. Introducing Samsung Galaxy S22+, the brilliant new smartphones designed specifically to break the rules of video to meet the needs of Gen Z\u2019s native language; video. With this new video machine, we\u2019re setting an epic new standard. Now, you can communicate with your friends online while you simultaneously co-watch the latest new YouTube videos.**** Record your greatest nights with breathtaking low-light video like never before. Capture the true colors and contrasts of late-night parties that couldn\u2019t be properly depicted before. And you can finally devour vids in direct sunlight with a screen that\u2019s so bright, you\u2019ll never have to worry about glare on the beach again. Galaxy S22+ is redefining the epic standard \u2013 both for what a smartphone can do with video and for what you can communicate, create, and experience with it. In other words, if you\u2019ve got something to say, Galaxy S22 Plus makes it possible to say anything you want with video, at any time-even in the darkness of night. *Supports Full HD video with up to 60 fps. **Based on average battery life under typical usage conditions. Average expected performance based on typical use. Actual battery life depends on factors such as network, features selected, frequency of calls, and voice, data, and other application usage patterns. ***Wall charger sold separately; use only Samsung-approved chargers and cables. To avoid injury or damage to your device, do not use incompatible, worn or damaged batteries, chargers or cables. Supports 25W charging. ****Requires all participants have Galaxy S22 devices with Android 12 OS.",
-          "category": "electronics",
-          "image": "https://m.media-amazon.com/images/I/71VawMP6R1L._AC_UY218_.jpg",
-          "rating": {
-            "rate": 4.4,
-            "count": 53
-          }
-        },
-        {
-          "id": 75,
-          "title": "OnePlus 9 Pro Morning Mist, 5G Unlocked Android Smartphone U.S Version,12GB RAM+256GB Storage,120Hz Fluid Display,Hasselblad Quad Camera,65W Ultra Fast Charge,50W Wireless Charge,with Alexa Built-in",
-          "price": 1069,
-          "description": " 5G Unlocked Android Smartphone U.S Version, 12GB RAM+256GB Storage, 120Hz Fluid Display, Hasselblad Quad Camera, 65W Ultra Fast Charge, Morning Mist, U.",
-          "category": "electronics",
-          "image": "https://m.media-amazon.com/images/I/61smwbhzBML._AC_UY218_.jpg",
-          "rating": {
-            "rate": 4.2,
-            "count": 375
-          }
-        },
-        {
-          "id": 76,
-          "title": "Samsung Galaxy S10, 128GB, Prism White - Unlocked (Renewed)",
-          "price": 209,
-          "description": " Samsung's flagship for 2019, the Galaxy S10, matches its powerful hardware with the fresh OneUI interface. This thin and light phone is powered by the powerful Snapdragon 855/Exynos 9820 chips and has heaps of memory for your multitasking needs - a whopping 8GB, accompanied by 128 or 512GB versions. Design-wise, the Galaxy S10 sets itself apart from the previous generation with its offset punch-hole 10MP selfie camera, which is capable of capturing stabilized 4K footage. The camera is the only thing interrupting the gorgeous 6.1-inch OLED display. The cameras at the back are three - the regular 12MP is joined by a 12MP telephoto and a 16MP wide-angle one, a first for the Galaxy S series.",
-          "category": "electronics",
-          "image": "https://m.media-amazon.com/images/I/61Kdfg4hZPL._AC_UY218_.jpg",
-          "rating": {
-            "rate": 4.3,
-            "count": 10553
-          }
-        },
-        {
-          "id": 77,
-          "title": "total wireless Motorola Moto g Pure (2021), 32GB, Blue - Prepaid Smartphone (Locked),Midnight Blue",
-          "price": 0,
-          "description": " Meet moto g Pure and get more of what you love. An ultra-wide view of your favorite movies, games, and video chats on a 6.5\u201d Max Vision HD+ display. Plus, up to two days of battery life1 to keep the fun going all weekend long. And there\u2019s more. Dual camera system. Octa-core processor. Water-repellent design2. With moto g Pure, more comes standard.",
-          "category": "electronics",
-          "image": "https://m.media-amazon.com/images/I/71zGrrAe5NL._AC_UY218_.jpg",
-          "rating": {
-            "rate": 4.1,
-            "count": 160
-          }
-        },
-        {
-          "id": 78,
-          "title": "EFS-FONECS Crystal Clear Compatible for iPhone 13 Case, Non-Yellowing Shockproof Protective Phone Case Slim Thin, 6.1inch",
-          "price": 0,
-          "description": "",
-          "category": "electronics",
-          "image": "https://m.media-amazon.com/images/I/612b0KsJuNL._AC_UY218_.jpg",
-          "rating": {
-            "rate": 4.3,
-            "count": 35
-          }
-        },
-        {
-          "id": 79,
-          "title": "Apple iPhone X, US Version, 64GB, Space Gray - Fully Unlocked (Renewed)",
-          "price": 0,
-          "description": " Apple iPhone X, 64GB, Space Gray - Fully Unlocked (Renewed)",
-          "category": "electronics",
-          "image": "https://m.media-amazon.com/images/I/61gVPTl5N3L._AC_UY218_.jpg",
-          "rating": {
-            "rate": 4.2,
-            "count": 19698
-          }
-        },
-        {
-          "id": 80,
-          "title": "Samsung Galaxy S10 5G, 256GB, Cloud Silver - Verizon (Renewed)",
-          "price": 298,
-          "description": " Samsung's flagship for 2019, the Galaxy S10, matches its powerful hardware with the fresh OneUI interface. This thin and light phone is powered by the powerful Snapdragon 855/Exynos 9820 chips and has heaps of memory for your multitasking needs - a whopping 8GB, accompanied by 128 or 512GB versions. Design-wise, the Galaxy S10 sets itself apart from the previous generation with its offset punch-hole 10MP selfie camera, which is capable of capturing stabilized 4K footage. The camera is the only thing interrupting the gorgeous 6.1-inch OLED display. The cameras at the back are three - the regular 12MP is joined by a 12MP telephoto and a 16MP wide-angle one, a first for the Galaxy S series.",
-          "category": "electronics",
-          "image": "https://m.media-amazon.com/images/I/61+qR+TFQzL._AC_UY218_.jpg",
-          "rating": {
-            "rate": 4.2,
-            "count": 507
-          }
-        },
-        {
-          "id": 81,
-          "title": "AT&T DL72219 DECT 6.0 2-Handset Cordless Phone for Home with Connect to Cell, Call Blocking, 1.8\" Backlit Screen, Big Buttons, intercom, and Unsurpassed Range",
-          "price": 60.95,
-          "description": " With the AT&T DL72219 DECT 6. 0 Expandable Cordless Phone featuring Bluetooth Connect to Cell and Smart Call Blocker, you won't have to worry about unwanted calls waking you up in the middle of the night or tying up the line. Robocalls are automatically blocked from ever ringing through\u2014even the first time. You can also permanently blacklist any number you want with one touch. Bluetooth Connect to Cell technology on the AT&T DL72219 DECT 6. 0 Expandable Cordless Phone lets you receive cell and/or landline calls from one home phone system. With a touch of a button, enjoy the high-tech benefits your smart phone offers. Even if your smart phone is in a different room, you can still access Siri or Google Now from the cordless handsets. Place a call, write or read a text and perform all the other actions these services offer. Easily add accessory handsets\u2014up to 5 total\u2014with just one phone jack.\uff1bThe product voltage arrange is 110V",
-          "category": "electronics",
-          "image": "https://m.media-amazon.com/images/I/81zKUmUOwwL._AC_UY218_.jpg",
-          "rating": {
-            "rate": 4.3,
-            "count": 4311
-          }
-        },
-        {
-          "id": 82,
-          "title": "AT&T DECT 6.0 Expandable Cordless Phone with Answering System, Silver/Black with 3 Handsets",
-          "price": 87.95,
-          "description": " With the AT&T CL82307 DECT 6.0 3-Handset Expandable Cordless Phone with Long Range and Smart Call Blocker, you won't have to worry about unwanted calls waking you up in the middle of the night or tying up the line. Robocalls are automatically blocked from ever ringing through\u2014even the first time. You can also permanently blacklist any number you want with one touch. A digital answering system that can record up to 22 minutes of incoming messages, outgoing announcements, and memos to help you stay organized. This reliable cordless system brings you long range, HD audio and extra features like caller ID announce and push-to-talk for effortless calls from any room in your home. Plus, the large buttons and extra-large screen make it easy to see and dial calls. Easily add accessory handsets\u2014up to 12 total\u2014with just one phone jack.",
-          "category": "electronics",
-          "image": "https://m.media-amazon.com/images/I/81z4Q-dlpnL._AC_UY218_.jpg",
-          "rating": {
-            "rate": 4.4,
-            "count": 15425
-          }
-        },
-        {
-          "id": 83,
-          "title": "BLU C5 Max | 2022 | Long Lasting Battery | Unlocked | 5.7\u201d HD+ Display | 16GB | 5MP Camera | US Warranty (Bronze)",
-          "price": 0,
-          "description": "",
-          "category": "electronics",
-          "image": "https://m.media-amazon.com/images/I/81rbC9vlMxL._AC_UY218_.jpg",
-          "rating": {
-            "rate": 3.2,
-            "count": 205
-          }
-        },
-        {
-          "id": 84,
-          "title": "Samsung Galaxy S10+, 128GB, Ceramic Black - Unlocked (Renewed Premium)",
-          "price": 0,
-          "description": " The next generation Samsung Galaxy S10+ is as powerful, intelligent and intuitive as you are, providing endless possibilities and next- level power in performance, productivity, creation and design. Known as the Da Vinci of smartphones, the Galaxy S10 features pro lenses to capture stunning photos and the S-Pen to easily create content and utilize your smartphone\u2019s full capabilities.\u00a0Get more from your S10 with all new creative features such as Single Take AI, Pro Video, and more.\u00a0Advanced low light technology in the pro lenses gives you the ability to shoot with long exposure-style captures so your content features striking light trails.Capture video and multiple types of images with one tap of the shutter button and then easily and quickly share more, quicker.\u00a0The Galaxy S10+ features a powerful processor, intelligent power and a long-lasting battery that learns your habits and adapts to your screen usage in order to optimize power and performance. With Unlocked by Samsung, you get to choose the carrier, data plan, services, features and apps you want.",
-          "category": "electronics",
-          "image": "https://m.media-amazon.com/images/I/71-At7KTHzL._AC_UY218_.jpg",
-          "rating": {
-            "rate": 4.4,
-            "count": 12647
-          }
-        },
-        {
-          "id": 85,
-          "title": "AT&T BL102 DECT 6.0 Cordless Phone for Home with Answering Machine, Call Blocking, Caller ID Announcer, Audio Assist, Intercom, and Unsurpassed Range, Silver/Black",
-          "price": 0,
-          "description": " With the AT&T BL102 DECT 6.0 Expandable Cordless Phone featuring, Unsurpassed Range and Smart Call Blocker, you won't have to worry about unwanted calls waking you up in the middle of the night or tying up the line. Robocalls are automatically blocked from ever ringing through\u2014even the first time. You can also permanently blacklist any number you want with one touch. A digital answering system that can record up to 22 minutes of incoming messages, outgoing announcements, and memos to help you stay organized. This reliable cordless system brings you long range, audio assist and extra features like caller ID announce and visual ringer. Plus, the large buttons and extra-large screen make it easy to see and dial calls. Easily add accessory handsets\u2014up to 5 total\u2014with just one phone jack.",
-          "category": "electronics",
-          "image": "https://m.media-amazon.com/images/I/71vlMaLYaJL._AC_UY218_.jpg",
-          "rating": {
-            "rate": 4.3,
-            "count": 16528
-          }
-        },
-        {
-          "id": 86,
-          "title": "SAMSUNG Galaxy A13 LTE Cell Phone, Factory Unlocked Android Smartphone, 32GB, Multi Lens Camera, Infinity-V HD+ Display Screen, Long Battery Life, Expandable Storage, US Version, Black",
-          "price": 0,
-          "description": " Staying in touch with the people and things you love most is important, which is why the awesomely practical Galaxy A13 LTE smartphone is outfitted with exactly what you need to stay connected. A long-lasting battery keeps you going, the multi-lens camera makes capturing and sharing your moments a breeze and its infinity display lets you play back all of your favorite memories in HD+. It\u2019s all you need at a price you\u2019ll love. *Wall charger and headphones sold separately; use only Samsung-approved chargers and cables. To avoid injury or damage to your device, do not use incompatible, worn or damaged batteries, chargers or cables. Supports up to 15W Fast Charging. For more information on your device, please visit www.samsung. com. **MicroSD card sold separately. ***Private Share features for both the sender and receiver requires Galaxy mobile devices with Android 9 or later and the Private Share app.",
-          "category": "electronics",
-          "image": "https://m.media-amazon.com/images/I/61JfY-8odVL._AC_UY218_.jpg",
-          "rating": {
-            "rate": 4.3,
-            "count": 1537
-          }
-        },
-        {
-          "id": 87,
-          "title": "AT&T TRIMLINE 210 Corded Home Phone, No AC Power Required, Improved Easy-wall-mount, Lighted Big Button Keypad, 13 SpeedDial Keys, Last Number Redial, Mute, Flash, Volume Control, Princess Phone, PINK",
-          "price": 0,
-          "description": " AT&T 210 Pink Corded Phone is a basic phone that's reliable and easy to use. It uses a simple corded operation and is made of sturdy construction. The base can be placed on a convenient surface or can be mounted on the wall, saving on counter space. A 13-number memory dial feature lets to store your most frequently called numbers (up to 21 digits)--nine speed dials plus three emergency one-touch dials that are easy to program. A directory card is provided to keep track of all memory dial settings. A redial feature lets to quickly call the last outgoing number (up to 32 digits). Three ringer settings (off, low, and high) and three handset volume levels permit customization. Switchable tone and pulse dialing methods are also provided. The illuminated keypad helps to operate the phone even in darkly lit areas, while a prog/mute button on the handset lets you hear the other party while muting your side of the conversation. It also comes backed with a one-year limited warranty.",
-          "category": "electronics",
-          "image": "https://m.media-amazon.com/images/I/61krvDBsImL._AC_UY218_.jpg",
-          "rating": {
-            "rate": 4.2,
-            "count": 153
-          }
-        },
-        {
-          "id": 88,
-          "title": "TracFone TCL 30 Z 4G LTE Prepaid Smartphone (Locked) - 32GB - Black - Sim Card Included - CDMA",
-          "price": 73.11,
-          "description": " The TCL 30 Z from Tracfone delivers the simplistic smartphone experience in an affordable package, overfilling with value. Enjoy the dazzling display comfortably, in a variety of situations with enough power to last throughout the day, and the space to save all of your favorite apps, videos, and songs-all wrapped in a sleek and low-profile prime black finish. Pair it with a Tracfone plan with Unlimited Talk & Text with Unlimited Carryover\u00ae Data** and enjoy Unbeatable Nationwide coverage on the largest and most dependable networks\u2020. Service Plans are compatible with both 4G LTE and 5G Networks. \u2020Actual availability, coverage and speed may vary. *Unlimited Carryover\u00ae: For Unlimited Talk & Text Smartphone plans, any unused data after your service end date will carryover to the next cycle if active service is maintained and in use with any Unlimited Talk & Text Smartphone plan. For other service plans, any unused minutes, texts and data will not expire as long as any Tracfone service plan is active and in use within any six-month period.",
-          "category": "electronics",
-          "image": "https://m.media-amazon.com/images/I/718+xprSIBL._AC_UY218_.jpg",
-          "rating": {
-            "rate": 5,
-            "count": 1
-          }
-        },
-        {
-          "id": 89,
-          "title": "Unlocked Smartphone, Ulefone Note 8 Android Phones Unlocked 2GB+16GB, Dual Rear Camera Triple Card Slots, 5.5\" IPS Full-Screen 3G Dual SIM Cell Phone Unlocked, 2700mAh, Face Recognition - Green",
-          "price": 0,
-          "description": "",
-          "category": "electronics",
-          "image": "https://m.media-amazon.com/images/I/51XdHd1NuSL._AC_UY218_.jpg",
-          "rating": {
-            "rate": 3.4,
-            "count": 1361
-          }
-        },
-        {
-          "id": 90,
-          "title": "ZTE Blade A5 2020 (32GB, 2GB) 6.09\" HD Edge to Edge Display, 3200mAh Battery, Dual SIM GSM Unlocked US 4G LTE (T-Mobile, AT&T, Metro, Straight Talk) International Model (Black)",
-          "price": 89,
-          "description": " ZTE announced the launch of the Blade A5 2020 smartphone in 2019. The manufacturer is offering the ZTE Blade A5 2020 phone with 6.09 inches display, Unisoc SC9863A chipset, 2 GB of RAM and 32 GB of internal storage. The ZTE Blade A5 2020 comes with Android OS v9.0 (Pie) out of the box, and a Li-Ion 3200 mAh, non-removable battery. The 6.09 inches phone comes with IPS display (720 x 1560 px). The IPS display provides enhanced features, such as optimal viewing angles, color accuracy, invariable color reproduction and better power consumption. 2G bands: GSM 850/900/1800/1900, 3G bands: HSDPA 850/900/1900/AWS/2100, 4G bands: B2/B4/B5/B7/B28AB/B66International Model - No Warranty in the US. Compatible in the US with most GSM Carriers like T-Mobile, AT&T, MetroPCS, etc. Will NOT work with CDMA Carriers Such as Verizon, Sprint, Boost, etc.",
-          "category": "electronics",
-          "image": "https://m.media-amazon.com/images/I/31c09SDi94L._AC_UY218_.jpg",
-          "rating": {
-            "rate": 3.7,
-            "count": 1914
-          }
-        },
-        {
-          "id": 91,
-          "title": "Visible Wireless 1 Month Prepaid Service & SIM Card | Unlimited Data Cell Plan",
-          "price": 0,
-          "description": "",
-          "category": "electronics",
-          "image": "https://m.media-amazon.com/images/I/61il4RZDSEL._AC_UY218_.jpg",
-          "rating": {
-            "rate": 2.8,
-            "count": 143
-          }
-        },
-        {
-          "id": 92,
-          "title": "BLU F91 5G | 2022 | 3-Day Battery | Unlocked | 6.8\u201d Full HD+ Display | 128/8GB | 48MP Quad Camera | US Version | US Warranty | Sky Blue",
-          "price": 299.99,
-          "description": "",
-          "category": "electronics",
-          "image": "https://m.media-amazon.com/images/I/71u7mwY7FVL._AC_UY218_.jpg",
-          "rating": {
-            "rate": 4.4,
-            "count": 223
-          }
-        },
-        {
-          "id": 93,
-          "title": "Tracfone Alcatel TCL A3X, 32GB, Prime Black - Prepaid Smartphone (Locked)",
-          "price": 0,
-          "description": " With the TCL A3X in Prime Black from Tracfone you will immerse yourself in entertainment with a vibrant 6.0\u201d 18:9 HD+ display while streaming your favorite shows and movies. The TCL A3X comes with a dedicated Google Assistant button so you can get help and answers on the go. Get creative with the triple rear camera featuring a 13MP main, 5MP depth, and 2MP macro lens. Stay connected with video chats and share beautiful selfies with the 5MP front camera. The long-lasting battery, Octacore processor, and convenient Face Unlock means the TCL A3X can handle your daily demands. Choose a Tracfone plan with Unlimited Talk & Text with Unlimited Carryover Data and enjoy Unbeatable nationwide 5G coverage on America\u2019s largest and most dependable networks.",
-          "category": "electronics",
-          "image": "https://m.media-amazon.com/images/I/71sAvF+YNkL._AC_UY218_.jpg",
-          "rating": {
-            "rate": 4.1,
-            "count": 108
-          }
-        },
-        {
-          "id": 94,
-          "title": "SAMSUNG Galaxy S22 Ultra Cell Phone, Factory Unlocked Android smartphone, 256GB, 8K Camera & Video, Brightest Display Screen, S Pen, Long Battery Life, Fast 4nm Processor, US Version, Phantom Black",
-          "price": 1299.99,
-          "description": " For Gen Z, video isn\u2019t just video. They think of it as a lifestyle \u2013 a universal language for how they learn, grow, express, talk, shop, connect, create, and fight boredom with their friends in real time. That\u2019s why they\u2019re demanding a mobile device that finally breaks all the rules of video and makes their everyday more epic than ever. Introducing Samsung Galaxy S22 Ultra, the brilliant new smartphones designed specifically to break the rules of video to meet the needs of Gen Z\u2019s native language; video. With this new video machine, we\u2019re setting an epic new standard. Now, you can communicate with your friends online while you simultaneously co-watch the latest new YouTube videos.**** Record your greatest nights with breathtaking low-light video like never before. Capture the true colors and contrasts of late-night parties that couldn\u2019t be properly depicted before. And you can finally devour vids in direct sunlight with a screen that\u2019s so bright, you\u2019ll never have to worry about glare on the beach again. Galaxy S22 Ultra is redefining the epic standard \u2013 both for what a smartphone can do with video and for what you can communicate, create, and experience with it. In other words, if you\u2019ve got something to say, Galaxy S22 Ultra makes it possible to say anything you want with video, at any time-even in the darkness of night. *Supports Full HD video with up to 60 fps. **Based on average battery life under typical usage conditions. Average expected performance based on typical use. Actual battery life depends on factors such as network, features selected, frequency of calls, and voice, data, and other application usage patterns. ***Wall charger sold separately; use only Samsung-approved chargers and cables. To avoid injury or damage to your device, do not use incompatible, worn or damaged batteries, chargers or cables. Supports 45W charging. ****Requires all participants have Galaxy S22 devices with Android 12 OS.",
-          "category": "electronics",
-          "image": "https://m.media-amazon.com/images/I/61U6oC65TTL._AC_UL320_.jpg",
-          "rating": {
-            "rate": 4.5,
-            "count": 222
-          }
-        },
-        {
-          "id": 95,
-          "title": "Apple iPhone XR, 64GB, Black - Unlocked (Renewed)",
-          "price": 0,
-          "description": " With the iPhone XR you get a roomy 6.1-inch display, fast enough performance from Apple's A12 Bionic processor and good camera quality in a colorful design and affordable package. Apple has included the all-new Liquid Retina LCD as the display on the iPhone XR.\u00a0Apple released the iPhone XR with a smattering of color options. Both the glass back and the metal frame are brightly colored, with the glass using an in-depth seven-layer color process to achieve the rich finish and the Apple-exclusive aluminum alloy anodized to match. Instead of 3D Touch, the iPhone XR replicates the experience through \"Haptic Touch\". Advanced Face ID lets you securely unlock your iPhone and log in to apps with just a glance.",
-          "category": "electronics",
-          "image": "https://m.media-amazon.com/images/I/717KHGCJ6eL._AC_UY218_.jpg",
-          "rating": {
-            "rate": 4.5,
-            "count": 47782
-          }
-        },
-        {
-          "id": 96,
-          "title": "Moto G Stylus | 2021 | 2-Day Battery | Unlocked | Made for US by Motorola | 4/128GB | 48MP Camera | White",
-          "price": 0,
-          "description": " Make an impact in more ways than one. Introducing moto g stylus. Pop out the stylus when inspiration strikes\u2014or whenever you want more control than a touch, tap, or swipe. You can retouch photos, jot notes, sketch artwork, and navigate apps with pinpoint precision. But there\u2019s more to moto g stylus than a stylus. Capture sharper, brighter photos from every perspective with a 48 MP1 quad camera, from ultra-wide to way up close. Feel the instant response of a blazing-fast processor. And get up to two days of battery life, because who has time to slow down when you\u2019re making things happen.",
-          "category": "electronics",
-          "image": "https://m.media-amazon.com/images/I/71Nc7ctBTIL._AC_UY218_.jpg",
-          "rating": {
-            "rate": 4.3,
-            "count": 814
-          }
-        },
-        {
-          "id": 97,
-          "title": "SAMSUNG Galaxy Z Flip 3 5G Cell Phone, Factory Unlocked Android Smartphone, 256GB, Flex Mode, Super Steady Camera, Ultra Compact, US Version, Phantom Black",
-          "price": 1049.99,
-          "description": " The Samsung Galaxy Z Flip3 5G cell phone gives you the freedom to capture from any angle. Make hands-free video calls and take photos by simply unfolding your Galaxy Z Flip3. Need to edit your next viral video? Flex Mode allows you to play it back on the top screen, while your bottom screen gives you pro editing control. With hands-free chatting, your phone stands on its own without sliding off the surface it\u2019s propped on or leaving your friends talking to the ceiling. Just flip your smartphone open halfway, set it down and do your thing. Portrait Mode takes studio-like portraits with enhanced AI processing, allowing you to change up your background and lighting effects to naturally blend together. Plus, Hyper-Lapse and Auto Framing make it easy to capture your best shot in the first take. Compact with a 6.7\u201d flexible display, you can fit the phone into your pocket. Complete your look with statement-making color choices: Phantom Black, Lavender, Green or Cream. Each adds a pop of personality that\u2019s uniquely you. Blast through a single charge with 15W fast charging. Galaxy Z Flip3 notifies you on the external cover screen, so you can view notifications and check the weather. Launch up to two apps simultaneously. Galaxy Z Flip3 is equipped with 5G and our fastest Galaxy processor to date. Water resistant and framed with Armor Aluminum, our strongest aluminum yet, it\u2019s the phone that endures your busiest days and wildest nights. Unfold a new world of benefits with exclusive Z Premier perks. Super Steady video is limited to 1080p resolution at 30fps. Display measurements are diagonal, and actual viewable area is less due to rounded corners and camera hole punch. Fast (15 W) charger sold separately. Use only Samsung approved chargers and cables; do not use any worn or damaged chargers or cables; incompatible charger or cable can cause serious injuries or damage to your device. Multi-active window works with select applications; compatible apps growing through third party developers. 5G speeds vary and require optimal network and connection (Factors include frequency, bandwidth, congestion); see carrier for available. Has an official IPX8 rating. Water resistant in up to 5 feet of freshwater for up to 30 minutes. Rinse residue/dry after wet.",
-          "category": "electronics",
-          "image": "https://m.media-amazon.com/images/I/61bfdXk7nfL._AC_UY218_.jpg",
-          "rating": {
-            "rate": 4.4,
-            "count": 274
-          }
-        },
-        {
-          "id": 98,
-          "title": "Samsung Galaxy A11 32GB A115U Fully Unlocked Smartphones (Renewed)",
-          "price": 0,
-          "description": " The Samsung Galaxy A11 combines smartphone essentials with the trusted reliability of Samsung. Take crisp, clear photos and videos with our powerful triple lens camera. Enjoy cinematic clarity on our 6.4\" edge-to-edge display\u00b9. Keep going with a long-lasting battery\u00b2 that keeps going with you throughout the day.\u00b9Measured diagonally, the screen size is 6.4\" in the full rectangle and 6.3\" with accounting for the rounded corners. Actual viewable area is less due to the rounded corners and camera lens.\u00b2Based on average battery life under typical usage conditions. Average expected performance based on typical use. Actual battery life depends on factors such as network, features selected, frequency of calls, and voice, data, and other application usage patterns. Results may vary.",
-          "category": "electronics",
-          "image": "https://m.media-amazon.com/images/I/7141tZ+CwcS._AC_UY218_.jpg",
-          "rating": {
-            "rate": 3.9,
-            "count": 722
-          }
-        },
-        {
-          "id": 99,
-          "title": "VTECH IS8121-2 Super Long Range up to 2300 Feet DECT 6.0 Bluetooth 2 Handset Cordless Phone for Home with Answering Machine, Call Blocking, Connect to Cell, Intercom and Expandable to 5 Handsets",
-          "price": 69.95,
-          "description": " With the VTech IS8121-2 2-Handset Expandable Cordless Phone featuring, Super Long Range, Bluetooth Connect to Cell and Smart Call Blocker, you won't have to worry about unwanted calls waking you up in the middle of the night or tying up the line. Robocalls are automatically blocked from ever ringing through\u2014even the first time. You can also permanently blacklist any number you want with one touch. With up to 2300 feet or range, you can be on a call anywhere in your home, yard, or even your neighbors home. Bluetooth Connect to Cell technology on this cordless phone system lets you receive cell and/or landline calls from one home phone system. With a touch of a button, enjoy the high-tech benefits your smart phone offers. Even if your smart phone is in a different room, you can still access Siri or Google Now from the cordless handsets. Place a call, write or read a text and perform all the other actions these services offer.",
-          "category": "electronics",
-          "image": "https://m.media-amazon.com/images/I/81bA-cowExS._AC_UY218_.jpg",
-          "rating": {
-            "rate": 4.2,
-            "count": 1980
-          }
-        },
-        {
-          "id": 100,
-          "title": "Apple iPhone 11 Pro Max, 256GB, Space Gray - Unlocked (Renewed Premium)",
-          "price": 0,
-          "description": " Apple iPhone 11 Pro Max, 256GB, Space Gray - Unlocked (Renewed Premium)",
-          "category": "electronics",
-          "image": "https://m.media-amazon.com/images/I/81LmL94PUvS._AC_UY218_.jpg",
-          "rating": {
-            "rate": 4.4,
-            "count": 4781
-          }
-        },
-        {
-            "id": 9,
-            "title": "WD 2TB Elements Portable External Hard Drive - USB 3.0 ",
-            "price": 64,
-            "description": "USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on user’s hardware configuration and operating system",
-            "category": "electronics",
-            "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
-            "rating": {
-                "rate": 3.3,
-                "count": 203
-            }
-        },
-        {
-            "id": 10,
-            "title": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
-            "price": 109,
-            "description": "Easy upgrade for faster boot up, shutdown, application load and response (As compared to 5400 RPM SATA 2.5” hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making it ideal for typical PC workloads The perfect balance of performance and reliability Read/write speeds of up to 535MB/s/450MB/s (Based on internal testing; Performance may vary depending upon drive capacity, host device, OS and application.)",
-            "category": "electronics",
-            "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
-            "rating": {
-                "rate": 2.9,
-                "count": 470
-            }
-        },
-        {
-            "id": 11,
-            "title": "Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5",
-            "price": 109,
-            "description": "3D NAND flash are applied to deliver high transfer speeds Remarkable transfer speeds that enable faster bootup and improved overall system performance. The advanced SLC Cache Technology allows performance boost and longer lifespan 7mm slim design suitable for Ultrabooks and Ultra-slim notebooks. Supports TRIM command, Garbage Collection technology, RAID, and ECC (Error Checking & Correction) to provide the optimized performance and enhanced reliability.",
-            "category": "electronics",
-            "image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
-            "rating": {
-                "rate": 4.8,
-                "count": 319
-            }
-        },
-        {
-            "id": 12,
-            "title": "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
-            "price": 114,
-            "description": "Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity, 3-year manufacturer's limited warranty",
-            "category": "electronics",
-            "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
-            "rating": {
-                "rate": 4.8,
-                "count": 400
-            }
-        },
-        {
-            "id": 13,
-            "title": "Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin",
-            "price": 599,
-            "description": "21. 5 inches Full HD (1920 x 1080) widescreen IPS display And Radeon free Sync technology. No compatibility for VESA Mount Refresh Rate: 75Hz - Using HDMI port Zero-frame design | ultra-thin | 4ms response time | IPS panel Aspect ratio - 16: 9. Color Supported - 16. 7 million colors. Brightness - 250 nit Tilt angle -5 degree to 15 degree. Horizontal viewing angle-178 degree. Vertical viewing angle-178 degree 75 hertz",
-            "category": "electronics",
-            "image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
-            "rating": {
-                "rate": 2.9,
-                "count": 250
-            }
-        },
-        {
-            "id": 14,
-            "title": "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED ",
-            "price": 999.99,
-            "description": "49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate motion blur, ghosting, and reduce input lag",
-            "category": "electronics",
-            "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
-            "rating": {
-                "rate": 2.2,
-                "count": 140
-            }
-        }
-      ],
-      "gaming": [
-        {
-          "id": 101,
-          "title": "Sony Playstation Platinum Wireless Headset 7.1 Surround Sound PS4 (Renewed)",
-          "price": 249.89,
-          "description": " This pre-owned or refurbished product has been professionally inspected and tested to work and look like new. How a product becomes part of Amazon Renewed, your destination for pre-owned, refurbished products: A customer buys a new product and returns it or trades it in for a newer or different model. That product is inspected and tested to work and look like new by Amazon-qualified suppliers. Then, the product is sold as an Amazon Renewed product on Amazon. If not satisfied with the purchase, renewed products are eligible for replacement or refund under the Amazon Renewed Guarantee.",
-          "category": "gaming",
-          "image": "https://m.media-amazon.com/images/I/613JH81K87L._AC_UY218_.jpg",
-          "rating": {
-            "rate": 4.2,
-            "count": 17
-          }
-        },
-        {
-          "id": 102,
-          "title": "DualShock 4 Wireless Controller for PlayStation 4 - Glacier White",
-          "price": 99.9,
-          "description": " The new multi-touch and clickable touch pad on the face of the dualshock 4 wireless Controller opens up worlds of new gameplay possibilities for both newcomers and veteran gamers.",
-          "category": "gaming",
-          "image": "https://m.media-amazon.com/images/I/719xFB+eo6L._AC_UY218_.jpg",
-          "rating": {
-            "rate": 4.6,
-            "count": 132268
-          }
-        },
-        {
-          "id": 103,
-          "title": "Xbox Wireless Headset \u2013 Xbox Series X|S, Xbox One, and Windows 10 Devices",
-          "price": 99.9,
-          "description": " Game loud and clear with the Xbox Wireless Headset, surround yourself with spatial sound technologies including Windows Sonic, Dolby Atmos, and DTS Headphone:X. Auto-mute and voice isolation reduce background noise for crystal-clear chat. The flexible, lightweight design with an adjustable headband makes for a more comfortable experience during extended play sessions while rotating earcup dials provide a quick, intuitive way to adjust volume and game/chat balance. Fine-tune your headset with the Xbox Accessories app for a customized audio experience. Pair directly to your console with Xbox Wireless radio without the need for dongles, or a base station, and connect to your mobile device with Bluetooth for on-the-go music or chat, even pair to your phone and Xbox simultaneously to chat with a friend on your phone while playing on your console.",
-          "category": "gaming",
-          "image": "https://m.media-amazon.com/images/I/51ODvrKqxTL._AC_UY218_.jpg",
-          "rating": {
-            "rate": 4.5,
-            "count": 5329
-          }
-        }
-      ]
+  "clothing": [
+    {
+      "id": 1,
+      "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+      "price": 109.95,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "clothing",
+      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      }
+    },
+    {
+      "id": 2,
+      "title": "Mens Casual Premium Slim Fit T-Shirts ",
+      "price": 22.3,
+      "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
+      "category": "clothing",
+      "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+      "rating": {
+        "rate": 4.1,
+        "count": 259
+      }
+    },
+    {
+      "id": 3,
+      "title": "Mens Cotton Jacket",
+      "price": 55.99,
+      "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
+      "category": "clothing",
+      "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+      "rating": {
+        "rate": 4.7,
+        "count": 500
+      }
+    },
+    {
+      "id": 4,
+      "title": "Mens Casual Slim Fit",
+      "price": 15.99,
+      "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+      "category": "clothing",
+      "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+      "rating": {
+        "rate": 2.1,
+        "count": 430
+      }
+    },
+    {
+      "id": 15,
+      "title": "BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats",
+      "price": 56.99,
+      "description": "Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
+      "category": "clothing",
+      "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+      "rating": {
+        "rate": 2.6,
+        "count": 235
+      }
+    },
+    {
+      "id": 16,
+      "title": "Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket",
+      "price": 29.95,
+      "description": "100% POLYURETHANE(shell) 100% POLYESTER(lining) 75% POLYESTER 25% COTTON (SWEATER), Faux leather material for style and comfort / 2 pockets of front, 2-For-One Hooded denim style faux leather jacket, Button detail on waist / Detail stitching at sides, HAND WASH ONLY / DO NOT BLEACH / LINE DRY / DO NOT IRON",
+      "category": "clothing",
+      "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
+      "rating": {
+        "rate": 2.9,
+        "count": 340
+      }
+    },
+    {
+      "id": 17,
+      "title": "Rain Jacket Women Windbreaker Striped Climbing Raincoats",
+      "price": 39.99,
+      "description": "Lightweight perfet for trip or casual wear---Long sleeve with hooded, adjustable drawstring waist design. Button and zipper front closure raincoat, fully stripes Lined and The Raincoat has 2 side pockets are a good size to hold all kinds of things, it covers the hips, and the hood is generous but doesn't overdo it.Attached Cotton Lined Hood with Adjustable Drawstrings give it a real styled look.",
+      "category": "clothing",
+      "image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
+      "rating": {
+        "rate": 3.8,
+        "count": 679
+      }
+    },
+    {
+      "id": 18,
+      "title": "MBJ Women's Solid Short Sleeve Boat Neck V ",
+      "price": 9.85,
+      "description": "95% RAYON 5% SPANDEX, Made in USA or Imported, Do Not Bleach, Lightweight fabric with great stretch for comfort, Ribbed on sleeves and neckline / Double stitching on bottom hem",
+      "category": "clothing",
+      "image": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
+      "rating": {
+        "rate": 4.7,
+        "count": 130
+      }
+    },
+    {
+      "id": 19,
+      "title": "Opna Women's Short Sleeve Moisture",
+      "price": 7.95,
+      "description": "100% Polyester, Machine wash, 100% cationic polyester interlock, Machine Wash & Pre Shrunk for a Great Fit, Lightweight, roomy and highly breathable with moisture wicking fabric which helps to keep moisture away, Soft Lightweight Fabric with comfortable V-neck collar and a slimmer fit, delivers a sleek, more feminine silhouette and Added Comfort",
+      "category": "clothing",
+      "image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
+      "rating": {
+        "rate": 4.5,
+        "count": 146
+      }
+    },
+    {
+      "id": 20,
+      "title": "DANVOUY Womens T Shirt Casual Cotton Short",
+      "price": 12.99,
+      "description": "95%Cotton,5%Spandex, Features: Casual, Short Sleeve, Letter Print,V-Neck,Fashion Tees, The fabric is soft and has some stretch., Occasion: Casual/Office/Beach/School/Home/Street. Season: Spring,Summer,Autumn,Winter.",
+      "category": "clothing",
+      "image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
+      "rating": {
+        "rate": 3.6,
+        "count": 145
+      }
+    }
+  ],
+  "footwear": [
+    {
+      "id": 21,
+      "title": "Adidas yeezy 450 cinder",
+      "price": 210,
+      "description": "The Yeezy 450 Cinder features a blacked-out look on its updated construction. Releasing as part of the Mono Pack, the shoe's upper is built with monofilament mesh in place of the usual Primeknit, finished entirely in black. The signature side stripe adds a minor deviation, while an internal cage and webbing heel pull-loop support the fit. Underfoot, the tonal tooling includes a Boost midsole wrapped in a rubber cage for cushioning, while the shoe itself dropped exclusively on Yeezy Supply.",
+      "category": "footwear",
+      "image": "https://images.stockx.com/images/adidas-Yeezy-450-Cinder-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1647545952",
+      "rating": {
+        "rate": 4.6,
+        "count": 197
+      }
+    },
+    {
+      "id": 22,
+      "title": "Adidas yeezy boost 350 v2 mono cinder",
+      "price": 220,
+      "description": "The Yeezy Boost 350 V2 'Mono Cinder' features a blacked-out look on its updated construction. Releasing as part of the Mono Pack, the shoe's upper is built with monofilament mesh in place of the usual Primeknit, finished entirely in black. The signature side stripe adds a minor deviation, while an internal cage and webbing heel pull-loop support the fit. Underfoot, the tonal tooling includes a Boost midsole wrapped in a rubber cage for cushioning, while the shoe itself dropped exclusively on Yeezy Supply.",
+      "category": "footwear",
+      "image": "https://images.stockx.com/images/adidas-Yeezy-Boost-350-V2-Mono-Cinder-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1635434704",
+      "rating": {
+        "rate": 4.9,
+        "count": 288
+      }
+    },
+    {
+      "id": 23,
+      "title": "Adidas yeezy boost 350 v2 cinder",
+      "price": 220,
+      "description": "The Yeezy Boost 350 V2 'Cinder' features a neutral look on its signature construction. Built with Primeknit, the Cinder upper includes a tonal monofilament stripe on the lateral side. A heel pull-loop provides easy on and off, while a similar finish marks the cage around the Boost midsole. A gum rubber outsole provides traction.",
+      "category": "footwear",
+      "image": "https://images.stockx.com/images/adidas-Yeezy-Boost-350-V2-Cinder-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1606320313",
+      "rating": {
+        "rate": 4.9,
+        "count": 222
+      }
+    },
+    {
+      "id": 24,
+      "title": "Adidas yeezy boost 350 v2 cinder reflective",
+      "price": 220,
+      "description": "The Yeezy Boost 350 V2 'Cinder Reflective' emerges with an almost-monochromatic look. Built with Primeknit, the shoe's Cinder upper is bolstered by a bootie-style collar and a heel pull-loop for easy on and off. The signature monofilament stripe sports reflective detailing, while underfoot, an encased Boost midsole gives way to a gum rubber outsole for traction.",
+      "category": "footwear",
+      "image": "https://images.stockx.com/images/adidas-Yeezy-Boost-350-V2-Cinder-Reflective-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1624459848",
+      "rating": {
+        "rate": 4.4,
+        "count": 239
+      }
+    },
+    {
+      "id": 25,
+      "title": "Adidas yeezy 450 cinder (kids)",
+      "price": 145,
+      "description": "",
+      "category": "footwear",
+      "image": "https://images.stockx.com/images/adidas-Yeezy-450-Cinder-Kids.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1647973346",
+      "rating": {
+        "rate": 4.8,
+        "count": 205
+      }
+    },
+    {
+      "id": 26,
+      "title": "Adidas yeezy 450 cinder (infants)",
+      "price": 125,
+      "description": "",
+      "category": "footwear",
+      "image": "https://images.stockx.com/images/adidas-Yeezy-450-Cinder-Infants-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1655918704",
+      "rating": {
+        "rate": 4.9,
+        "count": 132
+      }
+    },
+    {
+      "id": 27,
+      "title": "Adidas yeezy 450 cinder",
+      "price": 210,
+      "description": "",
+      "category": "footwear",
+      "image": "https://images.stockx.com/images/adidas-Yeezy-450-Cinder-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1647545952",
+      "rating": {
+        "rate": 4.9,
+        "count": 137
+      }
+    },
+    {
+      "id": 33,
+      "title": "Jordan 9 retro particle grey",
+      "price": 200,
+      "description": "The Air Jordan 9 Retro 'Particle Grey' offers a muted colorway, delivering darker tones utilizing different materials on the upper. A Particle Grey midsole is crafted with unbuckle, while the black upper features a lightweight textile and tonal stitching. University Red hits on the tongue tag and back heel offer pops of color, while a grey midsole sits atop a white outsole.",
+      "category": "footwear",
+      "image": "https://images.stockx.com/images/Air-Jordan-9-Retro-Particle-Grey.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1653373411",
+      "rating": {
+        "rate": 4.6,
+        "count": 133
+      }
+    },
+    {
+      "id": 34,
+      "title": "Jordan 6 retro red oreo",
+      "price": 200,
+      "description": "The Air Jordan 6 Retro 'Red Oreo' showcases a two-tone color scheme. The silhouette features a white leather upper, with perforations throughout for breathability. Crimson Jumpman embroidery decorates the tongue. Contrasting speckled red accents appear on the lace toggle, heel and midsole. An exposed Air-sole unit in the heel provides cushioning, while a translucent rubber outsole offers traction.\n",
+      "category": "footwear",
+      "image": "https://images.stockx.com/images/Air-Jordan-6-Retro-Red-Oreo-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1655385700",
+      "rating": {
+        "rate": 4.8,
+        "count": 211
+      }
+    },
+    {
+      "id": 35,
+      "title": "Jordan 4 retro infrared",
+      "price": 200,
+      "description": "Bringing back color blocking similar to the 2013 release of the 'Green Glow' AJ4 is the Air Jordan 4 Retro 'Infrared.' The upper is made from smooth nubuck in a charcoal finish. A lighter shade of grey is on the forefoot overlay with black accents on the quarter panel netting, structural wings, and Jumpman-branded heel tab. The titular hue lights up the woven tongue tag and molded eyelets. It's built on a polyurethane midsole with visible Air-sole cushioning in the heel.",
+      "category": "footwear",
+      "image": "https://images.stockx.com/images/Air-Jordan-4-Retro-Infrared-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1645637225",
+      "rating": {
+        "rate": 5.0,
+        "count": 295
+      }
+    },
+    {
+      "id": 36,
+      "title": "Jordan 4 retro military black",
+      "price": 210,
+      "description": "Featuring the same color blocking and materials used on the OG 'Military Blue' colorway from 1989 is the Air Jordan 4 Retro 'Military Black.' The upper is made with smooth white leather with a forefoot overlay in grey suede. Black accents are on the TPU eyelets, molded heel tab, and the Jumpman logo on the woven tongue tag. It's built on a two-tone polyurethane midsole with a visible Air-sole unit under the heel.",
+      "category": "footwear",
+      "image": "https://images.stockx.com/images/Air-Jordan-4-Retro-Military-Black-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1652711257",
+      "rating": {
+        "rate": 4.5,
+        "count": 210
+      }
+    },
+    {
+      "id": 37,
+      "title": "Jordan 1 low shadow toe",
+      "price": 100,
+      "description": "",
+      "category": "footwear",
+      "image": "https://images.stockx.com/images/Air-Jordan-1-Low-Shadow-Toe-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1649865016",
+      "rating": {
+        "rate": 4.6,
+        "count": 155
+      }
+    },
+    {
+      "id": 38,
+      "title": "Jordan 1 retro high og patent bred",
+      "price": 170,
+      "description": "Featuring a classic mix of hues, the Air Jordan 1 Retro High OG 'Patent Bred' also sports an elevated construction. Built entirely with patent leather, the shoe's upper appears in a familiar mix of black and Varsity Red, with perforations on the toe box offering breathability. Underfoot, a white Air midsole provides cushioning and contrast, giving way to a Varsity Red finish on the concentric rubber outsole, which is included for traction.",
+      "category": "footwear",
+      "image": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-OG-Bred-Patent-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1633542046",
+      "rating": {
+        "rate": 4.9,
+        "count": 124
+      }
+    },
+    {
+      "id": 39,
+      "title": "Jordan 4 retro military black (gs)",
+      "price": 160,
+      "description": "",
+      "category": "footwear",
+      "image": "https://images.stockx.com/images/Air-Jordan-4-Retro-Military-Black-GS-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1653401817",
+      "rating": {
+        "rate": 4.8,
+        "count": 292
+      }
+    },
+    {
+      "id": 40,
+      "title": "Jordan 2 retro maison chateau rouge",
+      "price": 200,
+      "description": "",
+      "category": "footwear",
+      "image": "https://images.stockx.com/images/Air-Jordan-2-Retro-Maison-Chateau-Rouge-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1655474977",
+      "rating": {
+        "rate": 4.8,
+        "count": 142
+      }
+    },
+    {
+      "id": 41,
+      "title": "Jordan 1 retro high og stage haze",
+      "price": 170,
+      "description": "Featuring neutral tones on the foundational sneaker is the Air Jordan 1 Retro High OG 'Stage Haze.' Its' upper combines a white leather base with a grey suede heel overlay and a forefoot overlay in cracked black leather. Matching black accents are featured on the signature Swoosh and a retro Wings logo stamped on the lateral ankle. Nike branding is outlined in Bleached Coral on the woven tongue tag while the high-top rests on a rubber cupsole that pairs white sidewalls with a grey rubber outsole.",
+      "category": "footwear",
+      "image": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-OG-Stage-Haze-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1653035159",
+      "rating": {
+        "rate": 4.5,
+        "count": 283
+      }
+    },
+    {
+      "id": 42,
+      "title": "Jordan 4 retro infrared (gs)",
+      "price": 160,
+      "description": "",
+      "category": "footwear",
+      "image": "https://images.stockx.com/images/Air-Jordan-4-Retro-Infrared-GS-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1646935173",
+      "rating": {
+        "rate": 4.9,
+        "count": 224
+      }
+    },
+    {
+      "id": 43,
+      "title": "Jordan 1 low bred toe",
+      "price": 100,
+      "description": "Showcasing distinctive color blocking from the 2018 release of an AJ1 High is the Air Jordan 1 Low 'Bred Toe.' This low-top features an all-leather upper with white quarter panels, a black forefoot overlay, a crimson toe box, and a matching red finish on the collar and heel overlay with a stitched Wings logo. The tongue is black nylon and has Jumpman branding in white. It's built on a rubber cupsole with crisp white sidewalls with a red rubber outsole.",
+      "category": "footwear",
+      "image": "https://images.stockx.com/images/Air-Jordan-1-Low-Bred-Toe-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1637253420",
+      "rating": {
+        "rate": 4.6,
+        "count": 134
+      }
+    },
+    {
+      "id": 44,
+      "title": "Jordan 1 retro high og heritage",
+      "price": 170,
+      "description": "The Air Jordan 1 Retro High OG 'Heritage' reimagines a familiar Jordan franchise color story. The upper arrives in white leather, with hits of University Red on the toe box, Swoosh, heel and ankle flap. The retro Wings logo, laces and high-cut padded collar appear in black, while the woven tongue tag is decorated with Nike Air branding. Underfoot, a rubber cupsole is fitted with encapsulated Air-sole cushioning in the heel.",
+      "category": "footwear",
+      "image": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-OG-Heritage-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1649081695",
+      "rating": {
+        "rate": 4.8,
+        "count": 105
+      }
+    },
+    {
+      "id": 45,
+      "title": "Jordan 1 retro high og visionaire",
+      "price": 170,
+      "description": "The Air Jordan 1 Retro High OG 'Visionaire' takes an original color block and updates it with a bold and vibrant hue. A white leather base is accented with black laces, Wings logo and Swoosh, while Volt pops across the forefoot overlays, heel and ankle area. A white midsole and black outsole complete the look.",
+      "category": "footwear",
+      "image": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-OG-Visionaire-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1655385644",
+      "rating": {
+        "rate": 4.5,
+        "count": 205
+      }
+    },
+    {
+      "id": 46,
+      "title": "Jordan 4 retro red thunder",
+      "price": 190,
+      "description": "Recalling the 'Thunder' colorway, the Air Jordan 4 Retro 'Red Thunder', also known as 'Crimson', emerges with similar color-blocking, albeit in a different mix of hues. The shoe's upper is built with a black nubuck base, highlighted by red throughout, including on the molded eyelets and quarter panel. More red marks the midsole, which includes visible Air for cushioning, while a two-tone rubber outsole is included for traction.",
+      "category": "footwear",
+      "image": "https://images.stockx.com/images/Air-Jordan-4-Retro-Red-Thunder-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1641394023",
+      "rating": {
+        "rate": 4.4,
+        "count": 239
+      }
+    },
+    {
+      "id": 47,
+      "title": "Jordan 4 retro zen master",
+      "price": 210,
+      "description": "Paying tribute to legendary coach Phil Jackson is the Air Jordan 4 Retro 'Zen Master.' Nodding at Jackson's 'Zen Master' persona, it features a textile upper in a tie-dye mix of pink, purple, and blue. Flight branding and a scarlet Jumpman icon are on the black woven tongue with a translucent TPU heel tab displaying a raised Jumpman logo in black. The polyurethane midsole has a visible Air-sole unit in the heel.",
+      "category": "footwear",
+      "image": "https://images.stockx.com/images/Air-Jordan-4-Retro-Zen-Master-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1655732734",
+      "rating": {
+        "rate": 5.0,
+        "count": 162
+      }
+    },
+    {
+      "id": 48,
+      "title": "Jordan 11 retro cool grey (2021)",
+      "price": 225,
+      "description": "Released in December 2021, the Air Jordan 11 Retro 'Cool Grey' 2021 brings back a colorway from 2001 and 2010. Faithful to the OG, the shoe's upper is built with leather, finished in grey and supported by a darker grey patent leather mudguard. Tonal webbing eyelets are worked into the lacing system to secure the fit, while underfoot, a contrasting white phylon midsole houses full-length Air for cushioning, with a carbon fiber plate included for added support. An icy translucent rubber outsole provides traction.",
+      "category": "footwear",
+      "image": "https://images.stockx.com/images/Air-Jordan-11-Retro-Cool-Grey-2021-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1631898423",
+      "rating": {
+        "rate": 4.5,
+        "count": 269
+      }
+    },
+    {
+      "id": 49,
+      "title": "Jordan 1 retro high og rebellionaire",
+      "price": 170,
+      "description": "Drawing back to when Michael Jordan received a $5,000 fine each time the rookie wore his signature black and red shoes on the court, which violated the NBA's uniform dress code at the time is the Air Jordan 1 High OG 'Rebellionaire.' The shoe which ties into the shoe's mythic 'Banned' narrative, features a leather upper finished in two-tone color blocking similar to the OG 'Shadow' colorway. Details include the 'Banned' AJ1's red 'X' on the heel, along with an all-over print that spells out 'They Can't You From Wearing Them,' which paraphrases a line from an original Air Jordan 1 TV commercial from 1985.",
+      "category": "footwear",
+      "image": "https://images.stockx.com/images/Air-Jordan-1-Retro-High-OG-Rebellionaire-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1646841923",
+      "rating": {
+        "rate": 4.8,
+        "count": 218
+      }
+    },
+    {
+      "id": 50,
+      "title": "Jordan 4 retro blank canvas (w)",
+      "price": 200,
+      "description": "",
+      "category": "footwear",
+      "image": "https://images.stockx.com/images/Air-Jordan-4-Retro-Canvas-Sail-W-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1651856437",
+      "rating": {
+        "rate": 4.5,
+        "count": 153
+      }
+    },
+    {
+      "id": 51,
+      "title": "Jordan 3 retro desert elephant",
+      "price": 200,
+      "description": "Using materials and color blocking that stay true to the iconic silhouette's original 1988 release is the Air Jordan 3 Retro 'Desert Elephant.' The black tumbled leather upper features signature elephant-print overlays in a light tan finish that repeats on the collar, eyestay, and tongue that also has a crimson Jumpman logo. The mid-top is built on a white polyurethane midsole with a visible Air-sole unit under the heel. The Jordan 3 'Desert Elephant' will drop on April 30, 2022.",
+      "category": "footwear",
+      "image": "https://images.stockx.com/images/Air-Jordan-3-Retro-Desert-Elephant.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1654804871",
+      "rating": {
+        "rate": 4.6,
+        "count": 177
+      }
+    },
+    {
+      "id": 52,
+      "title": "Jordan 5 retro green bean (2022)",
+      "price": 200,
+      "description": "Bringing back a two-tone colorway first released in 2006 is the 2022 edition of the Air Jordan 5 'Green Bean.' Similar to the original mid-top, a light grey nubuck upper is entirely coated in a reflective finish. Bright green accents make their way to the interior lining and the embroidered Jumpman logo on the heel and tongue, which is repeated on the shark-tooth detailing that enlivens the dark grey polyurethane midsole. It's built on a translucent herringbone-tread rubber outsole. The Jordan 5 'Green Bean' 2022 will drop on May 28, 2022.",
+      "category": "footwear",
+      "image": "https://images.stockx.com/images/Air-Jordan-5-Retro-Green-Bean-2022-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1655237336",
+      "rating": {
+        "rate": 4.6,
+        "count": 235
+      }
+    },
+    {
+      "id": 53,
+      "title": "Nike air force 1 mid off-white black",
+      "price": 185,
+      "description": "",
+      "category": "footwear",
+      "image": "https://images.stockx.com/images/Nike-Air-Force-1-Mid-Off-White-Black-Product-2.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1655993157",
+      "rating": {
+        "rate": 5.0,
+        "count": 102
+      }
+    },
+    {
+      "id": 54,
+      "title": "Nike air force 1 mid off-white white",
+      "price": 185,
+      "description": "",
+      "category": "footwear",
+      "image": "https://images.stockx.com/images/Nike-Air-Force-1-Mid-Off-White-White-Product-2.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1655993120",
+      "rating": {
+        "rate": 4.8,
+        "count": 113
+      }
+    },
+    {
+      "id": 55,
+      "title": "Nike cortez union sesame",
+      "price": 130,
+      "description": "",
+      "category": "footwear",
+      "image": "https://images.stockx.com/images/Nike-Cortez-Union-Grain-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1655966102",
+      "rating": {
+        "rate": 4.8,
+        "count": 179
+      }
+    },
+    {
+      "id": 56,
+      "title": "Nike dunk low retro white black panda (2021)",
+      "price": 110,
+      "description": "The Dunk Low 'Black White' also known as 'Panda' brings a classic two-tone look to its classic basketball construction. The shoe's low-top build emerges in leather, with a white base contrasted by black overlays, with further black on the Swoosh branding. Perforations on the toe box provide breathability, while underfoot, the two-tone look is matched by the tooling, which incorporates a concentric rubber outsole for traction.",
+      "category": "footwear",
+      "image": "https://images.stockx.com/images/Nike-Dunk-Low-Retro-White-Black-2021-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1633027409",
+      "rating": {
+        "rate": 4.9,
+        "count": 293
+      }
+    },
+    {
+      "id": 57,
+      "title": "Nike air force 1 low '07 white",
+      "price": 90,
+      "description": "The Nike Air Force 1 Low White \u00e2\u20ac\u02dc07 features an all-white leather upper with a perforated toe box and Swoosh overlays. A Nike heel embroidery and white sole completes the design. The Nike Air Force 1 Low White \u00e2\u20ac\u02dc07 originally released in 2007, but since it is an essential colorway to the brand, it consistently restocks.",
+      "category": "footwear",
+      "image": "https://images.stockx.com/images/Nike-Air-Force-1-Low-White-07_V2-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1631122839",
+      "rating": {
+        "rate": 4.5,
+        "count": 129
+      }
+    },
+    {
+      "id": 58,
+      "title": "Nikecraft general purpose shoe tom sachs",
+      "price": 110,
+      "description": "",
+      "category": "footwear",
+      "image": "https://images.stockx.com/images/NikeCraft-General-Purpose-Shoe-Tom-Sachs-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1655990902",
+      "rating": {
+        "rate": 4.8,
+        "count": 169
+      }
+    },
+    {
+      "id": 59,
+      "title": "Nike dunk low retro white black (gs)",
+      "price": 85,
+      "description": "The Dunk Low GS 'Black White' brings a classic two-tone colorway to the basketball classic. A grade-school iteration of the shoe, the upper appears in a mix of black and white on its leather construction, with a lightly padded tongue for support. Underfoot, a white low-profile midsole gives way to a concentric black rubber outsole, which takes its traction pattern from the Air Jordan 1.",
+      "category": "footwear",
+      "image": "https://images.stockx.com/images/Nike-Dunk-Low-Retro-White-Black-GS-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1613360456",
+      "rating": {
+        "rate": 4.7,
+        "count": 100
+      }
+    },
+    {
+      "id": 60,
+      "title": "Nike dunk low coconut milk",
+      "price": 100,
+      "description": "",
+      "category": "footwear",
+      "image": "https://images.stockx.com/images/Nike-Dunk-Low-Coconut-Milk-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1651696484",
+      "rating": {
+        "rate": 4.4,
+        "count": 253
+      }
+    },
+    {
+      "id": 61,
+      "title": "Nike dunk low valerian blue",
+      "price": 100,
+      "description": "",
+      "category": "footwear",
+      "image": "https://images.stockx.com/images/Nike-Dunk-Low-Valerian-Blue-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1652712361",
+      "rating": {
+        "rate": 4.5,
+        "count": 118
+      }
+    },
+    {
+      "id": 62,
+      "title": "Nike dunk low white black (2021) (w)",
+      "price": 100,
+      "description": "A women's shoe, the Wmns Dunk Low 'Black White' emerges with a classic two-tone look. Built entirely with leather, the shoe's upper sports a white base overlaid by black, with black also marking the Swoosh branding. Perforations on the toe box provide breathability, while white branding appears on the tongue and heel patch. Underfoot, the two-tone rubber cupsole includes a concentric outsole to provide traction.",
+      "category": "footwear",
+      "image": "https://images.stockx.com/images/Nike-Dunk-Low-White-Black-2021-W-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1611766850",
+      "rating": {
+        "rate": 4.8,
+        "count": 208
+      }
+    },
+    {
+      "id": 63,
+      "title": "Nike dunk high black white (2021)",
+      "price": 110,
+      "description": "The Nike Dunk High 'Black White' dresses the classic high-top in a monochromatic two-tone color palette. The iconic silhouette features a smooth white leather upper, set against black leather overlays. The toe box is perforated for breathability. The shoe rests on a rubber cupsole, with a concentric rubber outsole included for traction.",
+      "category": "footwear",
+      "image": "https://images.stockx.com/images/Nike-Dunk-Low-Black-White-2021-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1645037142",
+      "rating": {
+        "rate": 4.7,
+        "count": 187
+      }
+    },
+    {
+      "id": 64,
+      "title": "Nike air max koko triple black (w)",
+      "price": 120,
+      "description": "",
+      "category": "footwear",
+      "image": "https://images.stockx.com/images/Nike-Air-Max-Koko-Triple-Black-W.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1617867341",
+      "rating": {
+        "rate": 4.7,
+        "count": 126
+      }
+    },
+    {
+      "id": 65,
+      "title": "Nike dunk low safari mix (w)",
+      "price": 120,
+      "description": "",
+      "category": "footwear",
+      "image": "https://images.stockx.com/images/Nike-Dunk-Low-Safari-Mix-W-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1650480982",
+      "rating": {
+        "rate": 4.7,
+        "count": 151
+      }
+    },
+    {
+      "id": 66,
+      "title": "Nike dunk low rose whisper (w)",
+      "price": 100,
+      "description": "The Wmns Dunk Low 'Rose Whisper' refreshes the classic style of the retro basketball shoe in a light-hearted hue. The sneaker's leather upper is constructed entirely from a white base complemented by Rose Whisper overlays and Nike Swoosh. A breathable nylon tongue provides comfort while the rubber outsole anchors the build.",
+      "category": "footwear",
+      "image": "https://images.stockx.com/images/Nike-Dunk-Low-Rose-Whisper-W-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1650654997",
+      "rating": {
+        "rate": 4.9,
+        "count": 201
+      }
+    },
+    {
+      "id": 67,
+      "title": "Nike dunk low chlorophyll",
+      "price": 100,
+      "description": "",
+      "category": "footwear",
+      "image": "https://images.stockx.com/images/Nike-Dunk-Low-Chlorophyll-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1653041272",
+      "rating": {
+        "rate": 4.7,
+        "count": 226
+      }
+    },
+    {
+      "id": 68,
+      "title": "Nike air force 1 low '07 black black",
+      "price": 90,
+      "description": "The all-black Air Force 1 Low is a timeless classic in Nike's catalog of heritage sneakers. The Nike Air Force 1 Low '07 Black features a triple black smooth leather upper with a matching Air sole and laces. Subtle Nike Air embroidery on the heel tab nods to the history of the AF-1 line. A metallic lace tag and woven tongue label complete the design. The Nike Air Force 1 Low '07 retails for $90.",
+      "category": "footwear",
+      "image": "https://images.stockx.com/images/Nike-Air-Force-1-07-Black-Black-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1607050715",
+      "rating": {
+        "rate": 4.9,
+        "count": 288
+      }
+    },
+    {
+      "id": 69,
+      "title": "Nike air max 1 travis scott cactus jack saturn gold",
+      "price": 150,
+      "description": "Travis Scott and Nike team up for an outdoor-inspired shoe in the Nike Air Max 1 'Saturn Gold.' It has a monochrome yellow palette throughout an upper crafted from breathable mesh with stitched leather overlays. It features two-tone rope laces and brown webbing straps that are integrated into the laces and heel overlay with mismatched Cactus Jack and Nike logos on each shoe. A rubber Cactus Jack patch is on the tongue with the rapper's trademark reverse Swoosh on the lateral side. The one-note finish extends to a wedge-shaped foam midsole with Air-sole cushioning in the heel and a waffle-tread rubber outsole underfoot.",
+      "category": "footwear",
+      "image": "https://images.stockx.com/images/Nike-Air-Max-1-Travis-Scott-Wheat-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1648066078",
+      "rating": {
+        "rate": 4.4,
+        "count": 278
+      }
+    },
+    {
+      "id": 70,
+      "title": "Nike shox ride 2 sp supreme white",
+      "price": 188,
+      "description": "",
+      "category": "footwear",
+      "image": "https://images.stockx.com/images/StockX SL 23 06 221187.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1655996570",
+      "rating": {
+        "rate": 4.7,
+        "count": 264
+      }
+    },
+    {
+      "id": 71,
+      "title": "Nike dunk low essential paisley pack orange (w)",
+      "price": 120,
+      "description": "",
+      "category": "footwear",
+      "image": "https://images.stockx.com/images/Nike-Dunk-Low-Essential-Paisley-Pack-Orange-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1651513357",
+      "rating": {
+        "rate": 4.6,
+        "count": 236
+      }
+    },
+    {
+      "id": 72,
+      "title": "Nike air force 1 low supreme white",
+      "price": 96,
+      "description": "The Supreme x Air Force 1 Low 'Box Logo - White' released as part of the New York brand's Spring/Summer 2020 collection. The shoe's upper is built with leather, finished in white and highlighted by Supreme's signature box logo on the lateral heel. The custom sockliner and a second set of laces sport further Supreme branding, while Air in the heel of the midsole provides cushioning.",
+      "category": "footwear",
+      "image": "https://images.stockx.com/images/Nike-Air-Force-1-Low-Supreme-Box-Logo-White-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&trim=color&q=90&dpr=2&updated_at=1606164536",
+      "rating": {
+        "rate": 4.7,
+        "count": 211
+      }
+    }
+  ],
+  "jewelery": [
+    {
+      "id": 5,
+      "title": "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
+      "price": 695,
+      "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+      "category": "jewelery",
+      "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+      "rating": {
+        "rate": 4.6,
+        "count": 400
+      }
+    },
+    {
+      "id": 6,
+      "title": "Solid Gold Petite Micropave ",
+      "price": 168,
+      "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
+      "category": "jewelery",
+      "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 70
+      }
+    },
+    {
+      "id": 7,
+      "title": "White Gold Plated Princess",
+      "price": 9.99,
+      "description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
+      "category": "jewelery",
+      "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+      "rating": {
+        "rate": 3,
+        "count": 400
+      }
+    },
+    {
+      "id": 8,
+      "title": "Pierced Owl Rose Gold Plated Stainless Steel Double",
+      "price": 10.99,
+      "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+      "category": "jewelery",
+      "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+      "rating": {
+        "rate": 1.9,
+        "count": 100
+      }
+    }
+  ],
+  "electronics": [
+    {
+      "id": 73,
+      "title": "SAMSUNG Galaxy S22 Ultra Cell Phone, Factory Unlocked Android Smartphone, 256GB, 8K Camera & Video, Brightest Display Screen, S Pen, Long Battery Life, Fast 4nm Processor, US Version, Phantom White",
+      "price": 1299.99,
+      "description": " For Gen Z, video isn\u2019t just video. They think of it as a lifestyle \u2013 a universal language for how they learn, grow, express, talk, shop, connect, create, and fight boredom with their friends in real time. That\u2019s why they\u2019re demanding a mobile device that finally breaks all the rules of video and makes their everyday more epic than ever. Introducing Samsung Galaxy S22 Ultra, the brilliant new smartphones designed specifically to break the rules of video to meet the needs of Gen Z\u2019s native language; video. With this new video machine, we\u2019re setting an epic new standard. Now, you can communicate with your friends online while you simultaneously co-watch the latest new YouTube videos.**** Record your greatest nights with breathtaking low-light video like never before. Capture the true colors and contrasts of late-night parties that couldn\u2019t be properly depicted before. And you can finally devour vids in direct sunlight with a screen that\u2019s so bright, you\u2019ll never have to worry about glare on the beach again. Galaxy S22 Ultra is redefining the epic standard \u2013 both for what a smartphone can do with video and for what you can communicate, create, and experience with it. In other words, if you\u2019ve got something to say, Galaxy S22 Ultra makes it possible to say anything you want with video, at any time-even in the darkness of night. *Supports Full HD video with up to 60 fps. **Based on average battery life under typical usage conditions. Average expected performance based on typical use. Actual battery life depends on factors such as network, features selected, frequency of calls, and voice, data, and other application usage patterns. ***Wall charger sold separately; use only Samsung-approved chargers and cables. To avoid injury or damage to your device, do not use incompatible, worn or damaged batteries, chargers or cables. Supports 45W charging. ****Requires all participants have Galaxy S22 devices with Android 12 OS.",
+      "category": "electronics",
+      "image": "https://m.media-amazon.com/images/I/817aOXLoNpL._AC_SL1500_.jpg",
+      "rating": {
+        "rate": 4.6,
+        "count": 72
+      }
+    },
+    {
+      "id": 74,
+      "title": "SAMSUNG Galaxy S22+ Cell Phone, Factory Unlocked Android Smartphone, 256GB, 8K Camera & Video, Brightest Display Screen, Long Battery Life, Fast 4nm Processor, US Version, Pink Gold",
+      "price": 1049.99,
+      "description": " For Gen Z, video isn\u2019t just video. They think of it as a lifestyle \u2013 a universal language for how they learn, grow, express, talk, shop, connect, create, and fight boredom with their friends in real time. That\u2019s why they\u2019re demanding a mobile device that finally breaks all the rules of video and makes their everyday more epic than ever. Introducing Samsung Galaxy S22+, the brilliant new smartphones designed specifically to break the rules of video to meet the needs of Gen Z\u2019s native language; video. With this new video machine, we\u2019re setting an epic new standard. Now, you can communicate with your friends online while you simultaneously co-watch the latest new YouTube videos.**** Record your greatest nights with breathtaking low-light video like never before. Capture the true colors and contrasts of late-night parties that couldn\u2019t be properly depicted before. And you can finally devour vids in direct sunlight with a screen that\u2019s so bright, you\u2019ll never have to worry about glare on the beach again. Galaxy S22+ is redefining the epic standard \u2013 both for what a smartphone can do with video and for what you can communicate, create, and experience with it. In other words, if you\u2019ve got something to say, Galaxy S22 Plus makes it possible to say anything you want with video, at any time-even in the darkness of night. *Supports Full HD video with up to 60 fps. **Based on average battery life under typical usage conditions. Average expected performance based on typical use. Actual battery life depends on factors such as network, features selected, frequency of calls, and voice, data, and other application usage patterns. ***Wall charger sold separately; use only Samsung-approved chargers and cables. To avoid injury or damage to your device, do not use incompatible, worn or damaged batteries, chargers or cables. Supports 25W charging. ****Requires all participants have Galaxy S22 devices with Android 12 OS.",
+      "category": "electronics",
+      "image": "https://m.media-amazon.com/images/I/817aOXLoNpL._AC_SL1500_.jpg",
+      "rating": {
+        "rate": 4.4,
+        "count": 53
+      }
+    },
+    {
+      "id": 75,
+      "title": "OnePlus 9 Pro Morning Mist, 5G Unlocked Android Smartphone U.S Version,12GB RAM+256GB Storage,120Hz Fluid Display,Hasselblad Quad Camera,65W Ultra Fast Charge,50W Wireless Charge,with Alexa Built-in",
+      "price": 1069,
+      "description": " 5G Unlocked Android Smartphone U.S Version, 12GB RAM+256GB Storage, 120Hz Fluid Display, Hasselblad Quad Camera, 65W Ultra Fast Charge, Morning Mist, U.",
+      "category": "electronics",
+      "image": "https://m.media-amazon.com/images/I/61smwbhzBML._AC_SL1500_.jpg",
+      "rating": {
+        "rate": 4.2,
+        "count": 375
+      }
+    },
+    {
+      "id": 76,
+      "title": "Samsung Galaxy S10, 128GB, Prism White - Unlocked (Renewed)",
+      "price": 209,
+      "description": " Samsung's flagship for 2019, the Galaxy S10, matches its powerful hardware with the fresh OneUI interface. This thin and light phone is powered by the powerful Snapdragon 855/Exynos 9820 chips and has heaps of memory for your multitasking needs - a whopping 8GB, accompanied by 128 or 512GB versions. Design-wise, the Galaxy S10 sets itself apart from the previous generation with its offset punch-hole 10MP selfie camera, which is capable of capturing stabilized 4K footage. The camera is the only thing interrupting the gorgeous 6.1-inch OLED display. The cameras at the back are three - the regular 12MP is joined by a 12MP telephoto and a 16MP wide-angle one, a first for the Galaxy S series.",
+      "category": "electronics",
+      "image": "https://m.media-amazon.com/images/I/713Y8LX1ooL._AC_SL1500_.jpg",
+      "rating": {
+        "rate": 4.3,
+        "count": 10553
+      }
+    },
+    {
+      "id": 79,
+      "title": "Apple iPhone X, US Version, 64GB, Space Gray - Fully Unlocked (Renewed)",
+      "price": 0,
+      "description": " Apple iPhone X, 64GB, Space Gray - Fully Unlocked (Renewed)",
+      "category": "electronics",
+      "image": "https://m.media-amazon.com/images/I/81SSw14XZHL._AC_SL1500_.jpg",
+      "rating": {
+        "rate": 4.2,
+        "count": 19698
+      }
+    },
+    {
+      "id": 80,
+      "title": "Samsung Galaxy S10 5G, 256GB, Cloud Silver - Verizon (Renewed)",
+      "price": 298,
+      "description": " Samsung's flagship for 2019, the Galaxy S10, matches its powerful hardware with the fresh OneUI interface. This thin and light phone is powered by the powerful Snapdragon 855/Exynos 9820 chips and has heaps of memory for your multitasking needs - a whopping 8GB, accompanied by 128 or 512GB versions. Design-wise, the Galaxy S10 sets itself apart from the previous generation with its offset punch-hole 10MP selfie camera, which is capable of capturing stabilized 4K footage. The camera is the only thing interrupting the gorgeous 6.1-inch OLED display. The cameras at the back are three - the regular 12MP is joined by a 12MP telephoto and a 16MP wide-angle one, a first for the Galaxy S series.",
+      "category": "electronics",
+      "image": "https://m.media-amazon.com/images/I/61+qR+TFQzL._AC_SL1500_.jpg",
+      "rating": {
+        "rate": 4.2,
+        "count": 507
+      }
+    },
+    {
+      "id": 82,
+      "title": "AT&T DECT 6.0 Expandable Cordless Phone with Answering System, Silver/Black with 3 Handsets",
+      "price": 87.95,
+      "description": " With the AT&T CL82307 DECT 6.0 3-Handset Expandable Cordless Phone with Long Range and Smart Call Blocker, you won't have to worry about unwanted calls waking you up in the middle of the night or tying up the line. Robocalls are automatically blocked from ever ringing through\u2014even the first time. You can also permanently blacklist any number you want with one touch. A digital answering system that can record up to 22 minutes of incoming messages, outgoing announcements, and memos to help you stay organized. This reliable cordless system brings you long range, HD audio and extra features like caller ID announce and push-to-talk for effortless calls from any room in your home. Plus, the large buttons and extra-large screen make it easy to see and dial calls. Easily add accessory handsets\u2014up to 12 total\u2014with just one phone jack.",
+      "category": "electronics",
+      "image": "https://m.media-amazon.com/images/I/81HwhJzMp0L._AC_SL1500_.jpg",
+      "rating": {
+        "rate": 4.4,
+        "count": 15425
+      }
+    },
+    {
+      "id": 83,
+      "title": "BLU C5 Max | 2022 | Long Lasting Battery | Unlocked | 5.7\u201d HD+ Display | 16GB | 5MP Camera | US Warranty (Bronze)",
+      "price": 0,
+      "description": "",
+      "category": "electronics",
+      "image": "https://m.media-amazon.com/images/I/81rbC9vlMxL._AC_SL1500_.jpg",
+      "rating": {
+        "rate": 3.2,
+        "count": 205
+      }
+    },
+    {
+      "id": 84,
+      "title": "Samsung Galaxy S10+, 128GB, Ceramic Black - Unlocked (Renewed Premium)",
+      "price": 0,
+      "description": " The next generation Samsung Galaxy S10+ is as powerful, intelligent and intuitive as you are, providing endless possibilities and next- level power in performance, productivity, creation and design. Known as the Da Vinci of smartphones, the Galaxy S10 features pro lenses to capture stunning photos and the S-Pen to easily create content and utilize your smartphone\u2019s full capabilities.\u00a0Get more from your S10 with all new creative features such as Single Take AI, Pro Video, and more.\u00a0Advanced low light technology in the pro lenses gives you the ability to shoot with long exposure-style captures so your content features striking light trails.Capture video and multiple types of images with one tap of the shutter button and then easily and quickly share more, quicker.\u00a0The Galaxy S10+ features a powerful processor, intelligent power and a long-lasting battery that learns your habits and adapts to your screen usage in order to optimize power and performance. With Unlocked by Samsung, you get to choose the carrier, data plan, services, features and apps you want.",
+      "category": "electronics",
+      "image": "https://m.media-amazon.com/images/I/71-At7KTHzL._AC_SL1500_.jpg",
+      "rating": {
+        "rate": 4.4,
+        "count": 12647
+      }
+    },
+    {
+      "id": 85,
+      "title": "AT&T BL102 DECT 6.0 Cordless Phone for Home with Answering Machine, Call Blocking, Caller ID Announcer, Audio Assist, Intercom, and Unsurpassed Range, Silver/Black",
+      "price": 0,
+      "description": " With the AT&T BL102 DECT 6.0 Expandable Cordless Phone featuring, Unsurpassed Range and Smart Call Blocker, you won't have to worry about unwanted calls waking you up in the middle of the night or tying up the line. Robocalls are automatically blocked from ever ringing through\u2014even the first time. You can also permanently blacklist any number you want with one touch. A digital answering system that can record up to 22 minutes of incoming messages, outgoing announcements, and memos to help you stay organized. This reliable cordless system brings you long range, audio assist and extra features like caller ID announce and visual ringer. Plus, the large buttons and extra-large screen make it easy to see and dial calls. Easily add accessory handsets\u2014up to 5 total\u2014with just one phone jack.",
+      "category": "electronics",
+      "image": "https://m.media-amazon.com/images/I/51zt3S7ki2L._AC_SL1001_.jpg",
+      "rating": {
+        "rate": 4.3,
+        "count": 16528
+      }
+    },
+    {
+      "id": 87,
+      "title": "AT&T TRIMLINE 210 Corded Home Phone, No AC Power Required, Improved Easy-wall-mount, Lighted Big Button Keypad, 13 SpeedDial Keys, Last Number Redial, Mute, Flash, Volume Control, Princess Phone, PINK",
+      "price": 0,
+      "description": " AT&T 210 Pink Corded Phone is a basic phone that's reliable and easy to use. It uses a simple corded operation and is made of sturdy construction. The base can be placed on a convenient surface or can be mounted on the wall, saving on counter space. A 13-number memory dial feature lets to store your most frequently called numbers (up to 21 digits)--nine speed dials plus three emergency one-touch dials that are easy to program. A directory card is provided to keep track of all memory dial settings. A redial feature lets to quickly call the last outgoing number (up to 32 digits). Three ringer settings (off, low, and high) and three handset volume levels permit customization. Switchable tone and pulse dialing methods are also provided. The illuminated keypad helps to operate the phone even in darkly lit areas, while a prog/mute button on the handset lets you hear the other party while muting your side of the conversation. It also comes backed with a one-year limited warranty.",
+      "category": "electronics",
+      "image": "https://m.media-amazon.com/images/I/61krvDBsImL._AC_SL1500_.jpg",
+      "rating": {
+        "rate": 4.2,
+        "count": 153
+      }
+    },
+    {
+      "id": 94,
+      "title": "SAMSUNG Galaxy S22 Ultra Cell Phone, Factory Unlocked Android smartphone, 256GB, 8K Camera & Video, Brightest Display Screen, S Pen, Long Battery Life, Fast 4nm Processor, US Version, Phantom Black",
+      "price": 1299.99,
+      "description": " For Gen Z, video isn\u2019t just video. They think of it as a lifestyle \u2013 a universal language for how they learn, grow, express, talk, shop, connect, create, and fight boredom with their friends in real time. That\u2019s why they\u2019re demanding a mobile device that finally breaks all the rules of video and makes their everyday more epic than ever. Introducing Samsung Galaxy S22 Ultra, the brilliant new smartphones designed specifically to break the rules of video to meet the needs of Gen Z\u2019s native language; video. With this new video machine, we\u2019re setting an epic new standard. Now, you can communicate with your friends online while you simultaneously co-watch the latest new YouTube videos.**** Record your greatest nights with breathtaking low-light video like never before. Capture the true colors and contrasts of late-night parties that couldn\u2019t be properly depicted before. And you can finally devour vids in direct sunlight with a screen that\u2019s so bright, you\u2019ll never have to worry about glare on the beach again. Galaxy S22 Ultra is redefining the epic standard \u2013 both for what a smartphone can do with video and for what you can communicate, create, and experience with it. In other words, if you\u2019ve got something to say, Galaxy S22 Ultra makes it possible to say anything you want with video, at any time-even in the darkness of night. *Supports Full HD video with up to 60 fps. **Based on average battery life under typical usage conditions. Average expected performance based on typical use. Actual battery life depends on factors such as network, features selected, frequency of calls, and voice, data, and other application usage patterns. ***Wall charger sold separately; use only Samsung-approved chargers and cables. To avoid injury or damage to your device, do not use incompatible, worn or damaged batteries, chargers or cables. Supports 45W charging. ****Requires all participants have Galaxy S22 devices with Android 12 OS.",
+      "category": "electronics",
+      "image": "https://m.media-amazon.com/images/I/817aOXLoNpL._AC_SL1500_.jpg",
+      "rating": {
+        "rate": 4.5,
+        "count": 222
+      }
+    },
+    {
+      "id": 96,
+      "title": "Moto G Stylus | 2021 | 2-Day Battery | Unlocked | Made for US by Motorola | 4/128GB | 48MP Camera | White",
+      "price": 0,
+      "description": " Make an impact in more ways than one. Introducing moto g stylus. Pop out the stylus when inspiration strikes\u2014or whenever you want more control than a touch, tap, or swipe. You can retouch photos, jot notes, sketch artwork, and navigate apps with pinpoint precision. But there\u2019s more to moto g stylus than a stylus. Capture sharper, brighter photos from every perspective with a 48 MP1 quad camera, from ultra-wide to way up close. Feel the instant response of a blazing-fast processor. And get up to two days of battery life, because who has time to slow down when you\u2019re making things happen.",
+      "category": "electronics",
+      "image": "https://m.media-amazon.com/images/I/71Nc7ctBTIL._AC_SL1500_.jpg",
+      "rating": {
+        "rate": 4.3,
+        "count": 814
+      }
+    },
+    {
+      "id": 99,
+      "title": "VTECH IS8121-2 Super Long Range up to 2300 Feet DECT 6.0 Bluetooth 2 Handset Cordless Phone for Home with Answering Machine, Call Blocking, Connect to Cell, Intercom and Expandable to 5 Handsets",
+      "price": 69.95,
+      "description": " With the VTech IS8121-2 2-Handset Expandable Cordless Phone featuring, Super Long Range, Bluetooth Connect to Cell and Smart Call Blocker, you won't have to worry about unwanted calls waking you up in the middle of the night or tying up the line. Robocalls are automatically blocked from ever ringing through\u2014even the first time. You can also permanently blacklist any number you want with one touch. With up to 2300 feet or range, you can be on a call anywhere in your home, yard, or even your neighbors home. Bluetooth Connect to Cell technology on this cordless phone system lets you receive cell and/or landline calls from one home phone system. With a touch of a button, enjoy the high-tech benefits your smart phone offers. Even if your smart phone is in a different room, you can still access Siri or Google Now from the cordless handsets. Place a call, write or read a text and perform all the other actions these services offer.",
+      "category": "electronics",
+      "image": "https://m.media-amazon.com/images/I/81ngGmESqfS._AC_SL1500_.jpg",
+      "rating": {
+        "rate": 4.2,
+        "count": 1980
+      }
+    },
+    {
+      "id": 100,
+      "title": "Apple iPhone 11 Pro Max, 256GB, Space Gray - Unlocked (Renewed Premium)",
+      "price": 0,
+      "description": " Apple iPhone 11 Pro Max, 256GB, Space Gray - Unlocked (Renewed Premium)",
+      "category": "electronics",
+      "image": "https://m.media-amazon.com/images/I/81Jf4uu-xzL._AC_SL1500_.jpg",
+      "rating": {
+        "rate": 4.4,
+        "count": 4781
+      }
+    }
+  ],
+  "gaming": [
+    {
+      "id": 101,
+      "title": "Sony Playstation Platinum Wireless Headset 7.1 Surround Sound PS4 (Renewed)",
+      "price": 249.89,
+      "description": " This pre-owned or refurbished product has been professionally inspected and tested to work and look like new. How a product becomes part of Amazon Renewed, your destination for pre-owned, refurbished products: A customer buys a new product and returns it or trades it in for a newer or different model. That product is inspected and tested to work and look like new by Amazon-qualified suppliers. Then, the product is sold as an Amazon Renewed product on Amazon. If not satisfied with the purchase, renewed products are eligible for replacement or refund under the Amazon Renewed Guarantee.",
+      "category": "gaming",
+      "image": "https://m.media-amazon.com/images/I/613JH81K87L._AC_SL1000_.jpg",
+      "rating": {
+        "rate": 4.2,
+        "count": 17
+      }
+    },
+    {
+      "id": 102,
+      "title": "DualShock 4 Wireless Controller for PlayStation 4 - Glacier White",
+      "price": 99.9,
+      "description": " The new multi-touch and clickable touch pad on the face of the dualshock 4 wireless Controller opens up worlds of new gameplay possibilities for both newcomers and veteran gamers.",
+      "category": "gaming",
+      "image": "https://m.media-amazon.com/images/I/719xFB+eo6L._SL1500_.jpg",
+      "rating": {
+        "rate": 4.6,
+        "count": 132268
+      }
+    },
+    {
+      "id": 103,
+      "title": "Xbox Wireless Headset \u2013 Xbox Series X|S, Xbox One, and Windows 10 Devices",
+      "price": 99.9,
+      "description": " Game loud and clear with the Xbox Wireless Headset, surround yourself with spatial sound technologies including Windows Sonic, Dolby Atmos, and DTS Headphone:X. Auto-mute and voice isolation reduce background noise for crystal-clear chat. The flexible, lightweight design with an adjustable headband makes for a more comfortable experience during extended play sessions while rotating earcup dials provide a quick, intuitive way to adjust volume and game/chat balance. Fine-tune your headset with the Xbox Accessories app for a customized audio experience. Pair directly to your console with Xbox Wireless radio without the need for dongles, or a base station, and connect to your mobile device with Bluetooth for on-the-go music or chat, even pair to your phone and Xbox simultaneously to chat with a friend on your phone while playing on your console.",
+      "category": "gaming",
+      "image": "https://m.media-amazon.com/images/I/51ODvrKqxTL._SL1200_.jpg",
+      "rating": {
+        "rate": 4.5,
+        "count": 5329
+      }
+    }
+  ]
 }

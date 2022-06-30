@@ -20,12 +20,12 @@ class SettingsSwitchListTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListTile(
-      title: Text(title, style: Theme.of(context).textTheme.bodyLarge),
+      title: Text(title, style: Theme.of(context).textTheme.bodyMedium),
       dense: true,
       minLeadingWidth: 20,
       contentPadding: Styles.edgeInsetHorizontal5,
       onTap: onTap != null ? () => onTap!() : null,
-      leading: Icon(leadingIcon),
+      leading: Icon(leadingIcon, size: 22),
       trailing: Switch(
         activeColor: Theme.of(context).primaryColor,
         value: value,

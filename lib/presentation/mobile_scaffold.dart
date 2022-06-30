@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:iverson/application/bloc.dart';
 import 'package:iverson/presentation/home/home_page.dart';
+import 'package:iverson/presentation/products/products_page.dart';
 import 'package:iverson/presentation/settings/settings_page.dart';
 import 'package:iverson/presentation/shared/extensions/focus_scope_node_extensions.dart';
 
@@ -44,7 +45,7 @@ class _MobileScaffoldState extends State<MobileScaffold> {
             physics: const NeverScrollableScrollPhysics(),
             children: [
               const HomePage(),
-              Container(color: Colors.pink),
+              const ProductsPage(),
               Container(color: Colors.blue),
               const SettingsPage(),
             ],
@@ -57,7 +58,7 @@ class _MobileScaffoldState extends State<MobileScaffold> {
         showUnselectedLabels: true,
         items: const [
           BottomNavigationBarItem(label: 'Home', icon: Icon(Icons.shopping_bag_outlined), activeIcon: Icon(Icons.shopping_bag)),
-          BottomNavigationBarItem(label: 'Favorites', icon: Icon(Icons.favorite_outline), activeIcon: Icon(Icons.favorite)),
+          BottomNavigationBarItem(label: 'Shop', icon: Icon(Icons.shopify_outlined), activeIcon: Icon(Icons.shopify)),
           BottomNavigationBarItem(label: 'History', icon: Icon(Icons.bubble_chart_outlined), activeIcon: Icon(Icons.bubble_chart)),
           BottomNavigationBarItem(label: 'Settings', icon: Icon(Icons.settings_outlined), activeIcon: Icon(Icons.settings)),
         ],

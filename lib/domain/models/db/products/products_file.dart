@@ -6,7 +6,7 @@ part 'products_file.g.dart';
 
 @freezed
 class ProductsFile with _$ProductsFile {
-  List<ProductFileModel> get products => clothing + footwear + jewelery + electronics + gaming;
+  List<ProductFileModel> get products => footwear + clothing  + jewelery + electronics + gaming;
 
   factory ProductsFile({
     required List<ProductFileModel> clothing,
