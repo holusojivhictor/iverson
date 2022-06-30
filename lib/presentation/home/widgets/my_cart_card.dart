@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:iverson/domain/assets.dart';
+import 'package:iverson/presentation/cart/cart_page.dart';
 
 import 'card_description.dart';
 import 'card_item.dart';
@@ -26,5 +27,9 @@ class MyCartCard extends StatelessWidget {
     );
   }
 
-  Future<void> _goToCartPage(BuildContext context) async {}
+  Future<void> _goToCartPage(BuildContext context) async {
+    final route = MaterialPageRoute(builder: (c) => const CartPage());
+    await Navigator.push(context, route);
+    await route.completed;
+  }
 }

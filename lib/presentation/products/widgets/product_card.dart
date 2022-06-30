@@ -20,6 +20,7 @@ class ProductCard extends StatelessWidget {
   final bool isInSelectionMode;
   final bool withElevation;
   final bool isPopular;
+  final bool isRelated;
 
   const ProductCard({
     Key? key,
@@ -34,6 +35,7 @@ class ProductCard extends StatelessWidget {
     this.isInSelectionMode = false,
     this.withElevation = true,
     this.isPopular = false,
+    this.isRelated = false,
   }) : super(key: key);
 
   ProductCard.item({
@@ -45,6 +47,7 @@ class ProductCard extends StatelessWidget {
     this.isInSelectionMode = false,
     this.withElevation = false,
     this.isPopular = false,
+    this.isRelated = false,
   })  : id = product.id,
         title = product.title,
         price = product.price,
@@ -61,12 +64,30 @@ class ProductCard extends StatelessWidget {
     this.isInSelectionMode = false,
     this.withElevation = false,
     this.isPopular = true,
+    this.isRelated = false,
   })  : id = product.id,
         title = product.title,
         price = product.price,
         image = product.image,
         rating = product.rating,
-      super(key: key);
+        super(key: key);
+
+  ProductCard.related({
+    Key? key,
+    required ProductCardModel product,
+    this.width = 180,
+    this.imgHeight = 160,
+    this.imgWidth = 160,
+    this.isInSelectionMode = false,
+    this.withElevation = false,
+    this.isPopular = false,
+    this.isRelated = true,
+  })  : id = product.id,
+        title = product.title,
+        price = product.price,
+        image = product.image,
+        rating = product.rating,
+        super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -93,7 +114,7 @@ class ProductCard extends StatelessWidget {
                     FadeInImage(
                       width: imgWidth,
                       height: imgHeight,
-                      fadeInDuration: const Duration(milliseconds: 200),
+                      fadeInDuration: const Duration(milliseconds: 100),
                       placeholder: MemoryImage(kTransparentImage),
                       image: CachedNetworkImageProvider(image),
                     ),
@@ -102,7 +123,7 @@ class ProductCard extends StatelessWidget {
                       children: [
                         ComingSoonNewAvatar(
                           isNew: isPopular,
-                          isComingSoon: false,
+                          isComingSoon: isRelated,
                         ),
                       ],
                     ),
@@ -118,7 +139,7 @@ class ProductCard extends StatelessWidget {
                       child: Text(
                         title,
                         overflow: TextOverflow.ellipsis,
-                        maxLines: isPopular ? 2 : 3,
+                        maxLines: isPopular || isRelated ? 2 : 3,
                         style: theme.textTheme.bodyLarge!.copyWith(fontSize: 14),
                       ),
                     ),

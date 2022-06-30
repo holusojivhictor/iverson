@@ -15,5 +15,7 @@ class ProductState with _$ProductState {
     required int ratingCount,
     required bool isInInventory,
     required bool isInCart,
+    required List<ProductCardModel> relatedProducts,
+    required bool isASmallImage,
   }) = _LoadedState;
 }

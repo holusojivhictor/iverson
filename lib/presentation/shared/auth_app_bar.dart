@@ -2,15 +2,15 @@ import 'package:flutter/material.dart';
 
 typedef OnTap = void Function();
 
-class AuthAppBar extends PreferredSize {
+class AuthAppBar extends StatelessWidget implements PreferredSizeWidget {
   final String title;
   final OnTap? onTap;
 
-  AuthAppBar({
+  const AuthAppBar({
     Key? key,
     required this.title,
     this.onTap,
-  }) : super(key: key, preferredSize: Size.fromHeight(AppBar().preferredSize.height), child: const SizedBox.shrink());
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -35,4 +35,7 @@ class AuthAppBar extends PreferredSize {
       centerTitle: true,
     );
   }
+
+  @override
+  Size get preferredSize => Size.fromHeight(AppBar().preferredSize.height);
 }

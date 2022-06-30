@@ -23,6 +23,8 @@ class ProductBloc extends Bloc<ProductEvent, ProductState> {
   ProductState _buildInitialState(ProductFileModel product) {
     final isInInventory = _dataService.isProductInInventory(product.id, ItemType.product);
     final isInCart = _dataService.isProductInCart(product.id, ItemType.product);
+    var relatedProducts = _iversonService.getProductsForCard().where((el) => el.category == product.category && el.id != product.id).toList();
+    final isASmallImage = product.category == ProductCategoryType.footwear;
 
     return ProductState.loaded(
       id: product.id,
@@ -35,6 +37,8 @@ class ProductBloc extends Bloc<ProductEvent, ProductState> {
       ratingCount: product.rating.count,
       isInInventory: isInInventory,
       isInCart: isInCart,
+      relatedProducts: relatedProducts,
+      isASmallImage: isASmallImage,
     );
   }
 

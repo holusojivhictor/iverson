@@ -2,34 +2,33 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:iverson/application/bloc.dart';
 import 'package:iverson/injection.dart';
-import 'package:iverson/presentation/inventory/widgets/clear_all_dialog.dart';
-import 'package:iverson/presentation/inventory/widgets/products_inventory_page.dart';
+import 'package:iverson/presentation/cart/widgets/clear_all.dart';
 import 'package:iverson/theme.dart';
 
-class InventoryPage extends StatelessWidget {
-  const InventoryPage({Key? key}) : super(key: key);
+class CartPage extends StatelessWidget {
+  const CartPage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
-      create: (context) => Injection.inventoryBloc..add(const InventoryEvent.init()),
-      child: const Scaffold(
-        appBar: _AppBar(),
+      create: (context) => Injection.cartBloc..add(const CartEvent.init()),
+      child: Scaffold(
+        appBar: const _AppBar(),
         body: SafeArea(
-          child: ProductsInventoryPage(),
+          child: Container(),
         ),
       ),
     );
   }
 }
 
-class _AppBar extends StatelessWidget implements PreferredSizeWidget{
+class _AppBar extends StatelessWidget implements PreferredSizeWidget {
   const _AppBar({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return AppBar(
-      title: const Text('My Inventory'),
+      title: const Text('My Cart'),
       actions: [
         IconButton(
           splashRadius: Styles.mediumButtonSplashRadius,
@@ -37,8 +36,8 @@ class _AppBar extends StatelessWidget implements PreferredSizeWidget{
           onPressed: () => showDialog(
             context: context,
             builder: (_) => BlocProvider.value(
-              value: context.read<InventoryBloc>(),
-              child: const ClearAllDialog(),
+              value: context.read<CartBloc>(),
+              child: const ClearAll(),
             ),
           ),
         ),

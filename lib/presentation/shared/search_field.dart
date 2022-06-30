@@ -14,7 +14,7 @@ class SearchField extends StatefulWidget {
     this.value,
     required this.searchChanged,
     this.showClearButton = true,
-    this.factor = 0.6,
+    this.factor = 0.79,
     this.padding = EdgeInsets.zero,
   }) : super(key: key);
 

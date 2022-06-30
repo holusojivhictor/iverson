@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:iverson/application/bloc.dart';
+import 'package:iverson/injection.dart';
+import 'package:iverson/presentation/cart/cart_page.dart';
 import 'package:iverson/presentation/shared/icon_button_with_counter.dart';
-import 'package:iverson/presentation/shared/loading.dart';
 import 'package:iverson/presentation/shared/search_field.dart';
 
 class SliverSearchBar extends StatelessWidget {
@@ -27,18 +28,25 @@ class SliverSearchBar extends StatelessWidget {
                 },
               ),
             ),
-            IconBtnWithCounter(
-              icon: Icons.shopping_cart_outlined,
-              onTap: () {},
-            ),
-            IconBtnWithCounter(
-              icon: Icons.notifications_outlined,
-              numOfItems: 5,
-              onTap: () {},
+            BlocProvider(
+              create: (context) => Injection.cartBloc..add(const CartEvent.init()),
+              child: BlocBuilder<CartBloc, CartState>(
+                builder: (context, state) => IconBtnWithCounter(
+                  numOfItems: state.products.length,
+                  icon: Icons.shopping_cart_outlined,
+                  onTap: () => _goToCartPage(context),
+                ),
+              ),
             ),
           ],
         ),
       ),
     );
+  }
+
+  Future<void> _goToCartPage(BuildContext context) async {
+    final route = MaterialPageRoute(builder: (c) => const CartPage());
+    await Navigator.push(context, route);
+    await route.completed;
   }
 }

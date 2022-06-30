@@ -4,6 +4,7 @@ import 'package:iverson/application/bloc.dart';
 import 'package:iverson/domain/assets.dart';
 import 'package:iverson/presentation/shared/details/detail_top_layout.dart';
 import 'package:iverson/presentation/shared/loading.dart';
+import 'package:iverson/presentation/shared/utils/toast_utils.dart';
 import 'package:iverson/theme.dart';
 
 class ProductDetailTop extends StatelessWidget {
@@ -16,6 +17,7 @@ class ProductDetailTop extends StatelessWidget {
       builder: (ctx, state) => state.map(
         loading: (_) => const Loading(useScaffold: false),
         loaded: (state) => DetailTopLayout(
+          isASmallImage: state.isASmallImage,
           image: state.image,
           color: Colors.white,
           borderRadius: const BorderRadius.only(
@@ -46,7 +48,9 @@ class ProductDetailTop extends StatelessWidget {
   }
 
   void _favoriteSoldier(int key, bool isInInventory, BuildContext context) {
+    final fToast = ToastUtils.of(context);
     final event = !isInInventory ? ProductEvent.addToInventory(key: key) : ProductEvent.deleteFromInventory(key: key);
     context.read<ProductBloc>().add(event);
+    !isInInventory ? ToastUtils.showSucceedToast(fToast, 'Added to inventory') : ToastUtils.showInfoToast(fToast, 'Removed from inventory');
   }
 }
