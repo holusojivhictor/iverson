@@ -15,8 +15,8 @@ class ProductPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return BlocProvider(
-      create: (context) => Injection.productBloc..add(ProductEvent.loadFromId(key: itemKey)),
+    return BlocProvider<ProductBloc>(
+      create: (ctx) => Injection.productBloc(ctx.read<CartBloc>())..add(ProductEvent.loadFromId(key: itemKey)),
       child: const _PortraitLayout(),
     );
   }

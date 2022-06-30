@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:iverson/application/bloc.dart';
-import 'package:iverson/injection.dart';
 import 'package:iverson/presentation/cart/cart_page.dart';
 import 'package:iverson/presentation/shared/icon_button_with_counter.dart';
 import 'package:iverson/presentation/shared/search_field.dart';
@@ -28,14 +27,11 @@ class SliverSearchBar extends StatelessWidget {
                 },
               ),
             ),
-            BlocProvider(
-              create: (context) => Injection.cartBloc..add(const CartEvent.init()),
-              child: BlocBuilder<CartBloc, CartState>(
-                builder: (context, state) => IconBtnWithCounter(
-                  numOfItems: state.products.length,
-                  icon: Icons.shopping_cart_outlined,
-                  onTap: () => _goToCartPage(context),
-                ),
+            BlocBuilder<CartBloc, CartState>(
+              builder: (ctx, state) => IconBtnWithCounter(
+                numOfItems: state.products.length,
+                icon: Icons.shopping_cart_outlined,
+                onTap: () => _goToCartPage(context),
               ),
             ),
           ],

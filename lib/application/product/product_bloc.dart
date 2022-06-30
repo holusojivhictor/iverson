@@ -1,5 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
+import 'package:iverson/application/bloc.dart';
 import 'package:iverson/domain/enums/enums.dart';
 import 'package:iverson/domain/models/models.dart';
 import 'package:iverson/domain/services/services.dart';
@@ -12,7 +13,9 @@ class ProductBloc extends Bloc<ProductEvent, ProductState> {
   final IversonService _iversonService;
   final DataService _dataService;
 
-  ProductBloc(this._iversonService, this._dataService) : super(const ProductState.loading()) {
+  final CartBloc _cartBloc;
+
+  ProductBloc(this._iversonService, this._dataService, this._cartBloc) : super(const ProductState.loading()) {
    on<_LoadProductFromKey>(_mapLoadFromKeyToState);
    on<_AddToInventory>(_mapAddToInventoryToState);
    on<_DeleteFromInventory>(_mapDeleteFromInventoryToState);
@@ -72,6 +75,7 @@ class ProductBloc extends Bloc<ProductEvent, ProductState> {
       loading: (state) async => emit(state),
       loaded: (state) async {
         await _dataService.addProductToCart(event.key, event.quantity);
+        _cartBloc.add(const CartEvent.init());
         emit(state.copyWith.call(isInCart: true));
       },
     );
@@ -82,6 +86,7 @@ class ProductBloc extends Bloc<ProductEvent, ProductState> {
       loading: (state) async => emit(state),
       loaded: (state) async {
         await _dataService.deleteProductFromCart(event.key);
+        _cartBloc.add(const CartEvent.init());
         emit(state.copyWith.call(isInCart: false));
       },
     );
