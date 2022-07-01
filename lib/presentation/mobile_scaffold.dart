@@ -6,6 +6,8 @@ import 'package:iverson/presentation/products/products_page.dart';
 import 'package:iverson/presentation/settings/settings_page.dart';
 import 'package:iverson/presentation/shared/extensions/focus_scope_node_extensions.dart';
 
+import 'history/history.dart';
+
 class MobileScaffold extends StatefulWidget {
   final int defaultIndex;
   final TabController tabController;
@@ -43,11 +45,11 @@ class _MobileScaffoldState extends State<MobileScaffold> {
           child: TabBarView(
             controller: widget.tabController,
             physics: const NeverScrollableScrollPhysics(),
-            children: [
-              const HomePage(),
-              const ProductsPage(),
-              Container(color: Colors.blue),
-              const SettingsPage(),
+            children: const [
+              HomePage(),
+              ProductsPage(),
+              HistoryPage(),
+              SettingsPage(),
             ],
           ),
         ),
