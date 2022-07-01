@@ -5,6 +5,7 @@ import 'package:iverson/presentation/products/products_page.dart';
 import 'package:iverson/presentation/products/widgets/product_card.dart';
 import 'package:iverson/presentation/shared/app_fab.dart';
 import 'package:iverson/presentation/shared/mixins/app_fab_mixin.dart';
+import 'package:iverson/presentation/shared/nothing_found_column.dart';
 import 'package:iverson/presentation/shared/utils/size_utils.dart';
 import 'package:waterfall_flow/waterfall_flow.dart';
 
@@ -24,7 +25,6 @@ class _ProductsInventoryPageState extends State<ProductsInventoryPage> with Sing
 
   @override
   Widget build(BuildContext context) {
-    final isPortrait = MediaQuery.of(context).orientation == Orientation.portrait;
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 10),
       child: Scaffold(
@@ -36,16 +36,16 @@ class _ProductsInventoryPageState extends State<ProductsInventoryPage> with Sing
           mini: false,
         ),
         body: BlocBuilder<InventoryBloc, InventoryState>(
-          builder: (ctx, state) => WaterfallFlow.builder(
+          builder: (ctx, state) => state.products.isNotEmpty ? WaterfallFlow.builder(
             controller: scrollController,
-            itemBuilder: (context, index) => ProductCard.popular(product: state.products[index]),
+            itemBuilder: (context, index) => ProductCard.related(product: state.products[index]),
             itemCount: state.products.length,
             gridDelegate: SliverWaterfallFlowDelegateWithFixedCrossAxisCount(
               crossAxisCount: SizeUtils.getCrossAxisCountForGrids(context),
               crossAxisSpacing: 5,
               mainAxisSpacing: 10,
             ),
-          ),
+          ) : const NothingFoundColumn(),
         ),
       ),
     );

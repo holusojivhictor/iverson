@@ -3,6 +3,8 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:iverson/application/bloc.dart';
 import 'package:iverson/injection.dart';
 
+import 'widgets/products_cart_page.dart';
+
 class CartPage extends StatelessWidget {
   const CartPage({Key? key}) : super(key: key);
 
@@ -10,10 +12,10 @@ class CartPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return BlocProvider(
       create: (context) => Injection.cartBloc..add(const CartEvent.init()),
-      child: Scaffold(
-        appBar: const _AppBar(),
+      child: const Scaffold(
+        appBar: _AppBar(),
         body: SafeArea(
-          child: Container(),
+          child: ProductsCartPage(),
         ),
       ),
     );

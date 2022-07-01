@@ -80,12 +80,6 @@ class Iverson extends StatelessWidget {
             return SettingsBloc(settingsService, deviceInfoService, ctx.read<MainBloc>());
           },
         ),
-        BlocProvider(
-          create: (ctx) {
-            final dataService = getIt<DataService>();
-            return CartBloc(dataService)..add(const CartEvent.init());
-          },
-        ),
       ],
       child: BlocBuilder<SessionBloc, SessionState>(
         builder: (ctx, state) => const SessionWrapper(),

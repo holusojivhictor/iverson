@@ -50,7 +50,7 @@ class _ProductsPageState extends State<ProductsPage> with AutomaticKeepAliveClie
               child: SearchField(
                 value: state.search,
                 factor: 0.9,
-                padding: const EdgeInsets.symmetric(horizontal: 5),
+                padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 5),
                 searchChanged: (v) => context.read<ProductsBloc>().add(ProductsEvent.searchChanged(search: v)),
               ),
             ),
@@ -64,7 +64,7 @@ class _ProductsPageState extends State<ProductsPage> with AutomaticKeepAliveClie
   Widget _buildGrid(BuildContext context, List<ProductCardModel> products) {
     final isPortrait = MediaQuery.of(context).orientation == Orientation.portrait;
     return SliverPadding(
-      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 10),
+      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 5),
       sliver: SliverWaterfallFlow(
         gridDelegate: SliverWaterfallFlowDelegateWithFixedCrossAxisCount(
           crossAxisCount: SizeUtils.getCrossAxisCountForGrids(context, isOnMainPage: !widget.isInSelectionMode),

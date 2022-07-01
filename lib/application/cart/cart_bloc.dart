@@ -12,10 +12,10 @@ part 'cart_state.dart';
 
 class CartBloc extends Bloc<CartEvent, CartState> {
   final DataService _dataService;
-  late final List<StreamSubscription> _streamSubscription;
+  late final List<StreamSubscription> _streamSubscriptions;
 
   CartBloc(this._dataService) : super(const CartState.loaded(products: [])) {
-    _streamSubscription = [
+    _streamSubscriptions = [
       _dataService.productAddedToCart.stream.listen((type) => add(CartEvent.refresh(type: type))),
       _dataService.productUpdatedInCart.stream.listen((type) => add(CartEvent.refresh(type: type))),
       _dataService.productDeletedFromCart.stream.listen((type) => add(CartEvent.refresh(type: type))),
@@ -30,7 +30,7 @@ class CartBloc extends Bloc<CartEvent, CartState> {
 
   @override
   Future<void> close() async {
-    await Future.wait(_streamSubscription.map((e) => e.cancel()));
+    await Future.wait(_streamSubscriptions.map((e) => e.cancel()));
     await super.close();
   }
 

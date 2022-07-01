@@ -12,10 +12,10 @@ part 'inventory_state.dart';
 
 class InventoryBloc extends Bloc<InventoryEvent, InventoryState> {
   final DataService _dataService;
-  late final List<StreamSubscription> _streamSubscription;
+  late final List<StreamSubscription> _streamSubscriptions;
 
   InventoryBloc(this._dataService) : super(const InventoryState.loaded(products: [])) {
-   _streamSubscription = [
+   _streamSubscriptions = [
      _dataService.productAddedToInventory.stream.listen((type) => add(InventoryEvent.refresh(type: type))),
      _dataService.productDeletedFromInventory.stream.listen((type) => add(InventoryEvent.refresh(type: type))),
    ];
@@ -28,7 +28,7 @@ class InventoryBloc extends Bloc<InventoryEvent, InventoryState> {
 
   @override
   Future<void> close() async {
-    await Future.wait(_streamSubscription.map((e) => e.cancel()));
+    await Future.wait(_streamSubscriptions.map((e) => e.cancel()));
     await super.close();
   }
 

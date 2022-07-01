@@ -38,12 +38,6 @@ class ViewOptionsCard extends StatelessWidget {
                     ),
                   ),
                   SettingsSwitchListTile(
-                    title: 'Demo profile picture',
-                    leadingIcon: Icons.face_outlined,
-                    value: state.useDemoProfilePicture,
-                    onChanged: (newVal) => context.read<SettingsBloc>().add(SettingsEvent.useDemoProfilePictureChanged(newValue: newVal)),
-                  ),
-                  SettingsSwitchListTile(
                     title: 'Press back to exit',
                     leadingIcon: Icons.settings_outlined,
                     value: state.doubleBackToClose,

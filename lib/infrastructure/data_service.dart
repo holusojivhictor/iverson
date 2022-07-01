@@ -19,19 +19,19 @@ class DataServiceImpl implements DataService {
   final _deleteAllLock = Lock();
 
   @override
-  StreamController<ItemType> get productAddedToCart => StreamController.broadcast();
+  final StreamController<ItemType> productAddedToCart = StreamController.broadcast();
 
   @override
-  StreamController<ItemType> get productAddedToInventory => StreamController.broadcast();
+  final StreamController<ItemType> productAddedToInventory = StreamController.broadcast();
 
   @override
-  StreamController<ItemType> get productDeletedFromCart => StreamController.broadcast();
+  final StreamController<ItemType> productDeletedFromCart = StreamController.broadcast();
 
   @override
-  StreamController<ItemType> get productDeletedFromInventory => StreamController.broadcast();
+  final StreamController<ItemType> productDeletedFromInventory = StreamController.broadcast();
 
   @override
-  StreamController<ItemType> get productUpdatedInCart => StreamController.broadcast();
+  final StreamController<ItemType> productUpdatedInCart = StreamController.broadcast();
 
   DataServiceImpl(this._iversonService);
 

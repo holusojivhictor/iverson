@@ -131,7 +131,7 @@ class ProductCard extends StatelessWidget {
                 ),
                 const SizedBox(height: 10),
                 SizedBox(
-                  height: isPopular ? 35 : null,
+                  height: isPopular || isRelated ? 30 : null,
                   child: Align(
                     alignment: Alignment.centerLeft,
                     child: Tooltip(
@@ -145,26 +145,24 @@ class ProductCard extends StatelessWidget {
                     ),
                   ),
                 ),
-                const SizedBox(height: 5),
+                const SizedBox(height: 10),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text("\$$price",
                       style: theme.textTheme.bodyLarge!.copyWith(fontWeight: FontWeight.bold),
                     ),
-                    InkWell(
-                      borderRadius: BorderRadius.circular(30),
-                      onTap: () {},
-                      child: Container(
-                        padding: Styles.edgeInsetAll7,
+                    if (isPopular)
+                      Container(
                         decoration: BoxDecoration(
                           color: theme.colorScheme.secondary.withOpacity(0.1),
                           shape: BoxShape.circle,
                         ),
-                        child: Icon(Icons.favorite, color: Colors.grey.withOpacity(0.5),
+                        padding: Styles.edgeInsetAll5,
+                        child: const RadialGradientMask(
+                          child: Icon(Icons.local_fire_department_rounded, color: Colors.white),
                         ),
                       ),
-                    ),
                   ],
                 ),
               ],
@@ -184,5 +182,23 @@ class ProductCard extends StatelessWidget {
     final route = MaterialPageRoute(builder: (c) => ProductPage(itemKey: id));
     await Navigator.push(context, route);
     await route.completed;
+  }
+}
+
+class RadialGradientMask extends StatelessWidget {
+  final Widget child;
+  const RadialGradientMask({Key? key, required this.child}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return ShaderMask(
+      shaderCallback: (bounds) => const RadialGradient(
+        center: Alignment.center,
+        radius: 0.5,
+        colors: [Colors.red, Colors.orange],
+        tileMode: TileMode.mirror,
+      ).createShader(bounds),
+      child: child,
+    );
   }
 }

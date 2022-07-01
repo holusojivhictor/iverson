@@ -25,7 +25,7 @@ class ProductDetailBottom extends StatelessWidget {
               padding: Styles.edgeInsetAll10,
               child: Text(
                 state.title,
-                style: theme.textTheme.titleLarge!.copyWith(fontWeight: FontWeight.bold),
+                style: theme.textTheme.titleLarge!.copyWith(fontWeight: FontWeight.bold, color: theme.indicatorColor),
               ),
             ),
             Padding(
@@ -36,10 +36,12 @@ class ProductDetailBottom extends StatelessWidget {
                   const SizedBox(width: 5),
                   Text(
                     '${state.rating}',
+                    style: theme.textTheme.bodyMedium!.copyWith(color: theme.indicatorColor),
                   ),
                   const SizedBox(width: 5),
                   Text(
-                    '(${state.ratingCount} Reviews)'
+                    '(${state.ratingCount} Reviews)',
+                    style: theme.textTheme.bodyMedium!.copyWith(color: theme.indicatorColor),
                   ),
                 ],
               ),
@@ -53,6 +55,7 @@ class ProductDetailBottom extends StatelessWidget {
                 trimMode: TrimMode.line,
                 trimCollapsedText: '...Read More',
                 trimExpandedText: ' Less',
+                style: theme.textTheme.bodyMedium!.copyWith(color: theme.indicatorColor),
               ),
             ),
             Padding(
@@ -62,7 +65,7 @@ class ProductDetailBottom extends StatelessWidget {
                 children: [
                   Text(
                     '\$${state.price}',
-                    style: theme.textTheme.titleLarge!.copyWith(fontWeight: FontWeight.bold),
+                    style: theme.textTheme.titleLarge!.copyWith(fontWeight: FontWeight.bold, color: theme.indicatorColor),
                   ),
                   CartButton(
                     theme: theme,
@@ -150,7 +153,7 @@ class DetailTitle extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
       child: Text(
         text,
-        style: theme.textTheme.titleMedium!.copyWith(fontWeight: FontWeight.w600),
+        style: theme.textTheme.titleMedium!.copyWith(fontWeight: FontWeight.w600, color: theme.indicatorColor),
       ),
     );
   }

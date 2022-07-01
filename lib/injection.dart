@@ -6,10 +6,10 @@ import 'infrastructure/infrastructure.dart';
 final GetIt getIt = GetIt.instance;
 
 class Injection {
-  static ProductBloc productBloc(CartBloc bloc) {
+  static ProductBloc get productBloc {
     final iversonService = getIt<IversonService>();
     final dataService = getIt<DataService>();
-    return ProductBloc(iversonService, dataService, bloc);
+    return ProductBloc(iversonService, dataService);
   }
 
   static InventoryBloc get inventoryBloc {

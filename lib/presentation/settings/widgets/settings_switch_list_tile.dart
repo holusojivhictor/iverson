@@ -19,8 +19,9 @@ class SettingsSwitchListTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final theme = Theme.of(context);
     return ListTile(
-      title: Text(title, style: Theme.of(context).textTheme.bodyMedium),
+      title: Text(title, style: Theme.of(context).textTheme.bodyMedium!.copyWith(color: theme.indicatorColor)),
       dense: true,
       minLeadingWidth: 20,
       contentPadding: Styles.edgeInsetHorizontal5,

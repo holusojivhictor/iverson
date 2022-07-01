@@ -127,7 +127,7 @@ class IversonTheme {
 
   static TextTheme darkText = ThemeData.light().textTheme.apply(bodyColor: Colors.black, displayColor: Colors.black);
 
-  static TextTheme lightText = ThemeData.dark().textTheme.apply(bodyColor: Colors.white, displayColor: Colors.white);
+  static TextTheme lightText = ThemeData.dark().textTheme.apply(bodyColor: Colors.black, displayColor: Colors.black);
 
   static TextTheme lightTextTheme = TextTheme(
     displayLarge: GoogleFonts.sora(textStyle: darkText.displayLarge),
