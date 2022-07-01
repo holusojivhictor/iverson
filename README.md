@@ -6,6 +6,10 @@ Inventory management system.
 
 Store / Inventory management system built with Flutter.
 
+<p align="center">
+  <img src="images/preview_image.png">
+</p>
+
 ### Run this project
 
 You can build and run the project by following these steps:
