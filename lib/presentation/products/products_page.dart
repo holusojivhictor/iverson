@@ -49,7 +49,7 @@ class _ProductsPageState extends State<ProductsPage> with AutomaticKeepAliveClie
             SliverToBoxAdapter(
               child: SearchField(
                 value: state.search,
-                factor: 0.9,
+                factor: 0.88,
                 padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 5),
                 searchChanged: (v) => context.read<ProductsBloc>().add(ProductsEvent.searchChanged(search: v)),
               ),
@@ -71,8 +71,7 @@ class _ProductsPageState extends State<ProductsPage> with AutomaticKeepAliveClie
           crossAxisSpacing: isPortrait ? 10 : 5,
           mainAxisSpacing: 10,
         ),
-        delegate: SliverChildBuilderDelegate(
-              (context, index) => ProductCard.item(product: products[index], isInSelectionMode: widget.isInSelectionMode),
+        delegate: SliverChildBuilderDelegate((context, index) => ProductCard.item(product: products[index], isInSelectionMode: widget.isInSelectionMode),
           childCount: products.length,
         ),
       ),
